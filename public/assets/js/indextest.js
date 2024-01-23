@@ -309,3 +309,23 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
+document.addEventListener('DOMContentLoaded', function() {
+  var toggleSidebarBtn = document.getElementById('toggleSidebar');
+  var sidebarPanel = document.getElementById('SidebarPanel');
+  var sidebarCloseIcon = document.querySelector('.sidebar-close-icon');
+
+  toggleSidebarBtn.addEventListener('click', function() {
+     sidebarPanel.classList.add('show');
+  });
+
+  sidebarCloseIcon.addEventListener('click', function() {
+     sidebarPanel.classList.remove('show');
+  });
+});
+
+$('.menubar').on('click', function () {
+  // เพิ่มคลาส show ใน offcanvas
+  $('#mobileMenu').addClass('show');
+});
+

@@ -2,8 +2,6 @@
 
 @section('content')
 
-<body data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0" class="" style="">
-
     <div id="root">
         <div class="wrapper ovh">
             
@@ -169,19 +167,18 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>      
             </div>
             <div class="mobilie_header_nav stylehome1">
                 <div class="mobile-menu">
                     <div class="header innerpage-style">
                         <div class="menu_and_widgets">
-                            <div class="mobile_menu_bar d-flex justify-content-between align-items-center"><a
-                                    class="menubar" href="#" data-bs-toggle="offcanvas"
-                                    data-bs-target="#mobileMenu" aria-controls="mobileMenu"><img
-                                        src="{{ URL('image/dark-nav-icon.png') }}" alt="mobile icon"
-                                        width="30px"></a><a class="mobile_logo" href="/"><img
-                                        src="{{ URL('image/YuuDee2.png') }}" alt="logo" width="120px"></a><a
-                                    href="/login"><span class="icon fz18 far fa-user-circle "></span></a></div>
+                            <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+                                <a class="menubar" href="#"  data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                                    <img src="https://img2.pic.in.th/pic/dark-nav-icon.png" alt="mobile icon" width="30px"></a><a class="mobile_logo" href="/">
+                                        <img src="{{ URL('image/YuuDee2.png') }}" alt="logo" width="120px"></a>
+                                        <a href="/login"><span class="icon fz18 far fa-user-circle "></span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2687,10 +2684,9 @@
                 </div>
             </section> --}}
 
+            
         </div>
     </div>
-
-
 
 @endsection
 

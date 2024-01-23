@@ -79473,9 +79473,9 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .hiddenbar_navbar_menu .navbar-nav .nav-item .nav-link:hover,.hiddenbar_navbar_menu .navbar-nav .nav-item .nav-link:active,.hiddenbar_navbar_menu .navbar-nav .nav-item .nav-link:focus {
-    background-color:#0071bc;
+    background-color:#99d2f8;
     border-left: 2px solid#0071bc;
-    color:#0071bc
+    color:black
 }
 
 .hiddenbar_navbar_menu .navbar-nav .nav-item .nav-link i {
