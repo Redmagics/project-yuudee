@@ -8,16 +8,16 @@
                     </a>
                     
                     <div class="row mb-4 mb-lg-5">
-                        <div class="contact-info mb25">
+                        <div class="contact-info">
                             <p class="text mb0">58 Howard Street #2 San Francisco</p>
                             {{-- <h6 class="info-phone"><a href="#">329 Queensberry Street, North
                                     Melbourne VIC 3051, Australia.</a></h6> --}}
                         </div>
-                        <div class="contact-info mb25">
+                        <div class="contact-info">
                             <p class="text mb0">hi@homez.com</p>
                             {{-- <h6 class="info-mail"><a href="mailto:hi@homez.com">hi@homez.com</a></h6> --}}
                         </div>
-                        <div class="contact-info mb25">
+                        <div class="contact-info">
                             <p class="text mb0">+(0) 123 050 945 02</p>
                             {{-- <h6 class="info-phone"><a href="tel:+012305094502">+(0) 123 050 945 02</a>
                             </h6> --}}
@@ -28,8 +28,8 @@
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="footer-widget mb-4 mb-lg-5 ps-0 ps-lg-5">
-                    <div class="link-style1 light-style mb30 ">
-                        <h6 class="mb25">Popular Search</h6>
+                    <div class="link-style1 light-style">
+                        <h6 class="">Popular Search</h6>
                         <ul class="link-list ps-0">
                             <li><a href="#">Apartment for Rent</a></li>
                             <li><a href="#">Apartment Low to Hide</a></li>
@@ -53,7 +53,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="footer-widget mb-4 mb-lg-5 ps-0 ps-lg-5">
                     <div class="link-style1 light-style mb-3">
-                        <h6 class="mb25">Quick Links</h6>
+                        <h6 class="">Quick Links</h6>
                         <ul class="ps-0">
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Privacy Policy</a></li>
@@ -112,13 +112,19 @@
             </div>
         </div>
     </div>
-    <div class="container gray-bdrt1 py-4">
+    
+</section>
+
+<section class="footer-style11 at-home4  pb-3 pt-3">
+    <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <div class="text-center text-lg-start">
-                    <p class="copyright-text ff-heading mb-0">© Homez 2024 <a
+                    <p class="copyright-text ff-heading mb-0 texts-pad ">© Homez 2024 
+                        <a class="copyright-text"
                             href="https://themeforest.net/user/ib-themes" target="_blank"
-                            rel="noopener noreferrer">ib-themes</a> - All rights reserved</p>
+                            rel="noopener noreferrer">ib-themes</a> 
+                            - All rights reserved</p>
                 </div>
             </div>
             {{-- <div class="col-sm-6">
@@ -134,6 +140,8 @@
         </div>
     </div>
 </section>
+
+
 <div class="scrollToHome" style="cursor: pointer;">
     <i class="fas fa-angle-up"></i>
 </div>

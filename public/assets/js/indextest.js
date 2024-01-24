@@ -25,7 +25,7 @@ var swiper = new Swiper(".swiper", {
   slidesPerView: 6,
   spaceBetween: 30,
   slidesPerGroup: 1,
-  loop: false,
+  loop: true,
   
   // centerSlide: "true",
   // grapCurser: "true",
@@ -62,9 +62,9 @@ var swiper = new Swiper(".swiper", {
 /* slide property-city-slider */
 var swiper = new Swiper(".swiper", {
   slidesPerView: 6,
-  spaceBetween: 30,
+  spaceBetween: 28,
   slidesPerGroup: 1,
-  loop: false,
+  loop: true,
   centerSlide: "true",
   grapCurser: "true",
   fade: "true",
@@ -98,10 +98,10 @@ var swiper = new Swiper(".swiper", {
 
 /*Best Properties For Sale */
 var swiper = new Swiper(".swipers", {
-  slidesPerView: 4,
+  slidesPerView: 3,
   spaceBetween: 30,
   slidesPerGroup: 1,
-  loop: false,
+  loop: true,
   // loopFillGroupWithBlank: true,
   
 
@@ -208,54 +208,6 @@ window.addEventListener("scroll", function(){
 
 /*video */
 
-
-// document.addEventListener('DOMContentLoaded', function () {
-//   var popupButtons = document.querySelectorAll('.popup-youtube');
-
-//   popupButtons.forEach(function (button) {
-//       button.addEventListener('click', function () {
-//           var videoUrl = 'https://www.youtube.com/watch?v=OGb2Hkeu2BI'; // ใส่ URL ของวิดีโอ YouTube ที่คุณต้องการเล่น
-
-//           var popupWindow = window.open(videoUrl, 'popupWindow', 'width=600,height=400');
-          
-//           // หรือถ้าคุณต้องการใช้ YouTube API
-//           // var popupWindow = window.open('https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1', 'popupWindow', 'width=600,height=400');
-
-//           // แสดงวิดีโอทันทีหลังจากที่ป๊อปอัพเปิด
-//           popupWindow.document.addEventListener('DOMContentLoaded', function () {
-//               popupWindow.document.getElementById('movie_player').playVideo();
-//           });
-//       });
-//   });
-// });
-
-
-
-
-// document.addEventListener('DOMContentLoaded', function () {
-//   // เลือกปุ่ม popup-iframe
-//   var popupButton = document.querySelector('.popup-iframe');
-
-//   // เลือก modal-video
-//   var modalVideo = document.querySelector('.modal-video');
-
-//   // กำหนดการทำงานเมื่อคลิกที่ปุ่ม
-//   popupButton.addEventListener('click', function () {
-//       // เปิด modal-video
-//       modalVideo.style.display = 'block';
-//   });
-
-//   // เลือกปุ่ม modal-video-close-btn
-//   var closeButton = document.querySelector('.modal-video-close-btn');
-
-//   // กำหนดการทำงานเมื่อคลิกที่ปุ่มปิด
-//   closeButton.addEventListener('click', function () {
-//       // ปิด modal-video
-//       modalVideo.style.display = 'none';
-//   });
-// });
-
-
 /*ใช้ได้ เเต่ video ไม่หยุดเล่น */
 // document.addEventListener("DOMContentLoaded", function () {
 //   var watchVideoButton = document.querySelector('.popup-iframe');
@@ -310,6 +262,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   var toggleSidebarBtn = document.getElementById('toggleSidebar');
   var sidebarPanel = document.getElementById('SidebarPanel');
@@ -324,8 +279,19 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-$('.menubar').on('click', function () {
-  // เพิ่มคลาส show ใน offcanvas
-  $('#mobileMenu').addClass('show');
-});
+// $('#id').click(function () {
+//   console.log(test);
+// });
+
+
+
+// // รับ element ของปุ่ม menubar และ offcanvas menu
+// const menubarButton = document.getElementById('menubarButton');
+// const mobileMenu = document.getElementById('mobileMenu');
+
+// // เพิ่ม event listener สำหรับคลิกที่ปุ่ม menubar
+// menubarButton.addEventListener('click', function() {
+//     // เพิ่มหรือลบคลาส "show" จาก offcanvas menu
+//     mobileMenu.classList.toggle('show');
+// });
 

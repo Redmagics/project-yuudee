@@ -174,7 +174,7 @@
                     <div class="header innerpage-style">
                         <div class="menu_and_widgets">
                             <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-                                <a class="menubar" href="#"  data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                                <a class="menubar" href="#" id="menubarButton"  data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
                                     <img src="https://img2.pic.in.th/pic/dark-nav-icon.png" alt="mobile icon" width="30px"></a><a class="mobile_logo" href="/">
                                         <img src="{{ URL('image/YuuDee2.png') }}" alt="logo" width="120px"></a>
                                         <a href="/login"><span class="icon fz18 far fa-user-circle "></span></a>
@@ -1452,7 +1452,7 @@
                                     <button
                                         class="property-by-city-next__active swiper_button _next swiper-button-disabled "fdprocessedid="1ipwv"
                                         disabled="">
-                                        <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right "></i>
                                     </button>
                                 </div>
 
@@ -1504,7 +1504,7 @@
                                 <div
                                     class="swipers swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                                     <div
-                                        class="swiper-wrapper"style="transform: translate3d(-610.5px, 0px, 0px); transition-duration: 0ms;">
+                                        class="swiper-wrapper"style="transform: translate3d(-410.5px, 0px, 0px); transition-duration: 0ms;">
 
                                         <div class=" col-sm-6 col-lg-6 swiper-slide swiper-slide-active ">
                                             <div class="listing-style1">
@@ -2348,7 +2348,8 @@
                     </div>
                 </div>
             </section> --}}
-            <section class="mb75 mb0-md pb30-md">
+            <section class="mb0-md pb30-md">
+                
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 m-auto aos-init">
@@ -2404,15 +2405,16 @@
             </section>
 
             {{-- test2 --}}
-            <section class="mb75 mb0-md pb30-md">
-                {{-- <div class="color py-5" style="background-color: aqua"> --}}
+            <section class="mb0-md pb30-md">
+                <div class="color py-5" style="background-color:#99d2f8">
                 <div class="container">
                     
                     <div class="row">
-                        <div class="col-lg-6 m-auto aos-init">
+                        <div class="col-lg-12 m-auto aos-init">
                             <div class="main-title text-start text-md-center">
-                                <h2 class="title">From Our Blog</h2>
-                                <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p>
+                                <h2 class="title">We have the most listings and constant updates.</h2>
+                                <h2 class="title">So you’ll never miss out.</h2>
+                                {{-- <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p> --}}
                             </div>
                         </div>
                     </div>
@@ -2423,7 +2425,7 @@
                                 class="card border-hover shadow-2 shadow-hover-lg-1 pl-5 pr-6 py-6 h-100 hover-change-image">
                                 <div class="row no-gutters">
                                     <div class="col-sm-3">
-                                        <img src="image/group-16.png" alt="Buy a new home">
+                                        <img src="https://img5.pic.in.th/file/secure-sv1/group-16.png" alt="Buy a new home">
                                     </div>
                                     <div class="col-sm-9">
                                         <div class="card-body p-0 pl-0 pl-sm-5 pt-5 pt-sm-0">
@@ -2443,7 +2445,7 @@
                                 class="card border-hover shadow-2 shadow-hover-lg-1 pl-5 pr-6 py-6 h-100 hover-change-image">
                                 <div class="row no-gutters">
                                     <div class="col-sm-3">
-                                    <img src="image/group-17.png" alt="Sell a home">
+                                    <img src="https://img2.pic.in.th/pic/group-17.png" alt="Sell a home">
                                     </div>
                                     <div class="col-sm-9">
                                     <div class="card-body p-0 pl-0 pl-sm-5 pt-5 pt-sm-0">
@@ -2463,7 +2465,7 @@
                                 class="card border-hover shadow-2 shadow-hover-lg-1 pl-5 pr-6 py-6 h-100 hover-change-image">
                                 <div class="row no-gutters">
                                     <div class="col-sm-3">
-                                    <img src="image/group-21.png" alt="Rent a home">
+                                    <img src="https://img2.pic.in.th/pic/group-21.png" alt="Rent a home">
                                     </div>
                                     <div class="col-sm-9">
                                     <div class="card-body p-0 pl-0 pl-sm-5 pt-5 pt-sm-0">
@@ -2495,7 +2497,7 @@
                         </div>
                         <div class="col-lg-12 my-5 text-center">
                             {{-- <div class="dots_none nav_none aos-init" data-aos="fade-up" data-aos-delay="100"> --}}
-                            <div class="dots_none nav_none aos-init" data-aos-delay="100">
+                            <div class="dots_none nav_none aos-init dots_pad" data-aos-delay="100">
                                 <div
                                     class="swiperes swiper-container swiper-initialized swiper-horizontal swiper-pointer-events">
                                     <div class="swiper-wrapper"
