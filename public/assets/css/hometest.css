@@ -14969,6 +14969,22 @@ h3{
     transform: translate3d(-610.5px, 0px, 0px);
     transition-duration: 0ms;
 }
+@media screen and (max-width: 768px){
+    .btn-swiper{
+        display: none;
+    }
+    /* .rounded-arrow,.arrowY-center-position{
+        display: none;
+    } */
+}
+
+/* .rounded-arrow.arrowY-center-position {
+    margin-left: 20px; 
+    margin-right: 20px; 
+} */
+
+
+
 /* ----------------------------------------------------------------------------------- */
 
 .fa-1x {
@@ -17394,33 +17410,33 @@ h3{
     content: ""
 }
 
-.fa-burger:before {
+/* .fa-burger:before {
     content: ""
-}
+} */
 
 .fa-hamburger:before {
     content: ""
 }
 
-.fa-burger-cheese:before {
+/* .fa-burger-cheese:before {
     content: "🍔"
-}
+} */
 
-.fa-cheeseburger:before {
+/* .fa-cheeseburger:before {
     content: "🍔"
-}
+} */
 
-.fa-burger-fries:before {
+/* .fa-burger-fries:before {
     content: ""
-}
+} */
 
-.fa-burger-glass:before {
+/* .fa-burger-glass:before {
     content: ""
 }
 
 .fa-burger-soda:before {
     content: ""
-}
+} */
 
 .fa-burrito:before {
     content: "🌯"
@@ -35756,14 +35772,14 @@ h3{
 .fad.fa-bullseye-pointer:after,.fa-duotone.fa-bullseye-pointer:after {
     content: "︂"
 }
-
+/* 
 .fad.fa-burger:before,.fa-duotone.fa-burger:before {
     content: "︁"
 }
 
 .fad.fa-burger:after,.fa-duotone.fa-burger:after {
     content: "︂"
-}
+} */
 
 .fad.fa-hamburger:before,.fa-duotone.fa-hamburger:before {
     content: "︁"
@@ -35773,13 +35789,13 @@ h3{
     content: "︂"
 }
 
-.fad.fa-burger-cheese:before,.fa-duotone.fa-burger-cheese:before {
+/* .fad.fa-burger-cheese:before,.fa-duotone.fa-burger-cheese:before {
     content: ""
 }
 
 .fad.fa-burger-cheese:after,.fa-duotone.fa-burger-cheese:after {
     content: "􏟱"
-}
+} */
 
 .fad.fa-cheeseburger:before,.fa-duotone.fa-cheeseburger:before {
     content: ""
@@ -35789,7 +35805,7 @@ h3{
     content: "􏟱"
 }
 
-.fad.fa-burger-fries:before,.fa-duotone.fa-burger-fries:before {
+/* .fad.fa-burger-fries:before,.fa-duotone.fa-burger-fries:before {
     content: "︁"
 }
 
@@ -35811,7 +35827,7 @@ h3{
 
 .fad.fa-burger-soda:after,.fa-duotone.fa-burger-soda:after {
     content: "︂"
-}
+} */
 
 .fad.fa-burrito:before,.fa-duotone.fa-burrito:before {
     content: ""
@@ -71162,13 +71178,13 @@ i[class^=flaticon-]:before,i[class*=" flaticon-"]:before,span[class^=flaticon-]:
     margin-right: -12px
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .arrowY-center-position .swiper_button {
         width:38px;
         height: 38px;
         line-height: 38px
     }
-}
+} */
 
 .arrow-with-border .swiper_button {
     background-color: #fff;
