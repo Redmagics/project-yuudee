@@ -1308,7 +1308,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img5.pic.in.th/file/secure-sv1/cp-m-1.png"  alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">Manhattan</a>
                                                             </h6>
@@ -1323,7 +1323,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img2.pic.in.th/pic/cp-m-2.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">San Diego</a>
                                                             </h6>
@@ -1339,7 +1339,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img2.pic.in.th/pic/cp-m-3.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">San
                                                                     Francisco</a></h6>
@@ -1355,7 +1355,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img2.pic.in.th/pic/cp-m-4.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">Los Angeles</a>
                                                             </h6>
@@ -1371,7 +1371,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img5.pic.in.th/file/secure-sv1/cp-m-5.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">California</a>
                                                             </h6>
@@ -1386,7 +1386,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img5.pic.in.th/file/secure-sv1/cp-m-6.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">New Jersey</a>
                                                             </h6>
@@ -1401,7 +1401,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img5.pic.in.th/file/secure-sv1/cp-m-1.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">Manhattan</a>
                                                             </h6>
@@ -1416,7 +1416,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img2.pic.in.th/pic/cp-m-2.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">San Diego</a>
                                                             </h6>
@@ -1431,7 +1431,7 @@
                                                 <div class="feature-style3 text-center">
                                                     <div class="feature-img rounded-circle"><img class="w-100 cover"
                                                             src="https://img2.pic.in.th/pic/cp-m-3.png" alt="cities"></div>
-                                                    <div class="feature-content pt25">
+                                                    <div class="feature-content p20">
                                                         <div class="top-area">
                                                             <h6 class="title mb-1"><a href="/map-v3">San
                                                                     Francisco</a></h6>
@@ -1442,8 +1442,9 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
-
+                                
                                 <div class="rounded-arrow arrowY-center-position">
                                     <button
                                         class="property-by-city-prev__active swiper_button _prev "fdprocessedid="yj6omk">
@@ -1455,7 +1456,7 @@
                                         <i class="fa-solid fa-angle-right "></i>
                                     </button>
                                 </div>
-
+                                    
                             </div>
                         </div>
                     </div>
@@ -1464,20 +1465,27 @@
             <section class="pt-0 pb60">
                 <div class="container">
                     <div class="row wow fadeInUp" data-wow-delay="100ms">
-                        <div class="col-lg-8">
+                        <div class="col-lg-6">
                             <div class="main-title2">
                                 <h2 class="title">Best Properties For Sale</h2>
                                 <p class="paragraph">Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse
                                     suscipit</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 my-3">
-                            <a class="ud-btn2" href="/map-v3">
+                        <div class="col-lg-6 my-3">
+                            <div class="home4-icon-style d-none d-sm-flex justify-content-start justify-content-lg-end">
+                                <a class="d-flex align-items-center dark-color ff-heading me-2" href="/grid-full-4-col"><i class=" icons fa-solid fa-house" aria-hidden="true"></i> Houses</a>
+                                <a class="d-flex align-items-center dark-color ff-heading me-2" href="/grid-full-4-col"><i class="icons fa-regular fa-building" aria-hidden="true"></i>Apartments</a>
+                                <a class="d-flex align-items-center dark-color ff-heading me-2" href="/grid-full-4-col"><i class="icons fa-solid fa-house-laptop" aria-hidden="true"></i>Office</a>
+                                <a class="d-flex align-items-center dark-color ff-heading me-2" href="/grid-full-4-col"><i class="icons fa-solid fa-house-flood-water" aria-hidden="true"></i>Villa</a>
+                            </div>
+                            
+                            {{-- <a class="ud-btn2" href="/map-v3">
                                 <i class="fa-solid fa-house fa-flip-both"></i>Houses</a>
                             <a class="ud-btn2" href="/map-v3"><i class="fa-regular fa-building"></i>Apartments</a>
                             <a class="ud-btn2" href="/map-v3"><i class="fa-solid fa-house-laptop"></i>Office</a>
                             <a class="ud-btn2" href="/map-v3"><i
-                                    class="fa-solid fa-house-flood-water"></i>Villa</a>
+                                    class="fa-solid fa-house-flood-water"></i>Villa</a> --}}
 
                             {{-- <div class="dark-light-navtab style2 text-start text-lg-end mt-0 mt-lg-4 mb-4">
                                 <ul class="nav nav-pills justify-content-start justify-content-lg-end">
@@ -1840,9 +1848,10 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
 
-                                <div class="rounded-arrow arrowY-center-position">
+                                {{-- <div class="rounded-arrow arrowY-center-position">
 
                                     <button
                                         class="property-by-city-prev__active swiper_button _prevs "fdprocessedid="yj6omk">
@@ -1853,8 +1862,8 @@
                                         disabled="">
                                         <i class="fa-solid fa-angle-right"></i>
                                     </button>
-                                </div>
-                                <div class="swiper-pagination"></div>
+                                </div> --}}
+                                {{-- <div class="swiper-pagination"></div> --}}
 
                             </div>
                         </div>
@@ -2406,7 +2415,7 @@
 
             {{-- test2 --}}
             <section class="mb0-md pb30-md">
-                <div class="color py-5" style="background-color:#99d2f8">
+                <div class="backg-container py-5">
                 <div class="container">
                     
                     <div class="row">

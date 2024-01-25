@@ -27,10 +27,10 @@ var swiper = new Swiper(".swiper", {
   slidesPerGroup: 1,
   loop: true,
   
-  // centerSlide: "true",
-  // grapCurser: "true",
-  // fade: "true",
-  // loopFillGroupWithBlank: true,
+  centerSlide: "true",
+  grapCurser: "true",
+  fade: "true",
+  loopFillGroupWithBlank: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -103,10 +103,12 @@ var swiper = new Swiper(".swipers", {
   slidesPerGroup: 1,
   loop: true,
   // loopFillGroupWithBlank: true,
-  
+  autoplay: {
+    delay: 3000, // Autoplay delay in milliseconds ทำให้มันสไลด์เอง
+  },
 
   pagination: {
-    el: "",
+    el: ".swiper-pagination",
     clickable: true,
     dynamicBullets: true,
   },
@@ -119,7 +121,7 @@ var swiper = new Swiper(".swipers", {
       0: {
         slidesPerView: 1,
       },
-      950: {
+      560: {
         slidesPerView: 2,
       },
       1000: {

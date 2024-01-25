@@ -14948,7 +14948,23 @@ h3{
 .dots_pad{
     padding-bottom: 25px;
 }
-
+.home4-icon-style i.icons {
+    background-color: #0071bc;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px
+}
+.backg-container{
+    background-color:#99d2f8
+}
+.text-a{
+    color: #fff;
+}
 /* ----------------------------------------------------------------------------------- */
 
 .fa-1x {
@@ -75104,7 +75120,7 @@ li {
     display: block;
     font-size: 13px;
     height: 30px;
-    line-height: 33px;
+    line-height: 30px;
     text-align: center;
     width: 30px
 }
@@ -76027,7 +76043,7 @@ li {
 
 section {
     /* padding: 120px 0; */
-    padding: 50px 0;
+    padding: 40px 0;
     position: relative
 }
 
