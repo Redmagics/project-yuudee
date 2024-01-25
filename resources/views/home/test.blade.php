@@ -1301,7 +1301,8 @@
                                 <div
                                     class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                                     <div
-                                        class="swiper-wrapper"style="transform: translate3d(-610.5px, 0px, 0px); transition-duration: 0ms;">
+                                        class="swiper-wrapper transforms">
+                                        {{-- style="transform: translate3d(-610.5px, 0px, 0px); transition-duration: 0ms;" --}}
 
                                         <div class="swiper-slide" style="width: 188.5px; margin-right: 15px;">
                                             <div class="item">
@@ -1512,7 +1513,8 @@
                                 <div
                                     class="swipers swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                                     <div
-                                        class="swiper-wrapper"style="transform: translate3d(-410.5px, 0px, 0px); transition-duration: 0ms;">
+                                        class="swiper-wrapper">
+                                        {{-- style="transform: translate3d(-410.5px, 0px, 0px); transition-duration: 0ms;" --}}
 
                                         <div class=" col-sm-6 col-lg-6 swiper-slide swiper-slide-active ">
                                             <div class="listing-style1">

@@ -14965,6 +14965,10 @@ h3{
 .text-a{
     color: #fff;
 }
+.transforms{
+    transform: translate3d(-610.5px, 0px, 0px);
+    transition-duration: 0ms;
+}
 /* ----------------------------------------------------------------------------------- */
 
 .fa-1x {

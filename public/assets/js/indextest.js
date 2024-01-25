@@ -23,7 +23,7 @@ scrolls.onclick = function () {
 /*slide cycle */
 var swiper = new Swiper(".swiper", {
   slidesPerView: 6,
-  spaceBetween: 30,
+  spaceBetween: 28,
   slidesPerGroup: 1,
   loop: true,
   
