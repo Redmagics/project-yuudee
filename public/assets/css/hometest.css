@@ -14978,11 +14978,12 @@ h3{
     } */
 }
 
-/* .rounded-arrow.arrowY-center-position {
-    margin-left: 20px; 
-    margin-right: 20px; 
+.maxw1300 {
+    max-width: 1300px!important
+}
+/* .cons{
+    margin: 0 100px;
 } */
-
 
 
 /* ----------------------------------------------------------------------------------- */
@@ -71138,9 +71139,11 @@ i[class^=flaticon-]:before,i[class*=" flaticon-"]:before,span[class^=flaticon-]:
 .arrowY-center-position {
     position: absolute;
     width: 100%;
+    /* width: 97%; */
     top: 50%;
     transform: translateY(-50%);
     display: flex;
+    /* margin: 0 19px; */
     align-items: center;
     justify-content: space-between;
     z-index: 9

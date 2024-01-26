@@ -175,8 +175,8 @@
                                     <i class="fal fa-arrow-right-long"></i></a><a
                             class="sidemenu-btn filter-btn-right" href="#" id="toggleSidebar"
                             data-bs-toggle="offcanvas" data-bs-target="#SidebarPanel"
-                            aria-controls="SidebarPanelLabel"><img class="img-1" src="https://img2.pic.in.th/pic/dark-nav-icon.png" alt="dark-nav-icon.png"width="30px">
-                            <img class="img-2" src="https://img2.pic.in.th/pic/dark-nav-icon.png" alt="dark-nav-icon.png"width="30px"></a></div>
+                            aria-controls="SidebarPanelLabel"><img class="img-1" src="https://img2.pic.in.th/pic/dark-nav-icon.png" alt="dark-nav-icon.png"width="25px">
+                            <img class="img-2" src="https://img2.pic.in.th/pic/dark-nav-icon.png" alt="dark-nav-icon.png"width="25px"></a></div>
                 </div>
             </div>
         </div>

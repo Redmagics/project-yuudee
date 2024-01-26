@@ -771,15 +771,15 @@
                                         <img class="img-2 bounce-y d-none d-xl-block"src="https://img2.pic.in.th/pic/element-9.png"
                                             alt="element-9.png" alt="image"style="object-fit: contain;">
 
-                                        <div class="modal-video" tabindex="-1" role="dialog" area-modal="true"
+                                        {{-- <div class="modal-video" tabindex="-1" role="dialog" area-modal="true"
                                             aria-label="You just opened the modal video">
                                             <div class="modal-video-body">
                                                 <div class="modal-video-inner" style="width: 100%;">
                                                     <div class="modal-video-movie-wrap" style="padding-bottom: 56.25%;">
                                                         <iframe id="your-video-iframe-id" width="460" height="230"
-                                                            src="//www.youtube.com/embed/7EHnQ0VM4KY?autoplay=1&amp;cc_load_policy=1&amp;controls=1&amp;disablekb=0&amp;enablejsapi=0&amp;fs=1&amp;iv_load_policy=1&amp;loop=0&amp;rel=0&amp;showinfo=1&amp;start=0&amp;wmode=transparent&amp;theme=dark&amp;mute=0"
-                                                            frameborder="0"
-                                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                            src="//www.youtube.com/embed/XJRkTyvoL4k?autoplay=1&amp;cc_load_policy=1&amp;controls=1&amp;disablekb=0&amp;enablejsapi=0&amp;fs=1&amp;iv_load_policy=1&amp;loop=0&amp;rel=0&amp;showinfo=1&amp;start=0&amp;wmode=transparent&amp;theme=dark&amp;mute=0" --}}
+                                                            {{-- src="/assets/videos/videos-yuudee.mp4?autoplay=1"frameborder="0" --}}
+                                                            {{-- allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                             allowfullscreen="" tabindex="-1"></iframe>
                                                         <button class="modal-video-close-btn"
                                                             aria-label="Close the modal by clicking here"
@@ -787,13 +787,15 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
 
-                                        <button
-                                            class="popup-iframe popup-youtube bounce-y d-flex align-items-center justify-content-start justify-content-xl-center fz14 fw600 ff-heading"
+                                        <button class="popup-iframe popup-youtube bounce-y d-flex align-items-center justify-content-start justify-content-xl-center fz14 fw600 ff-heading"
                                             style="border: none; background: transparent;"fdprocessedid="bectc">Watch Video
-                                            {{-- <span class="video-icon flaticon-play fz12 ml20"role="button"></span> --}}
-                                            <i class="video-icon fa-solid fa-play fz1 ml20"></i></button>
+                                            <i class="video-icon fa-solid fa-play fz1 ml20"></i>
+                                        </button>
+
+                                        {{-- test3 --}}
+
                                     </div>
                                     <div class="advance-search-tab mt60 mt30-lg mx-auto animate-up-3">
                                         <ul class="nav nav-tabs  p-0 m-0">
@@ -1272,7 +1274,7 @@
                 </div>
             </section>
             <section class="pb40-md pb90">
-                
+                {{-- <div class="mx-auto maxw1300 position-relative overflow-hidden mx20-lg cons"> --}}
                 <div class="container">
                     <div class="row align-items-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-lg-7">
@@ -1470,6 +1472,20 @@
                         </div>
                     </div>
                 </div>
+                {{-- <div class="btn-swiper">
+                    <div class="rounded-arrow arrowY-center-position">
+                        <button
+                            class="property-by-city-prev__active swiper_button _prev "fdprocessedid="yj6omk">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button
+                            class="property-by-city-next__active swiper_button _next swiper-button-disabled "fdprocessedid="1ipwv"
+                            disabled="">
+                            <i class="fa-solid fa-angle-right "></i>
+                        </button>
+                    </div>
+                </div> --}}
+            {{-- </div> --}}
             </section>
             <section class="pt-0 pb60">
                 <div class="container">
@@ -1974,7 +1990,7 @@
                     </div>
                 </div>
             </section>
-            <section class="pb80 pb30-md">
+            <section class="pb30-md">
                 <div class="container">
                     <div class="row  justify-content-between align-items-center">
                         <div class="col-auto">
