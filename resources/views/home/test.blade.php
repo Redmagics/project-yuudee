@@ -765,11 +765,11 @@
                                     <p class="hero-text fz15 animate-up-2">From as low as $10 per day with limited time
                                         offer discounts</p>
                                     <div class="home4-floatin-img">
-                                        <img class="img-1 spin-left d-none d-xl-block contain"
+                                        {{-- <img class="img-1 spin-left d-none d-xl-block contain"
                                             src="https://img5.pic.in.th/file/secure-sv1/element-10.png"
                                             alt="element-10.png" alt="image">
                                         <img class="img-2 bounce-y d-none d-xl-block"src="https://img2.pic.in.th/pic/element-9.png"
-                                            alt="element-9.png" alt="image"style="object-fit: contain;">
+                                            alt="element-9.png" alt="image"style="object-fit: contain;"> --}}
 
                                         {{-- <div class="modal-video" tabindex="-1" role="dialog" area-modal="true"
                                             aria-label="You just opened the modal video">
@@ -777,9 +777,9 @@
                                                 <div class="modal-video-inner" style="width: 100%;">
                                                     <div class="modal-video-movie-wrap" style="padding-bottom: 56.25%;">
                                                         <iframe id="your-video-iframe-id" width="460" height="230"
-                                                            src="//www.youtube.com/embed/XJRkTyvoL4k?autoplay=1&amp;cc_load_policy=1&amp;controls=1&amp;disablekb=0&amp;enablejsapi=0&amp;fs=1&amp;iv_load_policy=1&amp;loop=0&amp;rel=0&amp;showinfo=1&amp;start=0&amp;wmode=transparent&amp;theme=dark&amp;mute=0" --}}
-                                                            {{-- src="/assets/videos/videos-yuudee.mp4?autoplay=1"frameborder="0" --}}
-                                                            {{-- allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                            src="//www.youtube.com/embed/7EHnQ0VM4KY?autoplay=1&amp;cc_load_policy=1&amp;controls=1&amp;disablekb=0&amp;enablejsapi=0&amp;fs=1&amp;iv_load_policy=1&amp;loop=0&amp;rel=0&amp;showinfo=1&amp;start=0&amp;wmode=transparent&amp;theme=dark&amp;mute=0"
+                                                            
+                                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                             allowfullscreen="" tabindex="-1"></iframe>
                                                         <button class="modal-video-close-btn"
                                                             aria-label="Close the modal by clicking here"
@@ -787,12 +787,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> --}}
+                                        </div>
 
                                         <button class="popup-iframe popup-youtube bounce-y d-flex align-items-center justify-content-start justify-content-xl-center fz14 fw600 ff-heading"
                                             style="border: none; background: transparent;"fdprocessedid="bectc">Watch Video
                                             <i class="video-icon fa-solid fa-play fz1 ml20"></i>
-                                        </button>
+                                        </button> --}}
 
                                         {{-- test3 --}}
 
@@ -2413,7 +2413,7 @@
                     <div class="row aos-init"data-aos-delay="300">
                         <div class="col-sm-6 col-lg-4">
                             <div class="blog-style1">
-                                <div class="blog-img"><img class="w-100 cover" src="/image/blog-1.jpg"
+                                <div class="blog-img"><img class="w-100 cover" src="/assets/images/blog-1.jpg"
                                         alt="blog"></div>
                                 <div class="blog-content">
                                     <div class="date"><span class="month">July</span><span class="day">28</span>
@@ -2426,7 +2426,7 @@
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="blog-style1">
-                                <div class="blog-img"><img class="w-100 cover" src="/image/blog-2.jpg"
+                                <div class="blog-img"><img class="w-100 cover" src="/assets/images/blog-2.jpg"
                                         alt="blog"></div>
                                 <div class="blog-content">
                                     <div class="date"><span class="month">July</span><span class="day">28</span>
@@ -2441,7 +2441,7 @@
                             <div class="blog-style1">
                                 <div class="blog-img"><img class="w-100
                                      cover"
-                                        src="/image/blog-3.jpg" alt="blog"></div>
+                                        src="/assets/images/blog-3.jpg" alt="blog"></div>
                                 <div class="blog-content">
                                     <div class="date"><span class="month">July</span><span class="day">28</span>
                                     </div><a class="tag" href="#">Living
@@ -2547,7 +2547,7 @@
                     {{-- </div> --}}
             </section>
 
-            <section class="our-partners p-0">
+            <section class="p50 our-partners p-0">
                 <div class="container">
                     <div class="row">
                         {{-- <div class="col-lg-12 aos-init" data-aos="fade-up"> --}}

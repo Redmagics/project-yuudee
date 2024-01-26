@@ -14960,7 +14960,7 @@ h3{
     width: 30px
 }
 .backg-container{
-    background-color:#99d2f8
+    background-color:#f8f8f8
 }
 .text-a{
     color: #fff;
@@ -71140,7 +71140,7 @@ i[class^=flaticon-]:before,i[class*=" flaticon-"]:before,span[class^=flaticon-]:
     position: absolute;
     width: 100%;
     /* width: 97%; */
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
     display: flex;
     /* margin: 0 19px; */
@@ -75092,7 +75092,7 @@ li {
 }
 
 .home-style4 {
-    background-image: url(/image/home-banner.jpg);
+    background-image: url(/assets/images/home-banner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -76276,11 +76276,12 @@ section {
 }
 
 .scrollToHome {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #0071BC;
     border: 1px solid #0071BC;
     border-radius: 50%;
     bottom: 45px;
-    color: #0071BC;
+    color: white;
     display: block;
     height: 50px;
     line-height: 50px;
@@ -76304,8 +76305,8 @@ section {
 }
 
 .scrollToHome:hover {
-    background-color: #0071BC;
-    color: #fff
+    background-color: #fff;
+    color: #0071BC
 }
 
 .scrollToHome.show {
@@ -79148,7 +79149,7 @@ header.nav-homepage-style .ace-responsive-menu .megamenu_style a.list-item:hover
 
 @media (max-width: 1399.98px) {
     header.nav-homepage-style .ace-responsive-menu .megamenu_style a.list-item,header.nav-homepage-style .ace-responsive-menu .visible_list a.list-item {
-        padding:7px 17px
+        padding:7px 9px
     }
 }
 

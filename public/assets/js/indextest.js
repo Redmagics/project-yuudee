@@ -103,9 +103,9 @@ var swiper = new Swiper(".swipers", {
   slidesPerGroup: 1,
   loop: true,
   // loopFillGroupWithBlank: true,
-  autoplay: {
-    delay: 3000, // Autoplay delay in milliseconds ทำให้มันสไลด์เอง
-  },
+  // autoplay: {
+  //   delay: 3000, // Autoplay delay in milliseconds ทำให้มันสไลด์เอง
+  // },
 
   pagination: {
     el: ".swiper-pagination",
@@ -209,63 +209,37 @@ window.addEventListener("scroll", function(){
 /*------------------------------------------------------------------------ */
 
 /*video */
+document.addEventListener("DOMContentLoaded", function () {
+  var watchVideoButton = document.querySelector('.popup-iframe');
+  var modalVideo = document.querySelector('.modal-video');
+  var closeVideoButton = document.querySelector('.modal-video-close-btn');
+  var videoIframe = document.getElementById('your-video-iframe-id');
 
-/*ใช้ได้ เเต่ video ไม่หยุดเล่น */
-// document.addEventListener("DOMContentLoaded", function () {
-//   var watchVideoButton = document.querySelector('.popup-iframe');
-//   var modalVideo = document.querySelector('.modal-video');
+  // เพิ่มเหตุการณ์สำหรับปุ่ม "Watch Video"
+  watchVideoButton.addEventListener('click', function () {
+    // แสดง modal-video เมื่อปุ่มถูกคลิก
+    modalVideo.style.display = 'block';
+  });
 
-//   watchVideoButton.addEventListener('click', function () {
-//       // แสดง modal-video เมื่อปุ่มถูกคลิก
-//       modalVideo.style.display = 'block';
-//   });
+  // เพิ่มเหตุการณ์สำหรับปุ่มปิด modal-video
+  closeVideoButton.addEventListener('click', function () {
+    // ซ่อน modal-video เมื่อปุ่มปิดถูกคลิก
+    modalVideo.style.display = 'none';
 
-//   // เพิ่มเหตุการณ์สำหรับปุ่มปิด modal-video
-//   var closeVideoButton = document.querySelector('.modal-video-close-btn');
-//   closeVideoButton.addEventListener('click', function () {
-//       // ซ่อน modal-video เมื่อปุ่มปิดถูกคลิก
-//       modalVideo.style.display = 'none';
+    // หยุดการเล่นวิดีโอ
+    videoIframe.src = videoIframe.src;  // กำหนดค่า src เป็นตัวเดียวกันจะทำให้วิดีโอหยุดเล่น
+  });
 
-//   });
-// });
+  // เพิ่มเหตุการณ์สำหรับปุ่ม "popup-iframe"
+  watchVideoButton.addEventListener('click', function () {
+    // กำหนดค่า src เพื่อเริ่มเล่นวิดีโอใหม่
+    videoIframe.src = videoIframe.src;
 
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   var watchVideoButton = document.querySelector('.popup-iframe');
-//   var modalVideo = document.querySelector('.modal-video');
-//   var closeVideoButton = document.querySelector('.modal-video-close-btn');
-//   var videoIframe = document.getElementById('your-video-iframe-id');
-
-//   // เพิ่มเหตุการณ์สำหรับปุ่ม "Watch Video"
-//   watchVideoButton.addEventListener('click', function () {
-//     // แสดง modal-video เมื่อปุ่มถูกคลิก
-//     modalVideo.style.display = 'block';
-//   });
-
-//   // เพิ่มเหตุการณ์สำหรับปุ่มปิด modal-video
-//   closeVideoButton.addEventListener('click', function () {
-//     // ซ่อน modal-video เมื่อปุ่มปิดถูกคลิก
-//     modalVideo.style.display = 'none';
-
-//     // หยุดการเล่นวิดีโอ
-//     videoIframe.src = videoIframe.src;  // กำหนดค่า src เป็นตัวเดียวกันจะทำให้วิดีโอหยุดเล่น
-//   });
-
-//   // เพิ่มเหตุการณ์สำหรับปุ่ม "popup-iframe"
-//   watchVideoButton.addEventListener('click', function () {
-//     // กำหนดค่า src เพื่อเริ่มเล่นวิดีโอใหม่
-//     videoIframe.src = videoIframe.src;
-
-//     var iframeSrc = videoIframe.src;
-//     iframeSrc = iframeSrc.replace('autoplay=1', 'autoplay=0');
-//     videoIframe.src = iframeSrc;
-//   });
-// });
-
-
-
-
-
+    var iframeSrc = videoIframe.src;
+    iframeSrc = iframeSrc.replace('autoplay=1', 'autoplay=0');
+    videoIframe.src = iframeSrc;
+  });
+});
 
 document.addEventListener('DOMContentLoaded', function() {
   var toggleSidebarBtn = document.getElementById('toggleSidebar');
