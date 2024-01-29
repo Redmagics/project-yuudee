@@ -2824,6 +2824,7 @@
 {
     color:#fff
 }
+/* star */
 .star{
     width: 46px!important;
     height: 46px!important;
@@ -2844,6 +2845,7 @@
         font-size: 14px!important;
     }
 }
+/* star end */
 
 .fa-sq{
     font-size: 13px!important;
@@ -2859,12 +2861,12 @@
     margin-top: 65px;
 }
 
-
 @media (max-width: 1025px) {
     .list-head{
         margin-top: 100px!important;
     }
 }
+
 .del {
     text-decoration: line-through;
 }
