@@ -26,11 +26,11 @@
     {{-- --CSS SWIPER -- --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     {{-- X sidebar --}}
-    <link href="{{ asset('/assetsearth/css/ppcss/dashboard.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('/assetsearth/css/gallerycss/theme.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('/assets/css/ppcss/dashboard.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('/assets/css/gallerycss/theme.css') }}" rel="stylesheet" type="text/css"/>
     {{-- --CSS-- --}}
-     <link href="{{ asset('/assetsearth/css/mcss/hometest.css') }}" rel="stylesheet" type="text/css" />
-     <link href="{{ asset('/assetsearth/css/re-spacing.css') }}" rel="stylesheet" type="text/css"/>
+     <link href="{{ asset('/assets/css/mcss/hometest.css') }}" rel="stylesheet" type="text/css" />
+     <link href="{{ asset('/assets/css/re-spacing.css') }}" rel="stylesheet" type="text/css"/>
 
 
 
@@ -38,10 +38,10 @@
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0" class="" style="">
-    @include('layouts.menu')
+    @include('layout.menu')
             @yield('content')
             @unless(Auth::check())
-            @include('layouts.footer')
+            @include('layout.footer')
             @endunless
 
 
@@ -54,16 +54,16 @@
     </script>
     <!-- Include Select2 from CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-    {{-- <script type="module" crossorigin="" src="{{ asset('/assetsearth/js/ppjs/dashboard.js"') }}"></script> --}}
-    <script type="module" crossorigin="" src="{{ asset('/assetsearth/js/ppjs/script.js') }}"></script>
-    <script type="module" crossorigin="" src="{{ asset('/assetsearth/js/galleryjs/theme.js') }}"></script>
+    {{-- <script type="module" crossorigin="" src="{{ asset('/assets/js/ppjs/dashboard.js"') }}"></script> --}}
+    <script type="module" crossorigin="" src="{{ asset('/assets/js/ppjs/script.js') }}"></script>
+    <script type="module" crossorigin="" src="{{ asset('/assets/js/galleryjs/theme.js') }}"></script>
     {{-- tabpanel --}}
-    <script src="{{ asset('/assetsearth/js/galleryjs/bootstrap-js/bootstrap.bundle.js') }}"></script>
+    <script src="{{ asset('/assets/js/galleryjs/bootstrap-js/bootstrap.bundle.js') }}"></script>
     {{-- Image popup --}}
-    <script src="{{ asset('/assetsearth/js/galleryjs/magnific-popup-js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/galleryjs/magnific-popup-js/jquery.magnific-popup.min.js') }}"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="{{ asset('/assetsearth/js/mjs/indextest.js') }}"></script>
+    <script src="{{ asset('/assets/js/mjs/indextest.js') }}"></script>
 
 </body>
 </html>
