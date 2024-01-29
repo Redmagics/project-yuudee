@@ -22,20 +22,10 @@ Route::any('hometest' , 'App\Http\Controllers\HomeController@hometest');
 Route::any('test' , 'App\Http\Controllers\HomeController@test');
 Route::any('non' , 'App\Http\Controllers\HomeController@non');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// earth
+Route::any('sidebar' , 'App\Http\Controllers\HomeController@sidebar');
+Route::any('gallery' , 'App\Http\Controllers\HomeController@gallery');
+Route::any('tests' , 'App\Http\Controllers\HomeController@tests');
 
-Route::get('/gallery', function () {
-    return view('gallery');
-});
-
-Route::get('/sidebar', function () {
-    return view('sidebar');
-});
-
-Route::get('/test', function () {
-    return view('test');
-});
 
 // Route::any('slider' , 'App\Http\Controllers\HomeController@slider');

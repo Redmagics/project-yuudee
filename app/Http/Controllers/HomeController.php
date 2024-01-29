@@ -20,4 +20,15 @@ class HomeController extends Controller
     // public function slider(){
     //     return view("home.slider");
     // }
+
+    // earth
+    public function sidebar(){
+        return view("dashboard.sidebar");
+    }
+    public function gallery(){
+        return view(".gallery");
+    }
+    public function tests(){
+        return view(".tests");
+    }
 }
