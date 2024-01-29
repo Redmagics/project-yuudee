@@ -662,8 +662,7 @@
   .fade:not(.show) {
     opacity: 0
   }
-
-  /* .btn-group,.btn-group-vertical {
+   /* .btn-group,.btn-group-vertical {
     position: relative;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -709,9 +708,9 @@
   .btn-group>.btn:not(:first-child),.btn-group>.btn-group:not(:first-child)>.btn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0
-  } */
+  }
 
-  /* .btn-sm+.dropdown-toggle-split,.btn-group-sm>.btn+.dropdown-toggle-split {
+   .btn-sm+.dropdown-toggle-split,.btn-group-sm>.btn+.dropdown-toggle-split {
     padding-right: .375rem;
     padding-left: .375rem
   }
@@ -764,7 +763,7 @@
     position: absolute;
     clip: rect(0,0,0,0);
     pointer-events: none
-  } */
+  }
 
   .input-group {
     position: relative;
@@ -809,7 +808,7 @@
     display: flex
   }
 
-  /* .input-group-prepend .btn,.input-group-append .btn {
+   .input-group-prepend .btn,.input-group-append .btn {
     position: relative;
     z-index: 2
   }
@@ -820,7 +819,7 @@
 
   .input-group-prepend .btn+.btn,.input-group-prepend .btn+.input-group-text,.input-group-prepend .input-group-text+.input-group-text,.input-group-prepend .input-group-text+.btn,.input-group-append .btn+.btn,.input-group-append .btn+.input-group-text,.input-group-append .input-group-text+.input-group-text,.input-group-append .input-group-text+.btn {
     margin-left: -2px
-  } */
+  }
 
   .input-group-append {
     margin-left: -2px
@@ -830,7 +829,7 @@
     height: calc(2em + 1.25rem + 4px)
   }
 
-  /* .input-group-lg>.form-control-ga,.input-group-lg>.custom-select,.input-group-lg>.input-group-prepend>.input-group-text,.input-group-lg>.input-group-append>.input-group-text,.input-group-lg>.input-group-prepend>.btn,.input-group-lg>.input-group-append>.btn {
+  .input-group-lg>.form-control-ga,.input-group-lg>.custom-select,.input-group-lg>.input-group-prepend>.input-group-text,.input-group-lg>.input-group-append>.input-group-text,.input-group-lg>.input-group-prepend>.btn,.input-group-lg>.input-group-append>.btn {
     padding: .625rem 1rem;
     font-size: .875rem;
     line-height: 2;
@@ -2877,7 +2876,7 @@
         margin-top: -90px!important;
     }
 }
-
+/* hide content */
   @media (max-width: 768px) {
     .hide-content {
       display: none;
@@ -2893,5 +2892,18 @@
   @media (max-width: 768px) {
     .show-on-ss {
       display: block;
+    }
+  }
+
+  @media (max-width: 321px) {
+    .hide-all {
+      display: none;
+    }
+  }
+/* hide end */
+
+  @media (max-width: 426px) {
+    .scroll-to-home {
+        bottom: 80px!important;
     }
   }
