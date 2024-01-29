@@ -17,9 +17,25 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-Route::any('home' , 'App\Http\Controllers\HomeController@home');
-Route::any('hometest' , 'App\Http\Controllers\HomeController@hometest');
-Route::any('test' , 'App\Http\Controllers\HomeController@test');
-Route::any('non' , 'App\Http\Controllers\HomeController@non');       
+// Route::any('home' , 'App\Http\Controllers\HomeController@home');
+// Route::any('hometest' , 'App\Http\Controllers\HomeController@hometest');
+// Route::any('test' , 'App\Http\Controllers\HomeController@test');
+// Route::any('non' , 'App\Http\Controllers\HomeController@non');
 
-// Route::any('slider' , 'App\Http\Controllers\HomeController@slider'); 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/sidebar', function () {
+    return view('sidebar');
+});
+
+Route::get('/test', function () {
+    return view('test');
+});
+
+// Route::any('slider' , 'App\Http\Controllers\HomeController@slider');
