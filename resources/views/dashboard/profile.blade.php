@@ -22,8 +22,9 @@
                                             <div class=" Photo text-center">
                                                 <img src="https://homez-reactjs.ibthemespro.com/images/listings/profile-1.jpg" alt="My Profile" class="mx-auto d-block img-fluid">
                                                 <div class="custom-file mt-4 h-auto">
+                                                    {{-- เอา btn-t-white ออก --}}
                                                     <input type="file" class="custom-file-input" hidden="" id="customFile" name="file">
-                                                    <button type="submit" class="ud-btn btn-white btn-t-white" >Upload profile image</button>
+                                                    <button type="submit" class="ud-btn btn-white " >Upload profile image</button>
                                                 </div>
                                                 <p class="mb-0 mt-2">
                                                     *minimum 500px x 500px
@@ -173,14 +174,14 @@
                         </div>
 
                         <div class="d-flex justify-content-end flex-wrap">
-
+                            {{-- เอา btn-t-white ออก --}}
                             <div class="position-relative  pt30 pb20 mr-2" ><a href="#"
-                                class="ud-btn btn-white  btn-t-white">Delete Profile
+                                class="ud-btn btn-white  ">Delete Profile
                                 <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
-
+                            {{-- เอา btn-t-white ออก --}}
                             <div class="position-relative  pt30 pb20 mr-2"><a href="#"
-                                class="ud-btn btn-white btn-t-white">Update Profile
+                                class="ud-btn btn-white ">Update Profile
                                 <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
 

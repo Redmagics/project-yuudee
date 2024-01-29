@@ -148,7 +148,7 @@
         <div class="container">
             <div class="row">
                 <article class="col-lg-8 pr-xl-7">
-                    <section class="mt--52 border-bottom-ga">
+                    <section class="m-top border-bottom-ga">
                         <ul class="list-inline d-sm-flex align-items-sm-center">
                             <li class="list-inline-item badge badge-orange">Featured</li>
                             <li class="list-inline-item badge badge-primary">For Sale</li>
@@ -931,92 +931,94 @@
                                     <div class="tab-content pt-1 pb-0 px-0 shadow-none">
                                         {{-- Request Info ID --}}
                                         <div class="tab-pane fade fade show active" id="request-info" role="tabpanel">
-                                            <div class="form-check d-flex align-items-center border-bottom-ga pb-3 mb-3">
-                                                <input class="form-check-input" type="radio" name="agent"
-                                                    value="option1">
-                                                <div class="form-check-label ml-2">
-                                                    <div class="d-flex align-items-center mt-3">
-                                                        <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                                            <img src="https://templates.g5plus.net/homeid/images/agent-2.jpg"
-                                                                class="rounded-circle" alt="agent-2">
-                                                        </a>
-                                                        <div>
-                                                            <a href="agent-details-1.html"
-                                                                class="d-block text-dark font-weight-500 lh-15 hover-primary">Oliver
-                                                                Beddows</a>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">Sales Excutive</p>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">
-                                                                <span>(+123)</span><span
-                                                                    class="text-heading d-inline-block ml-2">1900
-                                                                    68668</span>
-                                                            </p>
+                                            <div class="hide-content">
+                                                <div class="form-check d-flex align-items-center border-bottom-ga pb-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="agent"
+                                                        value="option1">
+                                                    <div class="form-check-label ml-2">
+                                                        <div class="d-flex align-items-center mt-3">
+                                                            <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
+                                                                <img src="https://templates.g5plus.net/homeid/images/agent-2.jpg"
+                                                                    class="rounded-circle" alt="agent-2">
+                                                            </a>
+                                                            <div>
+                                                                <a href="agent-details-1.html"
+                                                                    class="d-block text-dark font-weight-500 lh-15 hover-primary">Oliver Beddows</a>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">Sales Excutive</p>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">
+                                                                    <span>(+123)</span><span
+                                                                        class="text-heading d-inline-block ml-2">1900
+                                                                        68668</span>
+                                                                </p>
 
-                                                         <ul class="list-inline mb-0 fs-22 pl-2">
+                                                            <ul class="list-inline mb-0 fs-22 pl-2">
 
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
-                                                                        target="_blank">
-                                                                        <i class="fa-brands fa-line text-success"></i>
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
+                                                                            target="_blank">
+                                                                            <i class="fa-brands fa-line text-success"></i>
+                                                                        </a>
+                                                                    </li>
+
+
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="tel:091-545-3939" target="_blank">
+                                                                            <i class="fa-solid fa-phone text-yd"></i>
+                                                                        </a>
+                                                                    </li>
                                                                     </a>
-                                                                </li>
+                                                                </ul>
 
 
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="tel:091-545-3939" target="_blank">
-                                                                        <i class="fa-solid fa-phone text-yd"></i>
-                                                                    </a>
-                                                                </li>
-                                                                </a>
-                                                            </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-check d-flex align-items-center mb-6">
+                                                    <input class="form-check-input" type="radio" name="agent"
+                                                        id="inlineRadio2" value="option2">
+                                                    <div class="form-check-label ml-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
+                                                                <img src="https://templates.g5plus.net/homeid/images/agent-1.jpg"
+                                                                    class="rounded-circle" alt="agent-1">
+                                                            </a>
+                                                            <div>
+                                                                <a href="agent-details-1.html"
+                                                                    class="d-block text-dark font-weight-500 lh-15 hover-primary">Max Kordex</a>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">Real estate broker</p>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">
+                                                                    <span>(+123)</span><span
+                                                                        class="text-heading d-inline-block ml-2">1900
+                                                                        68668</span>
+                                                                </p>
+
+                                                                <ul class="list-inline mb-0 fs-22 pl-2">
+
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
+                                                                            target="_blank">
+                                                                            <i class="fa-brands fa-line text-success"></i>
+                                                                        </a>
+                                                                    </li>
 
 
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="tel:091-545-3939" target="_blank">
+                                                                            <i class="fa-solid fa-phone text-yd"></i>
+                                                                        </a>
+                                                                    </li>
+
+                                                                </ul>
+
+
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form-check d-flex align-items-center mb-6">
-                                                <input class="form-check-input" type="radio" name="agent"
-                                                    id="inlineRadio2" value="option2">
-                                                <div class="form-check-label ml-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                                            <img src="https://templates.g5plus.net/homeid/images/agent-1.jpg"
-                                                                class="rounded-circle" alt="agent-1">
-                                                        </a>
-                                                        <div>
-                                                            <a href="agent-details-1.html"
-                                                                class="d-block text-dark font-weight-500 lh-15 hover-primary">Max
-                                                                Kordex</a>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">Real estate
-                                                                broker</p>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">
-                                                                <span>(+123)</span><span
-                                                                    class="text-heading d-inline-block ml-2">1900
-                                                                    68668</span>
-                                                            </p>
-
-                                                            <ul class="list-inline mb-0 fs-22 pl-2">
-
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
-                                                                        target="_blank">
-                                                                        <i class="fa-brands fa-line text-success"></i>
-                                                                    </a>
-                                                                </li>
-
-
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="tel:091-545-3939" target="_blank">
-                                                                        <i class="fa-solid fa-phone text-yd"></i>
-                                                                    </a>
-                                                                </li>
-
-                                                            </ul>
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="mt-3 hide-on-ls show-on-ss">
+                                                <h2 class="text-center">Contact</h2>
                                             </div>
                                             <div class="mt-4">
                                                 <div class="form-group mb-2">

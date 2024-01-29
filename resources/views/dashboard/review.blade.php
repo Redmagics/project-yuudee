@@ -289,8 +289,9 @@
 
 
                                 <div class="col-md-12">
+                                    {{-- เอา btn-t-white ออก --}}
                                     <div class="position-relative bdrb1 pt30 pb20"><a href="#"
-                                            class="ud-btn btn-white btn-t-white">Show all 134 reviews
+                                            class="ud-btn btn-white">Show all 134 reviews
                                             <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
