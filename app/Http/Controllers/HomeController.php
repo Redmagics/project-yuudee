@@ -23,6 +23,7 @@ class HomeController extends Controller
     //     return view("home.slider");
     // }
 
+<<<<<<< HEAD
     public function createaccount(){ //แสดงหน้า modal สร้างรหัสผ่าน
         return view("modal.createaccount");
     }
@@ -148,6 +149,18 @@ class HomeController extends Controller
 public function indextcontent(){ // แสดงหน้า modal ลืมรหัสผ่าน
     return view("home.content");
     
+=======
+    // earth
+    public function sidebar(){
+        return view("dashboard.sidebar");
+    }
+    public function gallery(){
+        return view(".gallery");
+    }
+    public function tests(){
+        return view(".tests");
+    }
+>>>>>>> b30d2c380f67f82fdab4ab8c1c76b6a28aaf54cf
 }
 
     public function contentstone (Request $request){

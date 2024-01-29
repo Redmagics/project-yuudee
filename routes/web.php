@@ -21,8 +21,9 @@ use App\Http\Controllers\HomeController;
 Route::any('home' , 'App\Http\Controllers\HomeController@home');
 Route::any('hometest' , 'App\Http\Controllers\HomeController@hometest');
 Route::any('test' , 'App\Http\Controllers\HomeController@test');
-Route::any('non' , 'App\Http\Controllers\HomeController@non');       
+Route::any('non' , 'App\Http\Controllers\HomeController@non');
 
+<<<<<<< HEAD
 // Route::any('slider' , 'App\Http\Controllers\HomeController@slider'); 
 //---------------------- คำสั่งเปิดหน้าต่างๆ ------------------------//
 
@@ -65,3 +66,12 @@ route::any('contentstone','App\Http\Controllers\HomeController@contentstone');  
 
 
  // -----------------------------------function test Route ------------------------------------
+=======
+// earth
+Route::any('sidebar' , 'App\Http\Controllers\HomeController@sidebar');
+Route::any('gallery' , 'App\Http\Controllers\HomeController@gallery');
+Route::any('tests' , 'App\Http\Controllers\HomeController@tests');
+
+
+// Route::any('slider' , 'App\Http\Controllers\HomeController@slider');
+>>>>>>> b30d2c380f67f82fdab4ab8c1c76b6a28aaf54cf
