@@ -8,8 +8,6 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://kit.fontawesome.com/924b5e10e1.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     {{-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> --}}
@@ -995,7 +993,7 @@
                                     <div class="home4-floatin-img">
                                         <img class="img-1 spin-left d-none d-xl-block contain" src="https://img5.pic.in.th/file/secure-sv1/element-10.png" alt="element-10.png" alt="image">
                                         <img class="img-2 bounce-y d-none d-xl-block"src="https://img2.pic.in.th/pic/element-9.png" alt="element-9.png" alt="image"style="object-fit: contain;">
-                                        
+
                                         <div class="modal-video" tabindex="-1" role="dialog" area-modal="true" aria-label="You just opened the modal video">
                                             <div class="modal-video-body">
                                                 <div class="modal-video-inner" style="width: 100%;">
@@ -2617,7 +2615,7 @@
             <section class="mb75 mb0-md pb30-md">
                 {{-- <div class="color py-5" style="background-color: aqua"> --}}
                 <div class="container">
-                    
+
                     <div class="row">
                         <div class="col-lg-6 m-auto aos-init">
                             <div class="main-title text-start text-md-center">
@@ -2626,7 +2624,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="row mt-8">
                         <div class="col-lg-4 mb-6 mb-lg-0">
                             <div
@@ -2689,7 +2687,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 {{-- </div> --}}
             </section>
@@ -2902,7 +2900,7 @@
                                 <a class="footer-logo"href="/">
                                     <img class="mb40" src="https://img5.pic.in.th/file/secure-sv1/YuuDee2-logo.png" alt="YuuDee2-logo.png"  />
                                 </a>
-                                
+
                                 <div class="row mb-4 mb-lg-5">
                                     <div class="contact-info mb25">
                                         <p class="text mb0">58 Howard Street #2 San Francisco</p>
@@ -2918,7 +2916,7 @@
                                         {{-- <h6 class="info-phone"><a href="tel:+012305094502">+(0) 123 050 945 02</a>
                                         </h6> --}}
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -2968,7 +2966,7 @@
                                     <h6 class="title mb30">Sign Up for Our Newsletter</h6>
                                     <div class="mailchimp-style1 at-home4 white-version">
                                         <input type="email" class="form-control" placeholder="Your Email"fdprocessedid="q0ns2o">
-                                        <button type="submit"   fdprocessedid="yko0ob"><i class="fa-solid fa-rocket"></i></button>   
+                                        <button type="submit"   fdprocessedid="yko0ob"><i class="fa-solid fa-rocket"></i></button>
                                     </div>
                                     <div class="social-style1 light-style py-2">
                                         <a href="#"><i class="fab fa-facebook-f list-inline-item"></i></a>
