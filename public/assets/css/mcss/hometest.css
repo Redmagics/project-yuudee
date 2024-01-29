@@ -71282,7 +71282,7 @@ body {
     background-color: #fff;
     font-size: 14px;
     font-weight: 400;
-    color: var(--headings-color);
+    color: #181a20;
     line-height: 26px;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased
@@ -71318,8 +71318,8 @@ iframe {
 }
 
 .h1,h1,.h2,h2,.h3,h3,.h4,h4,.h5,h5,.h6,h6 {
-    font-family: var(--title-font-family);
-    color: var(--headings-color);
+    font-family: "Poppins", sans-serif;
+    color: #181a20;
     font-weight: 600;
     line-height: 1.5
 }
@@ -71374,13 +71374,13 @@ li {
 
 .login-info {
     font-size: 14px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
 .footer-style1 {
-    background-color: var(--headings-color)
+    background-color: #181a20
 }
 
 .footer-style1.at-home2 {
@@ -71403,7 +71403,7 @@ li {
 
 .footer-widget .info-title {
     color: #bebdbd;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     margin-bottom: 5px
 }
 
@@ -71412,8 +71412,8 @@ li {
 }
 
 .footer-widget.light-style .info-phone a,.footer-widget.light-style .info-mail a {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -71505,7 +71505,7 @@ li {
     background-color: transparent;
     border: none;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 600;
     position: absolute;
@@ -71518,15 +71518,15 @@ li {
 }
 
 .mailchimp-style1.white-version .form-control:placeholder {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 14px;
     font-weight: 400
 }
 
 .mailchimp-style1.white-version button {
     font-size: 15px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -71540,7 +71540,7 @@ li {
 }
 
 .mailchimp-style1.at-home4 button {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     border-radius: 50%;
     color: #fff;
     display: block;
@@ -71561,7 +71561,7 @@ li {
 }
 
 .mailchimp-style1.at-home7 button {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     border-radius: 0;
     color: #fff;
     display: block;
@@ -71589,7 +71589,7 @@ li {
     background-color: #fff;
     border: none;
     border-radius: 12px;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 14px;
     font-weight: 400;
     height: 70px;
@@ -71597,7 +71597,7 @@ li {
 }
 
 .mailchimp-style2 .form-control:placeholder {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 14px;
     font-weight: 400
 }
@@ -71619,7 +71619,7 @@ li {
 .link-style1 a {
     color: #bebdbd;
     display: block;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     line-height: 40px;
     position: relative;
     -webkit-transition: all .3s ease;
@@ -71633,8 +71633,8 @@ li {
 }
 
 .link-style1.light-style a {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -71693,8 +71693,8 @@ li {
 
 .breadcumb-style1 .breadcumb-list a {
     display: inline-block;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     position: relative
 }
@@ -71739,7 +71739,7 @@ li {
 }
 
 .header_right_widgets a {
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 20px;
     height: 44px;
@@ -71779,8 +71779,8 @@ li {
 
 .user_setting .dropdown-menu .dropdown-item {
     border-radius: 12px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     overflow: hidden;
     font-size: 14px;
@@ -71809,8 +71809,8 @@ li {
     display: -ms-flexbox;
     display: flex;
     border-radius: 12px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     padding: 14.5px 20px;
     margin-bottom: 5px;
@@ -71963,7 +71963,7 @@ li {
 .statistics_funfact .icon {
     background-color: #f3f5f6;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 30px;
     height: 80px;
     line-height: 85px;
@@ -71972,8 +71972,8 @@ li {
 }
 
 .statistics_funfact .title {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 36px;
     line-height: 54px
@@ -71993,7 +71993,7 @@ li {
 .recent-activity .icon {
     background-color: #2596be;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     height: 40px;
     line-height: 45px;
@@ -72002,7 +72002,7 @@ li {
 }
 
 .pending-style {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     padding: 10px 20px;
@@ -72027,7 +72027,7 @@ li {
 .profile-box .tag-del {
     background-color: #fff;
     border-radius: 12px;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 18px;
     height: 45px;
     line-height: 45px;
@@ -72076,15 +72076,15 @@ li {
 .message_container .user_heading .preview {
     color: #717171;
     font-size: 13px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin-bottom: 0
 }
 
 .message_container .user_heading .name {
     font-size: 14px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -72156,7 +72156,7 @@ li {
 .inbox_chatting_box .chatting_content li p {
     background-color: #f1fcfa;
     border-radius: 8px;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 15px;
     padding: 15px 20px;
     max-width: 456px
@@ -72169,21 +72169,21 @@ li {
 .inbox_chatting_box .chatting_content li.reply p {
     background-color: #2596be;
     border-radius: 8px;
-    color: var(--headings-color);
+    color: #181a20;
     max-width: 450px;
     padding: 15px 30px;
     text-align: right
 }
 
 .inbox_chatting_box .title {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
 .inbox_chatting_box small {
     color: #717171;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
@@ -72202,7 +72202,7 @@ li {
 
 .inbox_user_list .preview {
     font-size: 13px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 18px;
     margin-bottom: 0
@@ -72280,7 +72280,7 @@ li {
     background-color: #f7f7f7;
     border-radius: 0;
     border: none;
-    color: var(--headings-color);
+    color: #181a20;
     height: 50px;
     line-height: 45px;
     width: 50px
@@ -72303,7 +72303,7 @@ li {
 .iul_notific small {
     display: block;
     font-size: 13px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     position: absolute;
     right: 10px;
@@ -72350,7 +72350,7 @@ li {
     background-color: #2596be;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -72366,7 +72366,7 @@ li {
 .listing-style1 .tag-del {
     background-color: #fff;
     border-radius: 4px;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 10px;
     height: 40px;
     line-height: 40px;
@@ -72385,8 +72385,8 @@ li {
     background-color: #fff;
     border-radius: 6px;
     bottom: 20px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     left: 20px;
@@ -72399,7 +72399,7 @@ li {
 }
 
 .listing-style1 .list-meta a {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     /* font-size: 13px; */
     font-size: 12px;
     margin-right: 24px
@@ -72435,7 +72435,7 @@ li {
 }
 
 .listing-style1 .list-title a:hover {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style1 .list-text {
@@ -72458,13 +72458,13 @@ li {
 
 .listing-style1 .list-meta2 a:hover {
     background-color: #f7f7f7;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style1 .for-what {
     font-size: 13px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -72535,8 +72535,8 @@ li {
 }
 
 .listing-style1.listing-type .list-text2 {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 400
 }
@@ -72599,8 +72599,8 @@ li {
 
 .listing-style1.mini-style .btn {
     padding: 0;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -72680,7 +72680,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -72694,8 +72694,8 @@ li {
 }
 
 .listing-style5 .list-price {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px
 }
@@ -72705,7 +72705,7 @@ li {
 }
 
 .listing-style5 .list-meta a {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     margin-right: 12px
 }
@@ -72769,7 +72769,7 @@ li {
 }
 
 .listing-style5 .list-title a:hover {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style5 .list-text {
@@ -72818,7 +72818,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -72835,7 +72835,7 @@ li {
     background-color: #181a20;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     left: 135px;
     opacity: 1;
@@ -72864,7 +72864,7 @@ li {
 
 .listing-style6 .list-meta a {
     background-color: #181a20e6;
-    border: 1px solid var(--headings-color);
+    border: 1px solid #181a20;
     border-radius: 6px;
     color: #fff;
     display: block;
@@ -72892,8 +72892,8 @@ li {
     background-color: #fff;
     border: 1px solid #181a20;
     border-radius: 6px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     right: 20px;
@@ -72951,7 +72951,7 @@ li {
 }
 
 .listing-style6 .list-title a:hover {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style6 .list-text {
@@ -72974,7 +72974,7 @@ li {
 }
 
 .listing-style6:hover .list-price {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     color: #fff
 }
 
@@ -73009,7 +73009,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73026,7 +73026,7 @@ li {
     background-color: #181a20;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73054,7 +73054,7 @@ li {
 .listing-style7 .list-meta a {
     background-color: #fff;
     border-radius: 6px;
-    color: var(--headings-color);
+    color: #181a20;
     display: inline-block;
     height: 35px;
     line-height: 38px;
@@ -73076,14 +73076,14 @@ li {
 }
 
 .listing-style7 .list-meta2 a {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 400
 }
 
 .listing-style7 .list-price {
     color: #eb6753;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     -webkit-transition: all .4s ease;
@@ -73111,7 +73111,7 @@ li {
 }
 
 .listing-style7 .list-title a:hover {
-    color: var(--headings-color);
+    color: #181a20;
     text-decoration: underline
 }
 
@@ -73141,7 +73141,7 @@ li {
 }
 
 .listing-style7.at-home10 .list-price {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style8 {
@@ -73168,7 +73168,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73185,7 +73185,7 @@ li {
     background-color: #181a20;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73237,15 +73237,15 @@ li {
 .listing-style8 .list-meta2 a {
     font-size: 13px;
     font-weight: 400;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .listing-style8 .list-price {
     background-color: #fff;
     border: 1px solid #181a20;
     border-radius: 0;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     padding: 8px 15px;
@@ -73271,7 +73271,7 @@ li {
 }
 
 .listing-style8 .list-title a:hover {
-    color: var(--headings-color);
+    color: #181a20;
     text-decoration: underline
 }
 
@@ -73336,7 +73336,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73353,7 +73353,7 @@ li {
     background-color: #181a20;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     left: 135px;
     opacity: 1;
@@ -73382,7 +73382,7 @@ li {
 
 .listing-style9 .list-meta a {
     background-color: #181a20e6;
-    border: 1px solid var(--headings-color);
+    border: 1px solid #181a20;
     border-radius: 6px;
     color: #fff;
     display: block;
@@ -73410,7 +73410,7 @@ li {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .listing-style9 .list-price {
@@ -73503,7 +73503,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73520,7 +73520,7 @@ li {
     background-color: #181a20;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73573,13 +73573,13 @@ li {
 .listing-style10 .list-meta2 a {
     font-size: 13px;
     font-weight: 400;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .listing-style10 .list-price {
     bottom: 20px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     left: 20px;
@@ -73608,7 +73608,7 @@ li {
 }
 
 .listing-style10 .list-title a:hover {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style10 .list-text {
@@ -73668,7 +73668,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73685,7 +73685,7 @@ li {
     background-color: #181a20;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73705,7 +73705,7 @@ li {
 .listing-style11 .list-meta a {
     font-size: 15px;
     margin-right: 25px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -73725,7 +73725,7 @@ li {
     -webkit-box-shadow: 0px 6px 15px rgba(64,79,104,.05);
     -o-box-shadow: 0px 6px 15px rgba(64,79,104,.05);
     box-shadow: 0 6px 15px #404f680d;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 17px;
     height: 50px;
@@ -73738,7 +73738,7 @@ li {
 .listing-style11 .list-meta2 a {
     background-color: #fff;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     height: 40px;
     line-height: 45px;
     margin-right: 10px;
@@ -73761,7 +73761,7 @@ li {
 }
 
 .listing-style11 .list-title a:hover {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style11 .list-text {
@@ -73771,8 +73771,8 @@ li {
 
 .listing-style11 .for-what {
     font-size: 13px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -73829,7 +73829,7 @@ li {
     color: #fff;
     font-size: 15px;
     font-weight: 400;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 767.98px) {
@@ -73933,7 +73933,7 @@ li {
     background-color: #eb6753;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73950,7 +73950,7 @@ li {
     background-color: #181a20;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     opacity: 1;
     padding: 2px 12px;
@@ -73970,7 +73970,7 @@ li {
 .listing-style14 .list-meta a {
     font-size: 15px;
     margin-right: 25px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -73990,7 +73990,7 @@ li {
     -webkit-box-shadow: 0px 6px 15px rgba(64,79,104,.05);
     -o-box-shadow: 0px 6px 15px rgba(64,79,104,.05);
     box-shadow: 0 6px 15px #404f680d;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 17px;
     height: 50px;
@@ -74003,7 +74003,7 @@ li {
 .listing-style14 .list-meta2 a {
     background-color: #fff;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     height: 40px;
     line-height: 45px;
     margin-right: 10px;
@@ -74026,7 +74026,7 @@ li {
 }
 
 .listing-style14 .list-title a:hover {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .listing-style14 .list-text {
@@ -74036,8 +74036,8 @@ li {
 
 .listing-style14 .for-what {
     font-size: 13px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -74070,8 +74070,8 @@ li {
 }
 
 .pagination_page_count {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -74085,7 +74085,7 @@ li {
 
 .page_control_shorting .dropdown-item.active,.page_control_shorting .dropdown-item:focus {
     background-color:#2596be;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .page_control_shorting .pcs_dropdown span {
@@ -74108,8 +74108,8 @@ li {
 }
 
 .page_control_shorting a {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease
@@ -74190,7 +74190,7 @@ li {
 
 .property-action.dark-version .icon:hover {
     background-color: #fff;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .sp-img-content {
@@ -74348,8 +74348,8 @@ li {
     background-color: #fff;
     border-radius: 6px;
     bottom: 20px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     display: block;
     padding: 7px 20px;
@@ -74402,7 +74402,7 @@ li {
 .overview-element .icon {
     border: 1px solid #dddddd;
     border-radius: 12px;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 20px;
     height: 50px;
@@ -74419,7 +74419,7 @@ li {
 
 .overview-element.dark-version .icon:hover {
     background-color: #fff;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .property_video {
@@ -74440,7 +74440,7 @@ li {
 .property_video .video_popup_btn {
     background-color: #fff;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     height: 54px;
     line-height: 54px;
@@ -74549,7 +74549,7 @@ li {
 }
 
 .list-result-calculator .name-result+span {
-    color: var(--headings-color);
+    color: #181a20;
     margin-left: auto
 }
 
@@ -74643,14 +74643,14 @@ li {
 
 .inner-banner-style1 .hero-sub-title {
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
 .inner-banner-style1 .hero-title {
     color: #fff;
     font-size: 52px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -74662,7 +74662,7 @@ li {
 
 .inner-banner-style1 .hero-text {
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -74673,8 +74673,8 @@ li {
 .advance-content-style1 .advance-search-btn {
     background-color: transparent;
     border: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -74729,7 +74729,7 @@ li {
 .inner-banner-style2 .hero-title {
     color: #fff;
     font-size: 46px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -74741,7 +74741,7 @@ li {
 
 .inner-banner-style2 .hero-text {
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -74790,18 +74790,18 @@ li {
 .advance-content-style2 .bootselect-multiselect .btn {
     background-color: transparent;
     border: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-size: 14px
 }
 
 .advance-content-style2 .bootselect-multiselect .btn:hover,.advance-content-style2 .bootselect-multiselect .btn:focus {
     border: none;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-content-style2 .bootselect-multiselect .btn::placehoder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-content-style2 .bootselect-multiselect .dropdown-menu {
@@ -74811,8 +74811,8 @@ li {
 .advance-content-style2 .advance-search-btn {
     background-color: transparent;
     border: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -74861,7 +74861,7 @@ li {
 .advance-content-style3 .bootselect-multiselect .btn,.advance-content-style3 .bootselect-multiselect .btn-light,.advance-content-style3 .bootselect-multiselect .btn:hover,.advance-content-style3 .bootselect-multiselect .btn-light:hover {
     background-color: #f7f7f7;
     border: transparent;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-content-style3 .bootselect-multiselect .btn:focus,.advance-content-style3 .bootselect-multiselect .btn-light:focus {
@@ -74887,7 +74887,7 @@ li {
 }
 
 .advance-content-style3 .bootselect-multiselect .dropdown-menu .dropdown-item {
-    color: var(--headings-color);
+    color: #181a20;
     padding-left: 20px;
     line-height: 40px
 }
@@ -74899,8 +74899,8 @@ li {
 .advance-content-style3 .advance-search-btn {
     background-color: transparent;
     border: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -74954,9 +74954,9 @@ li {
 }
 
 .inner-banner-style3 .hero-title {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 40px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     max-width: 493px
 }
@@ -74968,8 +74968,8 @@ li {
 }
 
 .inner-banner-style3 .hero-text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -75034,15 +75034,15 @@ li {
 }
 
 .inner-banner-style4 .hero-sub-title {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
 .inner-banner-style4 .hero-title {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 40px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -75053,15 +75053,15 @@ li {
 }
 
 .inner-banner-style4 .hero-text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
 .home4-icon-style i.icon {
     background-color: #fff;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 13px;
     height: 30px;
@@ -75143,7 +75143,7 @@ li {
 }
 
 .thumbimg-countnumber-carousel .slider-subtitle {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin: 0 0 10px;
     -webkit-animation-duration: 2s;
@@ -75161,7 +75161,7 @@ li {
 }
 
 .thumbimg-countnumber-carousel .slider-title {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 52px;
     margin: 0;
@@ -75180,7 +75180,7 @@ li {
 }
 
 .thumbimg-countnumber-carousel .slider-text {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 15px;
     -webkit-animation-duration: 2s;
@@ -75260,13 +75260,13 @@ li {
 }
 
 .inner-banner-style6 .hero-sub-title {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
 .inner-banner-style6 .hero-title {
     font-size: 46px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -75277,7 +75277,7 @@ li {
 }
 
 .inner-banner-style6 .hero-text {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -75326,9 +75326,9 @@ li {
 }
 
 .inner-banner-style7 .hero-title {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 40px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -75374,7 +75374,7 @@ li {
 
 .home7-main-slider .swpr_paginations .slideactive,.home7-main-slider .swpr_paginations .slidetotal {
     bottom: 0;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     color: #fff;
     position: absolute
 }
@@ -75434,13 +75434,13 @@ li {
 }
 
 .inner-banner-style8 .hero-sub-title {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
 .inner-banner-style8 .hero-title {
     font-size: 52px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -75451,7 +75451,7 @@ li {
 }
 
 .inner-banner-style8 .hero-text {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -75507,8 +75507,8 @@ li {
 }
 
 .about-box-1 .list-style1 li {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     padding-left: 5px
@@ -75565,7 +75565,7 @@ li {
 }
 
 .exclusive-agent-widget .title {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -75723,7 +75723,7 @@ li {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    outline: 1px solid var(--headings-color);
+    outline: 1px solid #181a20;
     outline-offset: 5px;
     text-align: center;
     -webkit-transition: all .4s ease;
@@ -75830,7 +75830,7 @@ li {
 .blog-style1 .tag {
     color: #717171;
     font-size: 13px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     letter-spacing: 0em
 }
@@ -75854,15 +75854,15 @@ li {
 .blog-style1 .day {
     font-size: 20px;
     display: block;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
 .blog-style1 .month {
     font-size: 13px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -75917,8 +75917,8 @@ li {
 }
 
 .custom_bsp_grid li {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 46px;
@@ -75926,8 +75926,8 @@ li {
 }
 
 .blog_post_share span {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 23px
@@ -75945,9 +75945,9 @@ li {
 .bsp_tags a {
     background-color: #eb675312;
     border-radius: 60px;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
-    font-family: var(--body-font-family);
+    font-family: "DM Sans", sans-serif;
     font-weight: 500;
     font-size: 13px;
     line-height: 28px;
@@ -75968,7 +75968,7 @@ li {
 
 .review_cansel_btns a {
     color: #717171;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     line-height: 26px;
     letter-spacing: 0em;
     margin-right: 30px
@@ -75979,7 +75979,7 @@ li {
 }
 
 .review_cansel_btns a:hover {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .review_cansel_btns i {
@@ -76016,8 +76016,8 @@ section {
 }
 
 .main-title .paragraph,.main-title2 .paragraph {
-    color: var(--headings-color);
-    font-family: var(--title-font-family)
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -76090,7 +76090,7 @@ section {
 
 .advance-search-field .box-search .icon {
     bottom: 13px;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 15px;
     left: 20px;
     position: absolute
@@ -76100,28 +76100,28 @@ section {
     border: transparent;
     border-radius: 12px;
     font-size: 14px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     padding-left: 50px
 }
 
 .advance-search-field .box-search input::-webkit-input-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-search-field .box-search input::-moz-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-search-field .box-search input:-ms-input-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-search-field .box-search input::-ms-input-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-search-field .box-search input::placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-search-field .search-suggestions {
@@ -76176,8 +76176,8 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px
@@ -76333,8 +76333,8 @@ section {
 
 .cta-style1 .cta-text {
     font-size: 15px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -76406,7 +76406,7 @@ section {
 }
 
 .cta-style3 .cta-text {
-    color: var(--headings-color);
+    color: #181a20;
     font-weight: 400
 }
 
@@ -76455,8 +76455,8 @@ section {
 .cta-style5 .app-tag {
     background-color: #fff;
     border-radius: 60px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     display: block;
     height: 34px;
@@ -76472,7 +76472,7 @@ section {
 
 .cta-style5 .cta-text {
     color: #0d1c39;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -76510,8 +76510,8 @@ section {
 }
 
 .error_page_content .erro_code {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     line-height: 289px;
     font-size: 200px
@@ -76537,7 +76537,7 @@ section {
 .iconbox-style1 .icon {
     background-color: #fff;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 30px;
     height: 70px;
@@ -76657,8 +76657,8 @@ section {
 }
 
 .iconbox-style2 .text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin-bottom: 25px
 }
@@ -76699,8 +76699,8 @@ section {
 }
 
 .iconbox-style3 .text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin-bottom: 25px
 }
@@ -76722,7 +76722,7 @@ section {
 .iconbox-style4 .icon {
     background-color: #eb675312;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 30px;
     height: 70px;
@@ -76828,7 +76828,7 @@ section {
 }
 
 .iconbox-style6 .iconbox-text {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 13px
 }
@@ -76924,8 +76924,8 @@ section {
 }
 
 .iconbox-style8 .text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin-bottom: 25px
 }
@@ -76974,7 +76974,7 @@ section {
 .apartment-category .icon {
     background-color: #fff;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 20px;
     height: 50px;
     line-height: 55px;
@@ -77098,8 +77098,8 @@ section {
 }
 
 .feature-style2 .title,.feature-style2 .text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family)
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
 }
 
 .feature-style2:hover img {
@@ -77168,7 +77168,7 @@ section {
 }
 
 .why-chose-list.style2 .list-icon {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .why-chose-list.style3 .list-icon {
@@ -77176,7 +77176,7 @@ section {
 }
 
 .why-chose-list.style3 .list-icon {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .home9-city-style {
@@ -77211,37 +77211,37 @@ section {
 
 .form-style1 .form-control::-webkit-input-placeholder {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-style1 .form-control::-moz-placeholder {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-style1 .form-control:-ms-input-placeholder {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-style1 .form-control::-ms-input-placeholder {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-style1 .form-control::placeholder {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-style1 .form-control.active,.form-style1 .form-control:focus {
     border: 1px solid transparent;
-    outline: 2px solid var(--headings-color);
-    color: var(--headings-color)
+    outline: 2px solid #181a20;
+    color: #181a20
 }
 
 .form-style1 .form-label {
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-style1 .custom_checkbox {
@@ -77258,8 +77258,8 @@ section {
 
 .form-style1 .form-select option {
     font-size: 14px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     height: 50px;
     border-bottom: 1px solid #dddddd
@@ -77294,22 +77294,22 @@ section {
 
 .form-style2 .form-control:placeholder {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-style2 .form-control.active,.form-style2 .form-control:focus {
     border: 1px solid transparent;
-    outline: 2px solid var(--headings-color)
+    outline: 2px solid #181a20
 }
 
 .form-style2 .form-label {
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 textarea {
     border: 1px solid #dddddd;
     border-radius: 8px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     height: auto;
     width: 100%;
     padding: 25px 20px
@@ -77317,7 +77317,7 @@ textarea {
 
 textarea:focus {
     border: 1px solid transparent;
-    outline: 2px solid var(--headings-color);
+    outline: 2px solid #181a20;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -77328,7 +77328,7 @@ textarea:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
     font-size: 14px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     height: 55px;
     outline: none;
     padding-left: 15px
@@ -77336,12 +77336,12 @@ textarea:focus {
 
 .form-control:placeholder {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .form-control:focus {
     border: 1px solid transparent;
-    outline: 2px solid var(--headings-color);
+    outline: 2px solid #181a20;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -77365,7 +77365,7 @@ textarea:focus {
 }
 
 .bootselect-multiselect .btn:focus {
-    border: 2px solid var(--headings-color);
+    border: 2px solid #181a20;
     outline: none
 }
 
@@ -77380,7 +77380,7 @@ textarea:focus {
 }
 
 .bootselect-multiselect .bootstrap-select.dropdown-toggle.bs-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .bootselect-multiselect .dropdown-menu {
@@ -77393,7 +77393,7 @@ textarea:focus {
 
 .bootselect-multiselect .dropdown-menu .dropdown-item.active,.bootselect-multiselect .dropdown-menu .dropdown-item:hover,.bootselect-multiselect .dropdown-menu .dropdown-item:focus {
     background-color: #2596be;
-    color: var(--headings-color);
+    color: #181a20;
     outline: none
 }
 
@@ -77408,28 +77408,28 @@ textarea:focus {
 }
 
 .bootselect-multiselect .btn-light::-webkit-input-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .bootselect-multiselect .btn-light::-moz-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .bootselect-multiselect .btn-light:-ms-input-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .bootselect-multiselect .btn-light::-ms-input-placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .bootselect-multiselect .btn-light::placeholder {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .inquiry-form .form-control {
     font-size: 14px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -77449,7 +77449,7 @@ textarea:focus {
 
 .dropdown-item.active {
     background-color: #2596be;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .advance-feature-modal button,.sideborder-dropdown button {
@@ -77460,8 +77460,8 @@ textarea:focus {
     background-color: transparent;
     border: 1px solid #dddddd;
     border-radius: 8px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     height: 50px;
     line-height: 35px;
@@ -77496,15 +77496,15 @@ textarea:focus {
 
 .advance-feature-modal .form-style2 .bootstrap-select .dropdown-item,.sideborder-dropdown .form-style2 .bootstrap-select .dropdown-item {
     line-height: 35px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px
 }
 
 .advance-feature-modal.psp-review button.dropdown-toggle,.sideborder-dropdown.psp-review button.dropdown-toggle {
     color: #717171;
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .advance-feature-modal.psp-review .dropdown-menu li:first-child,.sideborder-dropdown.psp-review .dropdown-menu li:first-child {
@@ -77587,7 +77587,7 @@ textarea:focus {
     background-color: #eb675312;
     border-radius: 60px;
     color: #eb6753;
-    font-family: var(--body-font-family);
+    font-family: "DM Sans", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 28px;
@@ -77669,14 +77669,14 @@ textarea:focus {
 
 .testimonial-style1 .title {
     font-size: 16px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin-bottom: 25px
 }
 
 .testimonial-style1 .text {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 14px;
     margin-bottom: 8px
@@ -77696,8 +77696,8 @@ textarea:focus {
 }
 
 .testimonial-style2 .testi-text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 22px;
     line-height: 45px;
@@ -77711,8 +77711,8 @@ textarea:focus {
 }
 
 .testimonial-style2 .design {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 13px
 }
@@ -77812,7 +77812,7 @@ textarea:focus {
 
 .testimonial-style4 .desig {
     color: #717171;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
@@ -77852,7 +77852,7 @@ textarea:focus {
     background-color: #2596be;
     border-radius: 6px;
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 12px;
     left: 20px;
@@ -78093,8 +78093,8 @@ textarea:focus {
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 14px;
     padding-left: 20px
@@ -78115,8 +78115,8 @@ textarea:focus {
 }
 
 .accordion-style1 .accordion-body {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     padding: 20px 0 35px;
     max-width: 410px
@@ -78154,8 +78154,8 @@ textarea:focus {
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     outline: none
 }
@@ -78164,8 +78164,8 @@ textarea:focus {
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 14px;
     -webkit-text-decoration-line: underline;
@@ -78197,8 +78197,8 @@ textarea:focus {
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 17px;
     padding-left: 0;
@@ -78221,8 +78221,8 @@ textarea:focus {
 }
 
 .accordion-style2 .accordion-body {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     padding: 20px 0 0
 }
@@ -78233,7 +78233,7 @@ textarea:focus {
 
 .message-alart-style1 .alert {
     border-radius: 4px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     padding: 23px 30px;
     position: relative
@@ -78327,8 +78327,8 @@ textarea:focus {
 
 .log-reg-form .hr_top_text {
     background-color: #fff;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     height: 40px;
     left: 0;
@@ -78348,7 +78348,7 @@ textarea:focus {
 
 .blockquote-style1 {
     background-color: #eb675312;
-    border-left: 3px solid var(--headings-color);
+    border-left: 3px solid #181a20;
     padding: 45px 60px 20px;
     position: relative
 }
@@ -78361,7 +78361,7 @@ textarea:focus {
 .ud-btn {
     border-radius: 12px;
     display: inline-block;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     font-style: normal;
@@ -78397,7 +78397,7 @@ textarea:focus {
 }
 
 .ud-btn2 {
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
 
     /* font-weight: 600; */
     font-size: 15px;
@@ -78429,8 +78429,8 @@ textarea:focus {
 .btn-dark {
     /* background-color: #d9d9d9;
     border: 1px solid #d9d9d9; */
-    background-color: var(--headings-color);
-    border: 1px solid var(--headings-color);
+    background-color: #181a20;
+    border: 1px solid #181a20;
     color: #fff
 }
 /*ปุ่ม Add Property*/
@@ -78466,7 +78466,7 @@ textarea:focus {
 .btn-gray {
     background-color: #f7f7f7;
     border: 1px solid transparent;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 13px;
     font-weight: 400;
     height: 50px;
@@ -78492,7 +78492,7 @@ textarea:focus {
 .btn-thm-border {
     background-color: #fff;
     border: 1px solid #2596be;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .btn-white,.btn-white2 {
@@ -78514,7 +78514,7 @@ textarea:focus {
 
 .btn-light-gray,.btn-transparent {
     background-color: #f7f7f7;
-    border: 1px solid var(--headings-color)
+    border: 1px solid #181a20
 }
 
 .btn-light-gray:hover,.btn-transparent:hover {
@@ -78594,21 +78594,21 @@ textarea:focus {
 }
 
 .radio-element .form-check-input {
-    border: 1px solid var(--headings-color);
+    border: 1px solid #181a20;
     height: 16px;
     margin-top: 0;
     width: 16px
 }
 
 .radio-element .form-check-input:focus {
-    border: 3px solid var(--headings-color);
+    border: 3px solid #181a20;
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none
 }
 
 .radio-element .form-check-input:checked {
-    border: 3px solid var(--headings-color);
+    border: 3px solid #181a20;
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none;
@@ -78705,7 +78705,7 @@ textarea:focus {
 }
 
 .switch-style1 label.form-check-label {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -78727,7 +78727,7 @@ textarea:focus {
 .video-icon {
     background-color: #fff;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     height: 54px;
     line-height: 54px;
@@ -78775,8 +78775,8 @@ textarea:focus {
 }
 
 .funfact_one .timer,.funfact_one span {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 42px;
     line-height: 63px
@@ -78800,7 +78800,7 @@ textarea:focus {
 }
 
 .funfact-style1 .title,.funfact-style1 span {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 45px;
     font-weight: 700;
     line-height: 59px;
@@ -78908,8 +78908,8 @@ header.nav-innerpage-style .ace-responsive-menu .megamenu_style a.list-item:hove
 }
 
 header.nav-innerpage-style .ace-responsive-menu a {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -79001,8 +79001,8 @@ header.nav-homepage-style .ace-responsive-menu .sub-menu li:hover {
 
 header.nav-homepage-style .ace-responsive-menu .sub-menu a {
     color:white;
-    /* color: var(--headings-color); */
-    font-family: var(--title-font-family);
+    /* color: #181a20; */
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     line-height: 16px
 }
@@ -79074,7 +79074,7 @@ header.nav-homepage-style .ace-responsive-menu .megamenu_style a.list-item:hover
 
 header.nav-homepage-style .ace-responsive-menu a {
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -79106,13 +79106,13 @@ header.nav-homepage-style.sticky,header.sticky {
 }
 
 header.nav-homepage-style.sticky .ace-responsive-menu a {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
 header.nav-homepage-style.sticky .sidemenu-btn,header.nav-homepage-style.sticky .login-info {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 header.nav-homepage-style.sticky .sidemenu-btn .img-1 {
@@ -79132,8 +79132,8 @@ header.nav-homepage-style.sticky .header-logo.logo2 {
 }
 
 header.nav-homepage-style.sticky .menu-btn,header.nav-homepage-style.sticky .btn-transparent2 {
-    border: 1px solid var(--headings-color);
-    color: var(--headings-color)
+    border: 1px solid #181a20;
+    color: #181a20
 }
 
 header.nav-homepage-style.sticky .menu-btn:hover {
@@ -79147,11 +79147,11 @@ header.nav-homepage-style.at-home2,header.nav-homepage-style.at-home5 {
 }
 
 header.nav-homepage-style.at-home3 .ace-responsive-menu a {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 header.nav-homepage-style.at-home3 .sidemenu-btn,header.nav-homepage-style.at-home3 .login-info {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 header.nav-homepage-style.at-home5 .ace-responsive-menu .sub-menu {
@@ -79208,7 +79208,7 @@ header.nav-homepage-style.at-home5.sticky .ace-responsive-menu .megamenu_style a
 
 .mm-navbar {
     background-color: #2596be;
-    color: var(--headings-color);
+    color: #181a20;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
@@ -79216,7 +79216,7 @@ header.nav-homepage-style.at-home5.sticky .ace-responsive-menu .megamenu_style a
 }
 
 .mm-navbar__title {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .mm-wrapper__blocker {
@@ -79235,14 +79235,14 @@ header.nav-homepage-style.at-home5.sticky .ace-responsive-menu .megamenu_style a
 
 .mm-panel ul.mm-listview li.mm-listitem.cl_btn a.btn {
     color: #fff;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase
 }
 
 a.mm-listitem__text,a.mm-btn.mm-btn_next.mm-listitem__btn.mm-listitem__text {
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase
@@ -79302,8 +79302,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .rightside-hidden-bar .hsidebar-header .title {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -79311,7 +79311,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     background-color: #f7f7f7;
     border-radius: 50%;
     cursor: pointer;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 14px;
     height: 40px;
     line-height: 40px;
@@ -79375,7 +79375,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     background-color: #f7f7f7;
     border-radius: 50%;
     cursor: pointer;
-    color: var(--headings-color);
+    color: #181a20;
     font-size: 12px;
     height: 40px;
     line-height: 40px;
@@ -79453,8 +79453,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     letter-spacing: 0em;
     position: relative;
     padding: 0 30px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
@@ -79608,7 +79608,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     color: #717171;
     padding: 15px 13px;
     margin-right: 10px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     border-color: transparent;
     border-bottom: 2px solid transparent
@@ -79619,7 +79619,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .advance-search-tab .nav-link.active {
-    color: var(--headings-color);
+    color: #181a20;
     border-color: transparent;
     border-bottom-color: #181a20
 }
@@ -79668,7 +79668,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     color: #fff;
     padding: 15px 13px;
     margin-right: 10px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -79734,7 +79734,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     color: #717171;
     padding: 15px 13px;
     margin-right: 10px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -79743,7 +79743,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .advance-style3 .nav-link.active {
-    color: var(--headings-color);
+    color: #181a20;
     border-color: transparent;
     border-bottom: 2px solid #181a20
 }
@@ -79809,7 +79809,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     color: #717171;
     padding: 15px 13px;
     margin-right: 10px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 600
 }
 
@@ -79818,7 +79818,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .advance-style4 .nav-link.active {
-    color: var(--headings-color);
+    color: #181a20;
     border-color: transparent;
     border-bottom: 2px solid #181a20
 }
@@ -79831,8 +79831,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .advance-style4 .tab-content label {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     display: block
 }
@@ -79925,7 +79925,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     border-color: transparent;
     border: 2px solid transparent;
     color: #717171;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease
@@ -79933,7 +79933,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 
 .navtab-style1 .nav-link:focus,.navtab-style1 .nav-link:hover,.navtab-style1 .nav-link.active,.navtab-style2 .nav-link:focus,.navtab-style2 .nav-link:hover,.navtab-style2 .nav-link.active {
     border-color: transparent;
-    border-bottom: 2px solid var(--headings-color);
+    border-bottom: 2px solid #181a20;
     color: #181a20
 }
 
@@ -79959,7 +79959,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 
 .dark-light-navtab .nav-link {
     background-color: #ffffff12;
-    border: 1px solid var(--headings-color);
+    border: 1px solid #181a20;
     border-radius: 6px;
     color: #fff;
     font-size: 14px;
@@ -79973,8 +79973,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 
 .dark-light-navtab .nav-link.active {
     background-color: #fff;
-    border: 1px solid var(--headings-color);
-    color: var(--headings-color)
+    border: 1px solid #181a20;
+    color: #181a20
 }
 
 .dark-light-navtab.style2 .nav-item:last-child .nav-link {
@@ -79982,11 +79982,11 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .dark-light-navtab.style2 .nav-link {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .dark-light-navtab.style2 .nav-link.active {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     color: #fff
 }
 
@@ -80005,12 +80005,12 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 .dark-light-navtab.style4 .nav-link {
     border: none;
     border-radius: 0;
-    color: var(--headings-color);
+    color: #181a20;
     margin-right: 0
 }
 
 .dark-light-navtab.style4 .nav-link.active {
-    border-bottom: 2px solid var(--headings-color)
+    border-bottom: 2px solid #181a20
 }
 
 .tab-content,.tab-content .active {
@@ -80021,8 +80021,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     background-color: #fff;
     border: 1px solid #dddddd;
     border-radius: 12px;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 20px;
@@ -80031,8 +80031,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 
 .ps-navtab .nav-link.active {
     background-color: #f7f7f7;
-    border: 1px solid var(--headings-color);
-    color: var(--headings-color)
+    border: 1px solid #181a20;
+    color: #181a20
 }
 
 .ps-v4-hero-tab .nav-pills {
@@ -80109,8 +80109,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
     background-color: transparent;
     border: none;
     border-radius: 50%;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 15px;
     height: 40px;
@@ -80133,7 +80133,7 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .progressbar-style1 .progressd-bar {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     border-radius: 10px;
     position: absolute;
     height: 5px;
@@ -80141,8 +80141,8 @@ li.mm-listitem:hover,li.mm-listitem:active,li.mm-listitem:focus {
 }
 
 .progressbar-style1 .progressd-bar span {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     right: 0;
     top: -25px;
     position: absolute
@@ -80159,7 +80159,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default,span.ui-slider-handle.ui-co
     background-image: url(/assets/range-slider-range-bg-line-06761f47.svg);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid var(--headings-color);
+    border: 2px solid #181a20;
     border-radius: 50%;
     height: 29px;
     margin-left: 0;
@@ -80169,7 +80169,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default,span.ui-slider-handle.ui-co
 }
 
 .ui-slider-range.ui-corner-all.ui-widget-header {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     height: 3px
 }
 
@@ -80187,7 +80187,7 @@ input.amount,input.amount2,input.amount3,input.amount4 {
     -webkit-box-shadow: none;
     box-shadow: none;
     color: #717171;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 400;
     height: 50px;
@@ -80310,7 +80310,7 @@ input:focus-visible {
     background-image: url(/assets/range-slider-range-bg-line-06761f47.svg);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid var(--headings-color);
+    border: 2px solid #181a20;
     border-radius: 50%;
     height: 29px;
     left: 0;
@@ -80328,7 +80328,7 @@ input:focus-visible {
 }
 
 .noUi-connect {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     border-radius: 30px;
     -webkit-transition: background .45s;
     -o-transition: background .45s;
@@ -80372,7 +80372,7 @@ input:focus-visible {
 }
 
 .social-style1.light-style i {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .social-style1.light-style i:hover {
@@ -80381,12 +80381,12 @@ input:focus-visible {
 }
 
 .social-style1.light-style2 i {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .social-style1.light-style2 i:hover {
     background-color: #f7f7f7;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .home8-sidebar-wrapper .social-style2 {
@@ -80404,7 +80404,7 @@ input:focus-visible {
 
 .home8-sidebar-wrapper .tel,.home8-sidebar-wrapper .mail {
     font-size: 13px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     left: 0;
     position: absolute;
@@ -80517,7 +80517,7 @@ input:focus-visible {
 
 .banner-wrapper .carousel-btn-block span {
     font-size: 30px;
-    color: var(--headings-color);
+    color: #181a20;
     cursor: pointer;
     line-height: .6em
 }
@@ -80528,7 +80528,7 @@ input:focus-visible {
 
 .banner-wrapper .slider-number-count {
     font-weight: 400;
-    color: var(--headings-color);
+    color: #181a20;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
@@ -81047,7 +81047,7 @@ input:focus-visible {
 .banner-style-one .sub-title {
     color: #fff;
     font-size: 36px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     line-height: 60px;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -81073,7 +81073,7 @@ input:focus-visible {
 .banner-style-one .banner-title {
     color: #fff;
     font-size: 52px;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     line-height: 60px;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -81188,7 +81188,7 @@ input:focus-visible {
 
 .ps-v4-hero-slider2.vam_nav_style.owl-theme .owl-nav button.owl-prev:hover,.ps-v4-hero-slider2.vam_nav_style.owl-theme .owl-nav button.owl-next:hover {
     background-color: #fff;
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .ps-v4-hero-slider2.vam_nav_style.owl-theme .owl-nav button.owl-prev {
@@ -81365,8 +81365,8 @@ input:focus-visible {
 .room-list a {
     background-color: #fff;
     border: 1px solid #dddddd;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     height: 45px;
     line-height: 45px;
@@ -81406,8 +81406,8 @@ input:focus-visible {
     border: 2px solid transparent;
     cursor: pointer;
     display: inline-block;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 13px;
     outline: 1px solid #dddddd;
@@ -81454,8 +81454,8 @@ input:focus-visible {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     position: relative
 }
@@ -81463,7 +81463,7 @@ input:focus-visible {
 .feature-button span {
     background-color: #f7f7f7;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     height: 40px;
     line-height: 45px;
     margin-right: 10px;
@@ -81478,8 +81478,8 @@ input:focus-visible {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -81508,8 +81508,8 @@ input:focus-visible {
     -o-box-shadow: 0px 1px 4px rgba(24,26,32,.07);
     box-shadow: 0 1px 4px #181a2012;
     cursor: pointer;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-weight: 500;
     letter-spacing: 0em;
@@ -81588,8 +81588,8 @@ input:focus-visible {
 }
 
 .list-news-style .title span,.list-news-style .list-meta a,.list-news-style .new-text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -81625,8 +81625,8 @@ input:focus-visible {
 
 .category-list a {
     display: block;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 35px;
@@ -81673,7 +81673,7 @@ input:focus-visible {
 
 .table-style1 .table td {
     border-bottom: 1px solid #dddddd;
-    font-family: var(--title-font-family);
+    font-family: "Poppins", sans-serif;
     line-height: 52px;
     padding-left: 27px
 }
@@ -81688,8 +81688,8 @@ input:focus-visible {
 }
 
 .table-style2 table.table .t-head th {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
@@ -81711,8 +81711,8 @@ input:focus-visible {
 }
 
 .table-style2 .t-body th {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 23px;
@@ -81726,8 +81726,8 @@ input:focus-visible {
 }
 
 .table-style2 .t-body td {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     padding-bottom: 30px;
     padding-top: 30px
@@ -81736,7 +81736,7 @@ input:focus-visible {
 .table-style2 .t-body .check_circle {
     background-color: #f7f7f7;
     border-radius: 50%;
-    color: var(--headings-color);
+    color: #181a20;
     display: block;
     font-size: 10px;
     height: 25px;
@@ -81773,24 +81773,24 @@ input:focus-visible {
 
 .table-style3 .t-head th {
     border: 0;
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     padding: 20px 30px
 }
 
 .table-style3 .t-body th {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     padding: 20px 30px
 }
 
 .table-style3 .t-body td {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     padding: 20px 30px
 }
@@ -81802,7 +81802,7 @@ input:focus-visible {
 .table-style3 .icon {
     background-color: #fff;
     border-radius: 4px;
-    color: var(--headings-color);
+    color: #181a20;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -81845,12 +81845,12 @@ input:focus-visible {
 }
 
 .invoice_table .tblh_row th {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .invoice_table .tbleh_title,.invoice_table .tbl_title,.invoice_table .tblpr_title,.invoice_table .tblp_title {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 15px;
     padding-bottom: 20px;
@@ -81871,7 +81871,7 @@ input:focus-visible {
 }
 
 .ff-heading {
-    font-family: var(--title-font-family)
+    font-family: "Poppins", sans-serif;
 }
 
 .text-white {
@@ -81895,11 +81895,11 @@ input:focus-visible {
 }
 
 .dark-color,.heading-color,.title-color {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 .bgc-dark {
-    background-color: var(--headings-color)
+    background-color: #181a20
 }
 
 .body-light-color {
@@ -82311,8 +82311,8 @@ input:focus-visible {
 }
 
 .text {
-    color: var(--headings-color);
-    font-family: var(--title-font-family);
+    color: #181a20;
+    font-family: "Poppins", sans-serif;
     font-weight: 400
 }
 
@@ -82556,7 +82556,7 @@ html {
     background-image: url(/assets/range-slider-range-bg-line-06761f47.svg);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid var(--headings-color);
+    border: 2px solid #181a20;
     border-radius: 50%;
     height: 29px;
     left: 0;
@@ -82568,7 +82568,7 @@ html {
 }
 
 .range-wrapper .input-range__track--active {
-    background-color: var(--headings-color);
+    background-color: #181a20;
     border-radius: 30px
 }
 
@@ -82647,11 +82647,11 @@ header.nav-homepage-style.sticky.at-home3 .sidemenu-btn .img-1 {
 }
 
 .nav-homepage-style.light-header .login-info {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 header.nav-homepage-style.light-header .ace-responsive-menu a {
-    color: var(--headings-color)
+    color: #181a20
 }
 
 @media (max-width: 575.98px) {
