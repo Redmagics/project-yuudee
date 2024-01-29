@@ -14,8 +14,7 @@
 </head>
 
 <body>
-    
-    <main id="content" class="bg-gray-01">
+        <main id="content" class="bg-gray-01">
         <div class="container-fluid">
             
             <div class="row justify-content-center"> 
