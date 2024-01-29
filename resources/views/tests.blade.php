@@ -913,7 +913,7 @@
                                         <textarea class="form-control-ga form-control-ga-lg border-0" placeholder="Your Review" name="message" rows="5"></textarea>
                                     </div>
                                     {{-- เอา btn-t-white ออก--}}
-                                    <button type="submit" class="ud-btn btn-white px-10 mb-2 "  >Submit</button>
+                                    <button type="submit" class="ud-btn btn-white px-10 mb-2 btn-t-white "  >Submit</button>
 
                                 </form>
                             </div>
@@ -1041,7 +1041,7 @@
                                                 <textarea class="form-control-ga border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
                                             </div>
                                             {{-- เอา btn-t-white ออก--}}
-                                            <button type="submit" class="ud-btn btn-white btn-lg btn-block rounded ">Request Info</button>
+                                            <button type="submit" class="ud-btn btn-white btn-lg btn-block rounded btn-t-white">Request Info</button>
                                             <div class="form-group form-check mt-2 mb-0">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck2">
                                                 <label class="form-check-label fs-13" for="exampleCheck2">Egestas

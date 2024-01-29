@@ -171,7 +171,7 @@
                             data-bs-target="#loginSignupModal" role="button"><i
                                 class="far fa-user-circle fz16 me-2"></i> <span
                                 class="d-none d-xl-block">Login / Register</span></a>
-                                <a class="ud-btn btn-white add-property bdrs60 mx-2 mx-xl-4 text-a "href="/dashboard-add-property">Add Property
+                                <a class="ud-btn btn-white add-property bdrs60 mx-2 mx-xl-4 text-a btn-t-white"href="/dashboard-add-property">Add Property
                                     <i class="fal fa-arrow-right-long"></i></a><a
                             class="sidemenu-btn filter-btn-right" href="#" id="toggleSidebar"
                             data-bs-toggle="offcanvas" data-bs-target="#SidebarPanel"

@@ -446,7 +446,7 @@
                                                     <h4 class="title fz17 mb10">Upload/Drag photos of your property</h4>
                                                     <p class="text mb25">Photos must be JPEG or PNG formatand at least 2048x768</p>
                                                     {{-- เอาbtn-t-white ออก --}}
-                                                    <label class="ud-btn btn-white ">Browse Files
+                                                    <label class="ud-btn btn-white btn-t-white">Browse Files
                                                         <input id="fileInput" type="file" multiple="" class="ud-btn btn-white" style="display: none;">
                                                     </label>
                                                 </div>
