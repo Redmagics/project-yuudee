@@ -2798,7 +2798,7 @@
 .make-me-sticky {
     position: -webkit-sticky;
       position: sticky;
-      top: 90px;
+      top: 95px;
     padding: 0 15px;
 }
 .slick-prev,

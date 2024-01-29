@@ -912,7 +912,8 @@
                                     <div class="form-group ">
                                         <textarea class="form-control-ga form-control-ga-lg border-0" placeholder="Your Review" name="message" rows="5"></textarea>
                                     </div>
-                                    <button type="submit" class="ud-btn btn-white px-10 mb-2 btn-t-white"  >Submit</button>
+                                    {{-- เอา btn-t-white ออก--}}
+                                    <button type="submit" class="ud-btn btn-white px-10 mb-2 "  >Submit</button>
 
                                 </form>
                             </div>
@@ -931,6 +932,7 @@
                                     <div class="tab-content pt-1 pb-0 px-0 shadow-none">
                                         {{-- Request Info ID --}}
                                         <div class="tab-pane fade fade show active" id="request-info" role="tabpanel">
+
                                             <div class="hide-content">
                                                 <div class="form-check d-flex align-items-center border-bottom-ga pb-3 mb-3">
                                                     <input class="form-check-input" type="radio" name="agent"
@@ -1017,6 +1019,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="mt-3 hide-on-ls show-on-ss">
                                                 <h2 class="text-center">Contact</h2>
                                             </div>
@@ -1037,7 +1040,8 @@
                                             <div class="form-group mb-4">
                                                 <textarea class="form-control-ga border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
                                             </div>
-                                            <button type="submit" class="ud-btn btn-white btn-lg btn-block rounded btn-t-white">Request Info</button>
+                                            {{-- เอา btn-t-white ออก--}}
+                                            <button type="submit" class="ud-btn btn-white btn-lg btn-block rounded ">Request Info</button>
                                             <div class="form-group form-check mt-2 mb-0">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck2">
                                                 <label class="form-check-label fs-13" for="exampleCheck2">Egestas
