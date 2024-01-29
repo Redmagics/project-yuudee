@@ -148,7 +148,7 @@
         <div class="container">
             <div class="row">
                 <article class="col-lg-8 pr-xl-7">
-                    <section class="mt-6 border-bottom">
+                    <section class="m-top border-bottom-ga">
                         <ul class="list-inline d-sm-flex align-items-sm-center">
                             <li class="list-inline-item badge badge-orange">Featured</li>
                             <li class="list-inline-item badge badge-primary">For Sale</li>
@@ -184,13 +184,13 @@
                         </p>
                     </section>
 
-                    <section class="pt-6 border-bottom">
+                    <section class="pt-6 border-bottom-ga">
                         <h2 class="fs-30 text-heading font-bold ">Facts and Features</h2>
                         <div class="row pt-3">
                                 <div class="col-lg-3 col-6 mt-4 ">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
-                                            <i class="fa-solid fa-house-chimney-window text-primary"></i>
+                                            <i class="fa-solid fa-house-chimney-window text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -206,7 +206,7 @@
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
-                                            <i class="fa-solid fa-trowel-bricks text-primary"></i>
+                                            <i class="fa-solid fa-trowel-bricks text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -222,7 +222,7 @@
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
-                                            <i class="fa-solid fa-temperature-arrow-up text-primary"></i>
+                                            <i class="fa-solid fa-temperature-arrow-up text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -238,7 +238,7 @@
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2  ">
-                                            <i class="fa-solid fa-bath text-primary"></i>
+                                            <i class="fa-solid fa-bath text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -254,7 +254,7 @@
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
-                                            <i class="fa-solid fa-bed text-primary"></i>
+                                            <i class="fa-solid fa-bed text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -270,7 +270,7 @@
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
-                                            <i class="fa-solid fa-house-flag text-primary"></i>
+                                            <i class="fa-solid fa-house-flag text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -286,7 +286,7 @@
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
-                                            <i class="fa-solid fa-warehouse text-primary"></i>
+                                            <i class="fa-solid fa-warehouse text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -302,7 +302,7 @@
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
-                                            <i class="fa-solid fa-scroll text-primary"></i>
+                                            <i class="fa-solid fa-scroll text-yd"></i>
                                         </div>
                                         <div class="media-body">
                                             <h5 class="  fs-13 text-uppercase letter-spacing-093 font-weight-normal ">
@@ -318,7 +318,7 @@
                         </div>
                     </section>
 
-                    <section class="pt-6 border-bottom ">
+                    <section class="pt-6 border-bottom-ga ">
                         <h2 class="fs-30 text-heading font-bold ">Additional Details</h2>
                         <div class="row pt-2">
                             <dl class="col-sm-6 mb-0 d-flex">
@@ -379,7 +379,7 @@
                         </div>
                     </section>
 
-                    <section class="pt-6 border-bottom">
+                    <section class="pt-6 border-bottom-ga">
                         <h2 class="fs-30 text-heading font-bold ">Offices Amenities</h2>
                         <ul class="list-unstyled mb-0 row pt-2 ">
                             <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-check mr-2 text-primary"></i>Balcony
@@ -398,21 +398,19 @@
                             </li>
                             <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-check mr-2 text-primary"></i>Cooling
                             </li>
-                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-primary"></i>Dining
-                                room
+                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-danger "></i><del>Dining room</del>
                             </li>
-                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-primary"></i>Dishwasher
+                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-danger "></i><del>Dishwasher</del>
                             </li>
-                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-primary"></i>Dining
-                                room
+                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-danger "></i><del>Dining room</del>
                             </li>
-                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-primary"></i>Dishwasher
+                            <li class="col-sm-3 col-6 mb-2"><i class="fa-solid fa-xmark mr-2 text-danger "></i><del>Dishwasher</del>
                             </li>
                         </ul>
 
                     </section>
 
-                    <section class="pt-6 border-bottom">
+                    <section class="pt-6 border-bottom-ga">
 
                         <h4 class="fs-30 text-heading font-bold mb-3">Virtual Tour</h4>
                         <iframe height="430" src="https://my.matterport.com/show/?m=wWcGxjuUuSb" allowfullscreen=""
@@ -421,7 +419,7 @@
 
                     </section>
 
-                    <section class="pt-6 border-bottom">
+                    <section class="pt-6 border-bottom-ga">
                         <h2 class="fs-30 text-heading font-bold mb-3">Location</h2>
                         <div class="d-flex justify-content-center ">
                             <iframe
@@ -622,10 +620,10 @@
 
                     </section>
 
-                    <section class="pt-6 border-bottom">
+                    <section class="pt-6 border-bottom-ga">
                         <div class="card border-0 mb-4">
                             <div class="card-body p-0">
-                                <h3 class="fs-16 lh-2 text-heading mb-0 d-inline-block pr-4 border-bottom border-primary">
+                                <h3 class="fs-16 lh-2 text-heading mb-0 d-inline-block pr-4 border-bottom-ga border-primary">
                                     5 Reviews</h3>
 
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm ">
@@ -867,7 +865,7 @@
                         </div>
                     </section>
 
-                    <section class="pt-6 border-bottom">
+                    <section class="pt-6 border-bottom-ga">
                         <div class="card border-0">
                             <div class="card-body p-0">
                                 <h3 class="fs-16 lh-2 text-heading mb-4">Write A Review</h3>
@@ -914,7 +912,8 @@
                                     <div class="form-group ">
                                         <textarea class="form-control-ga form-control-ga-lg border-0" placeholder="Your Review" name="message" rows="5"></textarea>
                                     </div>
-                                    <button type="submit" class="ud-btn btn-white px-10 mb-2 btn-t-white"  >Submit</button>
+                                    {{-- เอา btn-t-white ออก--}}
+                                    <button type="submit" class="ud-btn btn-white px-10 mb-2 "  >Submit</button>
 
                                 </form>
                             </div>
@@ -924,113 +923,105 @@
                 </article>
 
 
-                <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky ">
-                    <div class="make-me-sticky ">
+                <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky  ">
+                    <div class="make-me-sticky hide-all ">
                         <div class="card border-0 widget-request-tour">
-                            <ul class=" nav nav-tabs d-flex  " role="tablist">
 
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link active px-3" data-toggle="tab" href="#request-info" role="tab"
-                                        aria-selected="true">Request Info
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link  px-3 " data-toggle="tab" href="#schedule" role="tab"
-                                        aria-selected="false">Schedule A Tour
-                                    </a>
-                                </li>
-                            </ul>
                             <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0">
                                 <form>
                                     <div class="tab-content pt-1 pb-0 px-0 shadow-none">
                                         {{-- Request Info ID --}}
                                         <div class="tab-pane fade fade show active" id="request-info" role="tabpanel">
-                                            <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
-                                                <input class="form-check-input" type="radio" name="agent"
-                                                    value="option1">
-                                                <div class="form-check-label ml-2">
-                                                    <div class="d-flex align-items-center mt-3">
-                                                        <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                                            <img src="https://templates.g5plus.net/homeid/images/agent-2.jpg"
-                                                                class="rounded-circle" alt="agent-2">
-                                                        </a>
-                                                        <div>
-                                                            <a href="agent-details-1.html"
-                                                                class="d-block text-dark font-weight-500 lh-15 hover-primary">Oliver
-                                                                Beddows</a>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">Sales Excutive</p>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">
-                                                                <span>(+123)</span><span
-                                                                    class="text-heading d-inline-block ml-2">1900
-                                                                    68668</span>
-                                                            </p>
 
-                                                         <ul class="list-inline mb-0 fs-22 pl-2">
+                                            <div class="hide-content">
+                                                <div class="form-check d-flex align-items-center border-bottom-ga pb-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="agent"
+                                                        value="option1">
+                                                    <div class="form-check-label ml-2">
+                                                        <div class="d-flex align-items-center mt-3">
+                                                            <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
+                                                                <img src="https://templates.g5plus.net/homeid/images/agent-2.jpg"
+                                                                    class="rounded-circle" alt="agent-2">
+                                                            </a>
+                                                            <div>
+                                                                <a href="agent-details-1.html"
+                                                                    class="d-block text-dark font-weight-500 lh-15 hover-primary">Oliver Beddows</a>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">Sales Excutive</p>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">
+                                                                    <span>(+123)</span><span
+                                                                        class="text-heading d-inline-block ml-2">1900
+                                                                        68668</span>
+                                                                </p>
 
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
-                                                                        target="_blank">
-                                                                        <i class="fa-brands fa-line text-success"></i>
+                                                            <ul class="list-inline mb-0 fs-22 pl-2">
+
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
+                                                                            target="_blank">
+                                                                            <i class="fa-brands fa-line text-success"></i>
+                                                                        </a>
+                                                                    </li>
+
+
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="tel:091-545-3939" target="_blank">
+                                                                            <i class="fa-solid fa-phone text-yd"></i>
+                                                                        </a>
+                                                                    </li>
                                                                     </a>
-                                                                </li>
+                                                                </ul>
 
 
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="tel:091-545-3939" target="_blank">
-                                                                        <i class="fa-solid fa-phone text-yd"></i>
-                                                                    </a>
-                                                                </li>
-                                                                </a>
-                                                            </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-check d-flex align-items-center mb-6">
+                                                    <input class="form-check-input" type="radio" name="agent"
+                                                        id="inlineRadio2" value="option2">
+                                                    <div class="form-check-label ml-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
+                                                                <img src="https://templates.g5plus.net/homeid/images/agent-1.jpg"
+                                                                    class="rounded-circle" alt="agent-1">
+                                                            </a>
+                                                            <div>
+                                                                <a href="agent-details-1.html"
+                                                                    class="d-block text-dark font-weight-500 lh-15 hover-primary">Max Kordex</a>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">Real estate broker</p>
+                                                                <p class="mb-0 fs-13 mb-0 lh-17">
+                                                                    <span>(+123)</span><span
+                                                                        class="text-heading d-inline-block ml-2">1900
+                                                                        68668</span>
+                                                                </p>
+
+                                                                <ul class="list-inline mb-0 fs-22 pl-2">
+
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
+                                                                            target="_blank">
+                                                                            <i class="fa-brands fa-line text-success"></i>
+                                                                        </a>
+                                                                    </li>
 
 
+                                                                    <li class="list-inline-item mr-2 ml-2 mb-0">
+                                                                        <a href="tel:091-545-3939" target="_blank">
+                                                                            <i class="fa-solid fa-phone text-yd"></i>
+                                                                        </a>
+                                                                    </li>
+
+                                                                </ul>
+
+
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form-check d-flex align-items-center mb-6">
-                                                <input class="form-check-input" type="radio" name="agent"
-                                                    id="inlineRadio2" value="option2">
-                                                <div class="form-check-label ml-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                                            <img src="https://templates.g5plus.net/homeid/images/agent-1.jpg"
-                                                                class="rounded-circle" alt="agent-1">
-                                                        </a>
-                                                        <div>
-                                                            <a href="agent-details-1.html"
-                                                                class="d-block text-dark font-weight-500 lh-15 hover-primary">Max
-                                                                Kordex</a>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">Real estate
-                                                                broker</p>
-                                                            <p class="mb-0 fs-13 mb-0 lh-17">
-                                                                <span>(+123)</span><span
-                                                                    class="text-heading d-inline-block ml-2">1900
-                                                                    68668</span>
-                                                            </p>
 
-                                                            <ul class="list-inline mb-0 fs-22 pl-2">
-
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="https://line.me/R/ti/p/@Luvdrive?from=page"
-                                                                        target="_blank">
-                                                                        <i class="fa-brands fa-line text-success"></i>
-                                                                    </a>
-                                                                </li>
-
-
-                                                                <li class="list-inline-item mr-2 ml-2 mb-0">
-                                                                    <a href="tel:091-545-3939" target="_blank">
-                                                                        <i class="fa-solid fa-phone text-yd"></i>
-                                                                    </a>
-                                                                </li>
-
-                                                            </ul>
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="mt-3 hide-on-ls show-on-ss">
+                                                <h2 class="text-center">Contact</h2>
                                             </div>
                                             <div class="mt-4">
                                                 <div class="form-group mb-2">
@@ -1049,155 +1040,11 @@
                                             <div class="form-group mb-4">
                                                 <textarea class="form-control-ga border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
                                             </div>
-                                            <button type="submit" class="ud-btn btn-white btn-lg btn-block rounded btn-t-white">Request Info</button>
+                                            {{-- เอา btn-t-white ออก--}}
+                                            <button type="submit" class="ud-btn btn-white btn-lg btn-block rounded ">Request Info</button>
                                             <div class="form-group form-check mt-2 mb-0">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck2">
                                                 <label class="form-check-label fs-13" for="exampleCheck2">Egestas
-                                                    fringilla
-                                                    phasellus
-                                                    faucibus
-                                                    scelerisque
-                                                    eleifend donec.</label>
-                                            </div>
-                                        </div>
-
-                                        {{-- Schedule A Tour ID --}}
-                                        <div class="tab-pane fade show " id="schedule" role="tabpanel">
-                                            <div class="slick-slider  ">
-                                                <div class="box px-1 py-4  " data-slick-index="0" aria-hidden="false"
-                                                    style="width: 60px;" tabindex="0">
-                                                    <div class="card pointer  border-0 shadow-xxs-1 "
-                                                        data-date="March 17, 2020">
-                                                        <div class="card-body p-1 text-center">
-                                                            <p class="day fs-12 text-muted lh-2 mb-0">
-                                                                Tue</p>
-                                                            <p
-                                                                class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">
-                                                                17</p>
-                                                            <p class="month fs-13 letter-spacing-087 mb-0">
-                                                                Mar</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="box px-1 py-4 slick-slide " data-slick-index="0"
-                                                    aria-hidden="false" style="width: 60px;" tabindex="0">
-                                                    <div class="card pointer border-0 shadow-xxs-1"
-                                                        data-date="March 17, 2020">
-                                                        <div class="card-body p-1 text-center">
-                                                            <p class="day fs-12 text-muted lh-2 mb-0">
-                                                                Tue</p>
-                                                            <p
-                                                                class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">
-                                                                18</p>
-                                                            <p class="month fs-13 letter-spacing-087 mb-0">
-                                                                Mar</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="box px-1 py-4 slick-slide " data-slick-index="0"
-                                                    aria-hidden="false" style="width: 60px;" tabindex="0">
-                                                    <div class="card pointer  border-0 shadow-xxs-1"
-                                                        data-date="March 17, 2020">
-                                                        <div class="card-body p-1 text-center">
-                                                            <p class="day fs-12 text-muted lh-2 mb-0">
-                                                                Tue</p>
-                                                            <p
-                                                                class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">
-                                                                19</p>
-                                                            <p class="month fs-13 letter-spacing-087 mb-0">
-                                                                Mar</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="box px-1 py-4 slick-slide " data-slick-index="0"
-                                                    aria-hidden="false" style="width: 60px;" tabindex="0">
-                                                    <div class="card pointer  border-0 shadow-xxs-1"
-                                                        data-date="March 17, 2020">
-                                                        <div class="card-body p-1 text-center">
-                                                            <p class="day fs-12 text-muted lh-2 mb-0">
-                                                                Tue</p>
-                                                            <p
-                                                                class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">
-                                                                20</p>
-                                                            <p class="month fs-13 letter-spacing-087 mb-0">
-                                                                Mar</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="box px-1 py-4 slick-slide " data-slick-index="0"
-                                                    aria-hidden="false" style="width: 60px;" tabindex="0">
-                                                    <div class="card pointer  border-0 shadow-xxs-1"
-                                                        data-date="March 17, 2020">
-                                                        <div class="card-body p-1 text-center">
-                                                            <p class="day fs-12 text-muted lh-2 mb-0">
-                                                                Tue</p>
-                                                            <p
-                                                                class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">
-                                                                21</p>
-                                                            <p class="month fs-13 letter-spacing-087 mb-0">
-                                                                Mar</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="box px-1 py-4 slick-slide " data-slick-index="0"
-                                                    aria-hidden="false" style="width: 60px;" tabindex="0">
-                                                    <div class="card pointer  border-0 shadow-xxs-1"
-                                                        data-date="March 17, 2020">
-                                                        <div class="card-body p-1 text-center">
-                                                            <p class="day fs-12 text-muted lh-2 mb-0">
-                                                                Tue</p>
-                                                            <p
-                                                                class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">
-                                                                22</p>
-                                                            <p class="month fs-13 letter-spacing-087 mb-0">
-                                                                Mar</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="box px-1 py-4 slick-slide" data-slick-index="0"
-                                                    aria-hidden="false" style="width: 60px;" tabindex="0">
-                                                    <div class="card pointer  border-0 shadow-xxs-1"
-                                                        data-date="March 17, 2020">
-                                                        <div class="card-body p-1 text-center">
-                                                            <p class="day fs-12 text-muted lh-2 mb-0">
-                                                                Tue</p>
-                                                            <p
-                                                                class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">
-                                                                23</p>
-                                                            <p class="month fs-13 letter-spacing-087 mb-0">
-                                                                Mar</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <input type="hidden" class="date" name="date" value="March 17, 2020">
-                                            <div class="form-group mb-2">
-                                            </div>
-                                            <div class="form-group mb-2">
-                                                <input type="text" class="form-control-ga form-control-ga-lg border-0"
-                                                    placeholder="First Name, Last Name">
-                                            </div>
-                                            <div class="form-group mb-2">
-                                                <input type="email" class="form-control-ga form-control-ga-lg border-0"
-                                                    placeholder="Your Email">
-                                            </div>
-                                            <div class="form-group mb-4">
-                                                <input type="tel" class="form-control-ga form-control-ga-lg border-0"
-                                                    placeholder="Your phone">
-                                            </div>
-                                            <button type="submit"
-                                            class="ud-btn btn-white btn-lg btn-block rounded btn-t-white">Schedule A Tour
-                                            </button>
-                                            <div class="form-group form-check mt-2 mb-0">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label fs-13" for="exampleCheck1">Egestas
                                                     fringilla
                                                     phasellus
                                                     faucibus
@@ -1225,11 +1072,11 @@
                             <div class="slick-slider ">
 
                                 <div class=" slick-slide-box slick-active d-flex justify-content-between"
-                                    style="width: 400px;" tabindex="0" data-slick-index="0" aria-hidden="false">
+                                    style="width: 400px;" tabindex="0" data-slick-index="2" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
                                         <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
                                             <img src="https://templates.g5plus.net/homeid/images/properties-grid-38.jpg"
-                                                alt="Garden Gingerbread House">
+                                                alt="Affordable Urban House">
                                             <div class="card-img-overlay p-2 d-flex flex-column">
                                                 <div>
                                                     <span class="badge mr-2 badge-orange">featured</span>
@@ -1255,46 +1102,39 @@
                                             </div>
                                         </div>
                                         <div class="card-body pt-3">
-                                            <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
-                                                    class="text-dark hover-primary" tabindex="0">Garden Gingerbread
-                                                    House</a></h2>
+                                            <h2 class="card-title fs-14 lh-2 mb-0"><a href="single-property-1.html"
+                                                    class="text-dark hover-primary" tabindex="0">Home in Metric Way</a></h2>
                                             <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St,
                                                 Los Angeles</p>
                                                 <div class="row">
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
                                                             <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-bedroom"></use>
                                                             </svg><i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
-                                                        </li>
-
-
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-12 d-flex align-items-center "
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
+                                                            data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
+                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
+                                                                <use xlink:href="#icon-shower"></use>
+                                                            </svg>
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-12 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="Size">
                                                             <svg class="icon icon-square fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-square"></use>
                                                             </svg>
                                                             <div class="list-inline fa-sq">
-                                                            <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
-                                                             2200 Sq.Ft</div>
-                                                        </li>
-                                                    </div>
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title=""  data-original-title="3 Bathrooms">
-                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-shower"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
-                                                        </li>
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title="" data-original-title="1 Garage">
-                                                            <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-Garage"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-warehouse text-primary mr-2"></i> 1 Gr
-                                                        </li>
+                                                                <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
+                                                                2000 Sq.Ft
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                         </div>
@@ -1304,9 +1144,9 @@
                                             <ul class="list-inline mb-0">
                                                 <li class="list-inline-item">
                                                     <a href="#"
-                                                        class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-yd bg-accent border-accent"
+                                                        class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center  bg-accent border-accent"
                                                         data-toggle="tooltip" title="" tabindex="0"
-                                                        data-original-title="Wishlist"><i class="fas fa-heart"></i></a>
+                                                        data-original-title="Wishlist"><i class="fa-regular fa-heart"></i></a>
                                                 </li>
                                                 <li class="list-inline-item">
                                                     <a href="#"
@@ -1351,46 +1191,40 @@
                                             </div>
                                         </div>
                                         <div class="card-body pt-3">
-                                            <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
+                                            <h2 class="card-title fs-14 lh-2 mb-0"><a href="single-property-1.html"
                                                     class="text-dark hover-primary" tabindex="0">Garden Gingerbread
                                                     House</a></h2>
                                             <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St,
                                                 Los Angeles</p>
                                                 <div class="row">
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
                                                             <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-bedroom"></use>
                                                             </svg><i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
-                                                        </li>
-
-
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
+                                                            data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
+                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
+                                                                <use xlink:href="#icon-shower"></use>
+                                                            </svg>
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-12 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="Size">
                                                             <svg class="icon icon-square fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-square"></use>
                                                             </svg>
                                                             <div class="list-inline fa-sq">
-                                                            <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
-                                                             2200 Sq.Ft</div>
-                                                        </li>
-                                                    </div>
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title=""  data-original-title="3 Bathrooms">
-                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-shower"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
-                                                        </li>
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title="" data-original-title="1 Garage">
-                                                            <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-Garage"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-warehouse text-primary mr-2"></i> 1 Gr
-                                                        </li>
+                                                                <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
+                                                                2200 Sq.Ft
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                         </div>
@@ -1447,46 +1281,40 @@
                                             </div>
                                         </div>
                                         <div class="card-body pt-3">
-                                            <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
+                                            <h2 class="card-title fs-14 lh-2 mb-0"><a href="single-property-1.html"
                                                     class="text-dark hover-primary" tabindex="0">Affordable Urban
                                                     House</a></h2>
                                             <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St,
                                                 Los Angeles</p>
                                                 <div class="row">
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
                                                             <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-bedroom"></use>
                                                             </svg><i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
-                                                        </li>
-
-
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
+                                                            data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
+                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
+                                                                <use xlink:href="#icon-shower"></use>
+                                                            </svg>
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-12 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="Size">
                                                             <svg class="icon icon-square fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-square"></use>
                                                             </svg>
                                                             <div class="list-inline fa-sq">
-                                                            <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
-                                                             2000 Sq.Ft</div>
-                                                        </li>
-                                                    </div>
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title=""  data-original-title="3 Bathrooms">
-                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-shower"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
-                                                        </li>
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title="" data-original-title="1 Garage">
-                                                            <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-Garage"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-warehouse text-primary mr-2"></i> 1 Gr
-                                                        </li>
+                                                                <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
+                                                                2000 Sq.Ft
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                         </div>
@@ -1542,46 +1370,40 @@
                                             </div>
                                         </div>
                                         <div class="card-body pt-3">
-                                            <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
+                                            <h2 class="card-title fs-14 lh-2 mb-0"><a href="single-property-1.html"
                                                     class="text-dark hover-primary" tabindex="0">Affordable Urban
                                                     House</a></h2>
                                             <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St,
                                                 Los Angeles</p>
                                                 <div class="row">
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
                                                             <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-bedroom"></use>
                                                             </svg><i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
-                                                        </li>
-
-
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
+                                                            data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
+                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
+                                                                <use xlink:href="#icon-shower"></use>
+                                                            </svg>
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-12 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="Size">
                                                             <svg class="icon icon-square fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-square"></use>
                                                             </svg>
                                                             <div class="list-inline fa-sq">
-                                                            <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
-                                                             2000 Sq.Ft</div>
-                                                        </li>
-                                                    </div>
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title=""  data-original-title="3 Bathrooms">
-                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-shower"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
-                                                        </li>
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title="" data-original-title="1 Garage">
-                                                            <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-Garage"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-warehouse text-primary mr-2"></i> 1 Gr
-                                                        </li>
+                                                                <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
+                                                                2000 Sq.Ft
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                         </div>
@@ -1637,46 +1459,40 @@
                                             </div>
                                         </div>
                                         <div class="card-body pt-3">
-                                            <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
+                                            <h2 class="card-title fs-14 lh-2 mb-0"><a href="single-property-1.html"
                                                     class="text-dark hover-primary" tabindex="0">Affordable Urban
                                                     House</a></h2>
                                             <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St,
                                                 Los Angeles</p>
                                                 <div class="row">
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
                                                             <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-bedroom"></use>
                                                             </svg><i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
-                                                        </li>
-
-
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
+                                                            data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
+                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
+                                                                <use xlink:href="#icon-shower"></use>
+                                                            </svg>
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-12 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="Size">
                                                             <svg class="icon icon-square fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-square"></use>
                                                             </svg>
                                                             <div class="list-inline fa-sq">
-                                                            <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
-                                                             2000 Sq.Ft</div>
-                                                        </li>
-                                                    </div>
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title=""  data-original-title="3 Bathrooms">
-                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-shower"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
-                                                        </li>
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title="" data-original-title="1 Garage">
-                                                            <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-Garage"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-warehouse text-primary mr-2"></i> 1 Gr
-                                                        </li>
+                                                                <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
+                                                                2000 Sq.Ft
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                         </div>
@@ -1732,46 +1548,40 @@
                                             </div>
                                         </div>
                                         <div class="card-body pt-3">
-                                            <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
+                                            <h2 class="card-title fs-14 lh-2 mb-0"><a href="single-property-1.html"
                                                     class="text-dark hover-primary" tabindex="0">Affordable Urban
                                                     House</a></h2>
                                             <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St,
                                                 Los Angeles</p>
                                                 <div class="row">
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
                                                             <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-bedroom"></use>
                                                             </svg><i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
-                                                        </li>
-
-
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 ">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
+                                                            data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
+                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
+                                                                <use xlink:href="#icon-shower"></use>
+                                                            </svg>
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="list-inline-item text-gray font-weight-500 fs-12 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="Size">
                                                             <svg class="icon icon-square fs-18 text-primary mr-1">
                                                                 <use xlink:href="#icon-square"></use>
                                                             </svg>
                                                             <div class="list-inline fa-sq">
-                                                            <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
-                                                             2000 Sq.Ft</div>
-                                                        </li>
-                                                    </div>
-                                                    <div class="col-6 mb-4">
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title=""  data-original-title="3 Bathrooms">
-                                                            <svg class="icon icon-shower fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-shower"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
-                                                        </li>
-                                                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center "
-                                                            data-toggle="tooltip" title="" data-original-title="1 Garage">
-                                                            <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                                                                <use xlink:href="#icon-Garage"></use>
-                                                            </svg>
-                                                            <i class="fa-solid fa-warehouse text-primary mr-2"></i> 1 Gr
-                                                        </li>
+                                                                <i class="fa-solid fa-up-right-and-down-left-from-center text-primary mr-2"></i>
+                                                                2000 Sq.Ft
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                         </div>
@@ -1796,6 +1606,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -1844,6 +1655,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
         integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
     <script>
         $('.slick-slider').slick({
