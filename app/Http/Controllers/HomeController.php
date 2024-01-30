@@ -7,23 +7,29 @@ use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
-    // public function home(){
-    //     return view("home.home");
-    // }
-    // public function hometest(){
-    //     return view("home.hometest");
-    // }
-    // public function test(){
-    //     return view("home.test");
-    // }
-    // public function non(){
-    //     return view("home.non");
-    // }
-    // public function slider(){
-    //     return view("home.slider");
-    // }
+    public function home(){
+        return view("home.home");
+    }
+    public function hometest(){
+        return view("home.hometest");
+    }
+    public function test(){
+        return view("home.test");
+    }
+    public function non(){
+        return view("home.non");
+    }
+    public function slider(){
+        return view("home.slider");
+    }
+    public function details(){
+        return view("home.details");
+    }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> non
     public function createaccount(){ //แสดงหน้า modal สร้างรหัสผ่าน
         return view("modal.createaccount");
     }
@@ -149,6 +155,7 @@ class HomeController extends Controller
 public function indextcontent(){ // แสดงหน้า modal ลืมรหัสผ่าน
     return view("home.content");
     
+<<<<<<< HEAD
 =======
     // earth
     public function sidebar(){
@@ -161,6 +168,8 @@ public function indextcontent(){ // แสดงหน้า modal ลืมร�
         return view(".tests");
     }
 >>>>>>> b30d2c380f67f82fdab4ab8c1c76b6a28aaf54cf
+=======
+>>>>>>> non
 }
 
     public function contentstone (Request $request){
@@ -187,7 +196,20 @@ public function indextcontent(){ // แสดงหน้า modal ลืมร�
 
 
     }
+    // public function slider(){
+    //     return view("home.slider");
+    // }
 
+    // earth
+    public function sidebar(){
+        return view("dashboard.sidebar");
+    }
+    public function gallery(){
+        return view(".gallery");
+    }
+    public function tests(){
+        return view(".tests");
+    }
 }
 
 
