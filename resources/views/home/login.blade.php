@@ -15,7 +15,6 @@
                             <label class="mb-5 ">Sign in with this account across the following sites.</label>
                         </div>
                         
-
                             {{-- <form action="{{ url('/login') }}"  method="POST" class="needs-validation" novalidate> --}}
                                 
                             <form class="needs-validation" novalidate>
