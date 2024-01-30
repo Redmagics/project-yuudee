@@ -221,7 +221,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-lg-3 col-6 mt-4">
                                     <div class="media ">
                                         <div class="media-fa p-2 shadow-xxs-1 rounded-lg mr-2 ">
