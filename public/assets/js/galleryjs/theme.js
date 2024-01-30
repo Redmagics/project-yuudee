@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // โค้ดทั้งหมดที่ต้องการให้ทำงานหลังจากโหลดเสร็จ
-    $('.card-img').magnificPopup({
+    $('.card-img-ga').magnificPopup({
         type: 'image',
         gallery: {
             enabled: true
