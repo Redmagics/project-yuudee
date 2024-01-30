@@ -98,7 +98,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
