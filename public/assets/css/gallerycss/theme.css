@@ -291,7 +291,7 @@
     margin-left: auto
   }
 
-  @media(min-width: 576px) {
+  /* @media(min-width: 576px) {
     .container {
         max-width:770px
     }
@@ -307,7 +307,7 @@
     .container {
         max-width:1200px
     }
-  }
+  }*/
 
   .row {
     display: -ms-flexbox;
@@ -2770,6 +2770,7 @@
   .gtf-back-to-top.in {
     opacity: 1
   }
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 .icon-gray {
@@ -2909,6 +2910,109 @@
         bottom: 80px!important;
     }
   }
-  /* .dashboard-sb {
-    display: flex;
-  } */
+/* container-gallery */
+  .container-md-ga {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+  }
+
+  @media(min-width: 576px) {
+    .container-md-ga {
+        max-width:770px
+    }
+  }
+
+  @media(min-width: 768px) {
+    .container-md-ga {
+        max-width:992px
+    }
+  }
+
+  @media(min-width: 992px) {
+    .container-md-ga {
+        max-width:1200px
+    }
+  }
+  @media(max-width: 1025px) and  (min-width: 1024px) {
+    .container-md-ga {
+        width: 100%!important;
+    }
+  }
+/* container-gallery end  */
+
+@media(max-width: 1025px) and  (min-width: 1024px) {
+    .pdr-0 {
+        padding-right: 0px!important;
+    }
+  }
+
+  @media(max-width: 769px)  {
+    .btn-block-sb {
+        display: block;
+        width: 100%
+      }
+  }
+
+  @media(max-width: 769px) {
+    .shadow-xxs-2 {
+        box-shadow: 0 0 0px !important
+      }
+
+  }
+/* Facts and Features font */
+  .fs-ff {
+    font-size: 13px!important
+  }
+  .fs-ff2 {
+    font-size: 12px!important
+  }
+  @media(max-width: 321px) {
+    .fs-ff {
+        font-size: 11px!important
+    }
+      .fs-ff2 {
+        font-size: 11px!important
+      }
+  }
+/* Facts and Features font end */
+
+.sm-box {
+    opacity: 1;
+    width: 1200x;
+    transform: translate3d(0px, 0px, 0px);
+  }
+
+/* Similar Homes You May Like price */
+  .fs-price {
+    font-weight: 700!important;
+    color: #333!important;
+    font-size: 17px!important;
+  }
+
+  @media(max-width: 1025px) and  (min-width: 768px) {
+    .fs-price {
+        font-weight: 700!important;
+        color: #333!important;
+        font-size: 15px!important;
+      }
+  }
+  /* Similar Homes You May Like price end*/
+
+  .tooltip-icon{
+    width: 40px!important;
+    height: 40px!important
+  }
+  @media(max-width: 1025px) and  (min-width: 768px) {
+    .tooltip-icon{
+        width: 32px!important;
+        height: 32px!important
+      }
+  }
+
+  .con-t{
+    padding-bottom: 0.625rem!important;
+    padding-left: 1.25rem!important
+  }
