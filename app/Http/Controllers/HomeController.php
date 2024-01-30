@@ -7,21 +7,24 @@ use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
-    // public function home(){
-    //     return view("home.home");
-    // }
-    // public function hometest(){
-    //     return view("home.hometest");
-    // }
-    // public function test(){
-    //     return view("home.test");
-    // }
-    // public function non(){
-    //     return view("home.non");
-    // }
-    // public function slider(){
-    //     return view("home.slider");
-    // }
+    public function home(){
+        return view("home.home");
+    }
+    public function hometest(){
+        return view("home.hometest");
+    }
+    public function test(){
+        return view("home.test");
+    }
+    public function non(){
+        return view("home.non");
+    }
+    public function slider(){
+        return view("home.slider");
+    }
+    public function details(){
+        return view("home.details");
+    }
 
     public function createaccount(){ //แสดงหน้า modal สร้างรหัสผ่าน
         return view("modal.createaccount");

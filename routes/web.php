@@ -39,9 +39,6 @@ Route::get('/login', function () { // แสดงหน้า login
     return view('home.login');
 });
 
-Route::get('/details', function () { //แสดงหน้า login
-    return view('home.details');
-});
 
 
 Route::get('/basenav', function () { //แสดงหน้า login
@@ -63,6 +60,7 @@ route::any('lostpassword','App\Http\Controllers\HomeController@lostpassword');  
 route::any('content','App\Http\Controllers\HomeController@indextcontent');  // Content
 route::any('contentstone','App\Http\Controllers\HomeController@contentstone');  // save Content
 
+Route::any('details' , 'App\Http\Controllers\HomeController@details');
 
 
  // -----------------------------------function test Route ------------------------------------
