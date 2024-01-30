@@ -120,7 +120,7 @@
                                             <li><a class="undefined" href="/dashboard-message">Message</a>
                                             </li>
                                             <li><a class="undefined" href="/dashboard-add-property">New
-                                                    Property</a></li>
+                                                    Property </a></li>
                                             <li><a class="undefined" href="/dashboard-my-properties">My
                                                     Properties</a></li>
                                             <li><a class="undefined" href="/dashboard-my-favourites">My

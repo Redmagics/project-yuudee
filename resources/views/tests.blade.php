@@ -72,9 +72,9 @@
                     <div class="col-lg-6 p-1 ">
                         <div class="item item-size-4-3">
                             <div class="card p-0 hover-zoom-in">
-                                <img href="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-1.jpg') }}"
-                                    class="card-img" data-gtf-mfp="true" data-gtf-mfp="true" data-gallery-id="01"
-                                    src="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-1.jpg') }}">
+                                <a href="{{ asset('/assets/imagesXd/property-1.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                    <img src="{{ asset('/assets/imagesXd/property-1.jpg') }}"  >
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -83,54 +83,57 @@
                             <div class="col-md-6 p-1 ">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <img href="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-2.jpg') }}"
-                                            class="card-img" data-gtf-mfp="true" data-gtf-mfp="true" data-gallery-id="01"
-                                            src="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-2.jpg') }}">
+                                        <a href="{{ asset('/assets/imagesXd/property-2.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesXd/property-2.jpg') }}"  >
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <img href="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-3.jpg') }}"
-                                            class="card-img" data-gtf-mfp="true" data-gtf-mfp="true" data-gallery-id="01"
-                                            src="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-3.jpg') }}">
+                                        <a href="{{ asset('/assets/imagesXd/property-3.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesXd/property-3.jpg') }}"  >
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <img href="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-4.jpg') }}"
-                                            class="card-img" data-gtf-mfp="true" data-gtf-mfp="true" data-gallery-id="01"
-                                            src="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-4.jpg') }}">
+                                        <a href="{{ asset('/assets/imagesXd/property-4.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesXd/property-4.jpg') }}"  >
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <img href="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-5.jpg') }}"
-                                            class="card-img" data-gtf-mfp="true" data-gtf-mfp="true" data-gallery-id="01"
-                                            src="{{ URL('https://templates.g5plus.net/homeid/images/single-property-lg-5.jpg') }}">
-
+                                        <a href="{{ asset('/assets/imagesXd/property-5.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesXd/property-5.jpg') }}"  >
+                                        </a>
                                         <div class=" hidden">
-                                            <img href="{{ URL('https://png.pngtree.com/png-vector/20190820/ourmid/pngtree-no-image-vector-illustration-isolated-png-image_1694547.jpg') }}"
-                                                data-gallery-id="01" class="card-img" data-gtf-mfp="true"
-                                                data-gtf-mfp="true">
-                                            <img href="{{ URL('https://png.pngtree.com/png-vector/20190820/ourmid/pngtree-no-image-vector-illustration-isolated-png-image_1694547.jpg') }}"
-                                                data-gallery-id="01" class="card-img" data-gtf-mfp="true"
-                                                data-gtf-mfp="true">
-                                            <img href="{{ URL('https://png.pngtree.com/png-vector/20190820/ourmid/pngtree-no-image-vector-illustration-isolated-png-image_1694547.jpg') }}"
-                                                data-gallery-id="01" class="card-img" data-gtf-mfp="true"
-                                                data-gtf-mfp="true">
-                                            <img href="{{ URL('https://png.pngtree.com/png-vector/20190820/ourmid/pngtree-no-image-vector-illustration-isolated-png-image_1694547.jpg') }}"
-                                                data-gallery-id="01" class="card-img" data-gtf-mfp="true"
-                                                data-gtf-mfp="true">
+                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            </a>
+                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            </a>
+                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            </a>
+                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            </a>
+                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            </a>
+
                                         </div>
 
                                         <a href="#"
-                                            class="card-img-overlay d-flex flex-column align-items-center justify-content-center hover-image bg-dark-opacity-04">
+                                            class="card-img-ga-overlay d-flex flex-column align-items-center justify-content-center hover-image bg-dark-opacity-04">
                                             <p class="fs-48 font-weight-600 text-white lh-1 mb-4">+12</p>
                                             <p class="fs-16 font-weight-bold text-white lh-1625 text-uppercase">
                                                 View more</p>
@@ -1078,10 +1081,10 @@
                                 <div class=" slick-slide-box slick-active d-flex justify-content-between"
                                     style="width: 400px;" tabindex="0" data-slick-index="2" aria-hidden="false">
                                     <div class="card  shadow-hover-2 mr-2">
-                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
                                             <img src="https://templates.g5plus.net/homeid/images/properties-grid-38.jpg"
                                                 alt="Affordable Urban House">
-                                            <div class="card-img-overlay p-2 d-flex flex-column">
+                                            <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
                                                     <span class="badge mr-2 badge-orange">featured</span>
                                                     <span class="badge mr-2 badge-indigo">for Sale</span>
@@ -1114,13 +1117,13 @@
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
-                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
+                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Bedroom
                                                         </div>
                                                     </div>
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Bathroom
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
@@ -1158,10 +1161,10 @@
                                 <div class=" slick-slide-box slick-active d-flex justify-content-between"
                                     style="width: 400px;" tabindex="0" data-slick-index="1" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
-                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
                                             <img src="https://templates.g5plus.net/homeid/images/properties-grid-01.jpg"
                                                 alt="Garden Gingerbread House">
-                                            <div class="card-img-overlay p-2 d-flex flex-column">
+                                            <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
                                                     <span class="badge mr-2 badge-orange">featured</span>
                                                     <span class="badge mr-2 badge-indigo">for Sale</span>
@@ -1195,13 +1198,13 @@
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
-                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
+                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Bedroom
                                                         </div>
                                                     </div>
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Bathroom
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
@@ -1241,10 +1244,10 @@
                                 <div class=" slick-slide-box slick-active d-flex justify-content-between"
                                     style="width: 400px;" tabindex="0" data-slick-index="2" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
-                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
                                             <img src="https://templates.g5plus.net/homeid/images/properties-grid-02.jpg"
                                                 alt="Affordable Urban House">
-                                            <div class="card-img-overlay p-2 d-flex flex-column">
+                                            <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
                                                     <span class="badge mr-2 badge-primary">for Sale</span>
                                                 </div>
@@ -1277,13 +1280,13 @@
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
-                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
+                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Bedroom
                                                         </div>
                                                     </div>
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Bathroom
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
@@ -1322,10 +1325,10 @@
                                 <div class=" slick-slide-box slick-active d-flex justify-content-between"
                                     style="width: 400px;" tabindex="0" data-slick-index="3" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
-                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
                                             <img src="https://templates.g5plus.net/homeid/images/properties-grid-07.jpg"
                                                 alt="Affordable Urban House">
-                                            <div class="card-img-overlay p-2 d-flex flex-column">
+                                            <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
                                                     <span class="badge mr-2 badge-primary">for Sale</span>
                                                 </div>
@@ -1358,13 +1361,13 @@
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
-                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
+                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Bedroom
                                                         </div>
                                                     </div>
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Bathroom
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
@@ -1403,10 +1406,10 @@
                                 <div class=" slick-slide-box slick-active d-flex justify-content-between"
                                     style="width: 400px;" tabindex="0" data-slick-index="4" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
-                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
                                             <img src="https://templates.g5plus.net/homeid/images/properties-grid-05.jpg"
                                                 alt="Affordable Urban House">
-                                            <div class="card-img-overlay p-2 d-flex flex-column">
+                                            <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
                                                     <span class="badge mr-2 badge-primary">for Sale</span>
                                                 </div>
@@ -1439,13 +1442,13 @@
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
-                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
+                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Bedroom
                                                         </div>
                                                     </div>
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Bathroom
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
@@ -1484,10 +1487,10 @@
                                 <div class=" slick-slide-box slick-active d-flex justify-content-between"
                                     style="width: 400px;" tabindex="0" data-slick-index="5" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
-                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                                        <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
                                             <img src="https://templates.g5plus.net/homeid/images/properties-grid-06.jpg"
                                                 alt="Affordable Urban House">
-                                            <div class="card-img-overlay p-2 d-flex flex-column">
+                                            <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
                                                     <span class="badge mr-2 badge-primary">for Sale</span>
                                                 </div>
@@ -1520,13 +1523,13 @@
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bedroom">
-                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Br
+                                                           <i class="fa-solid fa-bed text-primary mr-2"></i>3 Bedroom
                                                         </div>
                                                     </div>
                                                     <div class="col-6 ">
                                                         <div class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center"
                                                             data-toggle="tooltip" title="" data-original-title="3 Bathrooms">
-                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Ba
+                                                            <i class="fa-solid fa-shower text-primary mr-2"></i> 3 Bathroom
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
@@ -1615,8 +1618,8 @@
             dots: false,
             infinite: false,
             speed: 300,
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 3,
+            slidesToScroll: 3 ,
             responsive: [{
                     breakpoint: 1024,
                     settings: {
