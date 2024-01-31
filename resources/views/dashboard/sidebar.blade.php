@@ -2,7 +2,7 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
 
-    <div class="row pb40 d-block d-lg-none m-5">
+    <div class="row pb40 d-nav-none m-5">
         <div class="col-lg-12">
             <div class="dashboard-navigation d-block d-lg-none">
                 <div>
@@ -13,7 +13,7 @@
                         </button>
                         <ul class="dropdown-content show">
                             <div>
-                                <p class="fz15 fw400 ff-heading mt30 pl30 mt-0">MAIN</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt30 pl30 mt-0">MAIN</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"><i
                                             class="fa-solid fa-chart-line mr15"></i>Dashboard</a>
                                 </div>
@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                             <div>
-                                <p class="fz15 fw400 ff-heading mt30 pl30 mt30">MANAGE LISTINGS</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt30 pl30 mt30">MANAGE LISTINGS</p>
                                 <div class="sidebar_list_item">
                                     <a class="items-center    " id="v-add-property-tab" data-toggle="tab"
                                     data-target="#v-add-property" role="tab" aria-controls="v-add-property"
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                             <div>
-                                <p class="fz15 fw400 ff-heading mt30 pl30 mt30">MANAGE ACCOUNT</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt30 pl30 mt30">MANAGE ACCOUNT</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"><i
                                             class="fa-solid fa-file-contract mr15"></i>My Package</a>
                                 </div>
@@ -81,13 +81,13 @@
     <aside>
         <div class="dashboard_content_wrapper">
             <div class="dashboard dashboard_wrapper pr30 pr0-md">
-                <div class="dashboard__sidebar d-none d-lg-block ">
+                <div class="dashboard__sidebar  d-side-block ">
                     <div class="dashboard_sidebar_list" role="tablist">
 
                         <div id="v-tabs-tab" role="tablist" >
 
                             <div>
-                                <p class="fz15 fw400 ff-heading mt-0">MAIN</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt-0">MAIN</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="/">
                                         <i class="fa-solid fa-chart-line mr15"></i>Dashboard</a>
                                 </div>
@@ -98,7 +98,7 @@
 
                             </div>
                             <div>
-                                <p class="fz15 fw400 ff-heading mt30">MANAGE LISTINGS</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt30">MANAGE LISTINGS</p>
 
                                 <div class="sidebar_list_item ">
                                     <a class="items-center " id="v-add-property-tab" data-toggle="tab"
@@ -125,7 +125,7 @@
                                         <i class="fa-solid fa-message mr15"></i>Reviews</a></div>
                             </div>
                             <div>
-                                <p class="fz15 fw400 ff-heading mt30">MANAGE ACCOUNT</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt30">MANAGE ACCOUNT</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#">
                                         <i class="fa-solid fa-file-contract mr15"></i>My Package</a>
                                 </div>

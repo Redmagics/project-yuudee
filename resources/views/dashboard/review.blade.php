@@ -10,14 +10,14 @@
         </div>
         <div class="row ">
             <div class="col-xl-12">
-                <div class="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                    <div class="product_single_content mb50">
+                <div class="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb-6 overflow-hidden position-relative">
+                    <div class="product_single_content mb-8">
                         <div class="mbp_pagination_comments">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div
                                         class="total_review d-sm-flex align-items-center justify-content-between mb20 mt60">
-                                        <h6 class="fz17 mb15"><i class="fas fa-star fz12 pe-2"></i>5.0 · 3 reviews</h6>
+                                        <h6 class="fs-17 mb15"><i class="fas fa-star fs-12 pe-2"></i>5.0 · 3 reviews</h6>
                                         <div
                                             class="page_control_shorting d-flex align-items-center justify-content-center justify-content-sm-end">
                                             <div class="pcs_dropdown mb15 d-flex align-items-center"><span
@@ -291,14 +291,15 @@
                                 <div class="col-md-12">
                                     {{-- เอา btn-t-white ออก --}}
                                     <div class="position-relative bdrb1 pt30 pb20"><a href="#"
-                                            class="ud-btn btn-white btn-t-white">Show all 134 reviews
+                                            class="ud-btn btn-yd btn-t-white">Show all 134 reviews
                                             <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="mt30">
+                    {{-- next page --}}
+                    {{-- <div class="mt30">
                         <div class="mbp_pagination text-center">
                             <ul class="page_navigation">
 
@@ -318,7 +319,7 @@
                             </ul>
                             <p class="mt10 pagination_page_count text-center">1-8 of 300+ property available</p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

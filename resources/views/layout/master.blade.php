@@ -23,15 +23,15 @@
     <link href="{{ asset('/assets/css/ppcss/dashboard.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('/assets/css/gallerycss/theme.css') }}" rel="stylesheet" type="text/css"/>
     {{-- --CSS-- --}}
-     <link href="{{ asset('/assets/css/mcss/hometest.css') }}" rel="stylesheet" type="text/css" />
-     <link href="{{ asset('/assets/css/re-spacing.css') }}" rel="stylesheet" type="text/css"/>
+    {{-- <link href="{{ asset('/assets/css/mcss/hometest.css') }}" rel="stylesheet" type="text/css" /> --}}
+    <link href="{{ asset('/assets/css/re-spacing.css') }}" rel="stylesheet" type="text/css"/>
 
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0" class="" style="">
-    @include('layout.menu')
+    {{-- @include('layout.menu') --}}
             @yield('content')
-    @include('layout.footer')
+    {{-- @include('layout.footer') --}}
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

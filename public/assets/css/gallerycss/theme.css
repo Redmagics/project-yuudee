@@ -1582,6 +1582,7 @@
     margin-bottom: 1.875rem!important
   }
 
+
   .p-0 {
     padding: 0!important
   }
@@ -3016,4 +3017,18 @@
   .con-t{
     padding-bottom: 0.625rem!important;
     padding-left: 1.25rem!important
+  }
+
+
+  .mb-7 {
+    margin-bottom: 2.5rem!important
+  }
+
+  .mb-8 {
+    margin-bottom: 3.125rem!important
+  }
+
+  .btn-yd {
+    background-color: #0071bc;
+    border: 1px solid #000000
   }
