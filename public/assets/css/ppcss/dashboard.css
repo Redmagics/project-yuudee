@@ -345,7 +345,7 @@ textarea.form-control-ap {
     cursor: default
 }
 
-.nav-tabs {
+/* .nav-tabs {
     --bs-nav-tabs-border-width: var(--bs-border-width);
     --bs-nav-tabs-border-color: var(--bs-border-color);
     --bs-nav-tabs-border-radius: var(--bs-border-radius);
@@ -378,7 +378,7 @@ textarea.form-control-ap {
     margin-top: calc(-1 * var(--bs-nav-tabs-border-width));
     border-top-left-radius: 0;
     border-top-right-radius: 0
-}
+} */
 
 .tab-content>.tab-pane {
     display: none
