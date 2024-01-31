@@ -32,7 +32,7 @@
                             <li class="list-inline-item mr-2">
                                 <button
                                     {{-- เอา btn-white หลัง btn ออก --}}
-                                    class="btn btn-white p-0 d-flex align-items-center justify-content-center tooltip-icon text-heading bg-hover-primary hover-white rounded-circle border-0 shadow-none"
+                                    class="btn-1 btn-white-1 p-0 d-flex align-items-center justify-content-center tooltip-icon text-heading bg-hover-primary hover-white rounded-circle border-0 shadow-none"
                                     type="button" data-placement="top" data-toggle="popover" data-container="body"
                                     data-content='
                                         <ul class="list-inline mb-0 fs-22">
@@ -439,34 +439,35 @@
                                 <div class="row">
 
                                     <div class="col-sm-6 mb-6 mb-sm-0  ">
-                                        <div class="bg-gray-01 rounded-lg pt-2 px-6 pb-4">
-                                            <h5 class="fs-16 lh-2 text-heading mb-6">
-                                                Avarage User Rating
-                                            </h5>
-                                            <p class="fs-40 text-heading font-weight-bold lh-1">4.6 <span
-                                                    class="fs-18 text-gray-light font-weight-normal">/5</span>
-                                            </p>
-                                            <div class="list-inline ">
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-gray-04 text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
+                                        <div class="bg-gray-01 rounded-lg pt-2 px-6 pb-4 pl-4">
+
+                                                <h5 class="fs-16 lh-2 text-heading mb-6 ">
+                                                    Avarage User Rating
+                                                </h5>
+                                                <p class="fs-40 text-heading font-weight-bold lh-1">4.6 <span
+                                                        class="fs-18 text-gray-light font-weight-normal">/5</span>
+                                                </p>
+                                                <div class="list-inline ">
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-gray-04 text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
                                             </div>
                                         </div>
 
@@ -918,7 +919,7 @@
                                     </div>
                                     {{-- เอา btn-t-white ออก btn-block--}}
 
-                                        <button type="submit" class="ud-btn btn-yd px-10  btn-t-white btn-block-sb "  >Submit</button>
+                                        <button type="submit" class="ud-btn btn-yd   btn-t-white btn-block-sb "  >Submit</button>
 
 
                                 </form>

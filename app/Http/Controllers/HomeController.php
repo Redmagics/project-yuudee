@@ -26,7 +26,7 @@ class HomeController extends Controller
         return view("dashboard.sidebar");
     }
     public function property(){
-        return view(".property");
+        return view("propertyDetail.property");
     }
     public function trialrun(){
         return view(".trialrun");
