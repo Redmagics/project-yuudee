@@ -593,7 +593,7 @@
     box-shadow: inset 0 3px 5px rgba(0,0,0,.125),0 0 0 .2rem rgba(50,207,219,.5)
   }
 
-  .btn-white {
+  /* .btn-white {
     color: #212529;
     background-color: #fff;
     border-color: #fff;
@@ -627,7 +627,7 @@
 
   .btn-white:not(:disabled):not(.disabled):active:focus,.btn-white:not(:disabled):not(.disabled).active:focus {
     box-shadow: inset 0 3px 5px rgba(0,0,0,.125),0 0 0 .2rem rgba(222,222,223,.5)
-  }
+  } */
 
   .btn-lg {
     padding: .6875rem 2.1875rem;
