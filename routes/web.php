@@ -25,7 +25,7 @@ Route::any('non' , 'App\Http\Controllers\HomeController@non');
 // earth
 Route::any('sidebar' , 'App\Http\Controllers\HomeController@sidebar');
 Route::any('gallery' , 'App\Http\Controllers\HomeController@gallery');
-Route::any('tests' , 'App\Http\Controllers\HomeController@tests');
+Route::any('trialrun' , 'App\Http\Controllers\HomeController@trialrun');
 
 
 // Route::any('slider' , 'App\Http\Controllers\HomeController@slider');

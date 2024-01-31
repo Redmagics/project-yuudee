@@ -69,12 +69,13 @@
     outline: 0!important
   }
 
-  h2,h3,h4,h5 {
+  /* h2,h3,h4,h5 {
     margin-top: 0;
     margin-bottom: .5rem
-  }
+  } */
 
   p {
+    color: #727375;
     margin-top: 0;
     margin-bottom: 1rem
   }
@@ -201,7 +202,16 @@
     display: none!important
   }
 
-  h2,h3,h4,h5,.h2,.h3,.h4,.h5 {
+  .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+}
+
+  /* h2,h3,h4,h5,.h2,.h3,.h4,.h5 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
@@ -222,7 +232,7 @@
 
   h5,.h5 {
     font-size: 1.25rem
-  }
+  } */
 
   .list-unstyled {
     padding-left: 0;
@@ -315,7 +325,7 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
   }
 
   .col-6,.col-sm-3,.col-sm-6,.col-md-6,.col-md-12,.col-lg-3,.col-lg-4,.col-lg-6,.col-lg-8 {
@@ -1699,10 +1709,6 @@
     padding-bottom: 1.875rem!important
   }
 
-  .px-6 {
-    padding-left: 1.875rem!important
-  }
-
   .pt-7 {
     padding-top: 2.5rem!important
   }
@@ -1719,9 +1725,6 @@
     padding-right: 4.375rem!important
   }
 
-  .px-10 {
-    padding-left: 4.375rem!important
-  }
 
   .m-n1 {
     margin: -.3125rem!important
@@ -1731,17 +1734,10 @@
     margin-right: -.3125rem!important
   }
 
-  .mx-n1 {
-    margin-left: -.3125rem!important
-  }
-
   .mt-auto {
     margin-top: auto!important
   }
 
-  .ml-auto {
-    margin-left: auto!important
-  }
 
   @media(min-width: 576px) {
 
@@ -2822,6 +2818,7 @@
 
   .media-fa{
     font-size: 30px;
+    line-height: 26px;
   }
 .btn-t-white
 {
@@ -2829,23 +2826,30 @@
 }
 /* star */
 .star{
-    width: 46px!important;
-    height: 46px!important;
-    font-size: 18px!important;
+    width: 50px!important;
+    height: 50px!important;
+    font-size: 20px!important;
     border-radius: 5px!important;
 }
 @media (max-width: 1025px) {
     .star {
-        width: 36px!important;
-        height: 36px!important;
-        font-size: 14px!important;
+        width: 41px!important;
+        height: 41px!important;
+        font-size:18px!important;
+    }
+}
+@media (max-width: 426px) {
+    .star {
+        width: 40px!important;
+        height: 40px!important;
+        font-size: 18px!important;
     }
 }
 @media (max-width: 321px) {
     .star {
-        width: 26px!important;
-        height: 26px!important;
-        font-size: 14px!important;
+        width: 37px!important;
+        height: 37px!important;
+        font-size: 16px!important;
     }
 }
 /* star end */
@@ -3032,3 +3036,8 @@
     background-color: #0071bc;
     border: 1px solid #000000
   }
+
+  section {
+    padding: 50px 0;
+    position: relative;
+}

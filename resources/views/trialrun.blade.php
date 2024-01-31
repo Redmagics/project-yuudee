@@ -439,34 +439,35 @@
                                 <div class="row">
 
                                     <div class="col-sm-6 mb-6 mb-sm-0  ">
-                                        <div class="bg-gray-01 rounded-lg pt-2 px-6 pb-4">
-                                            <h5 class="fs-16 lh-2 text-heading mb-6">
-                                                Avarage User Rating
-                                            </h5>
-                                            <p class="fs-40 text-heading font-weight-bold lh-1">4.6 <span
-                                                    class="fs-18 text-gray-light font-weight-normal">/5</span>
-                                            </p>
-                                            <div class="list-inline ">
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
-                                                <li
-                                                    class="list-inline-item bg-gray-04 text-white star d-inline-flex align-items-center justify-content-center mb-1">
-                                                    <i class="fas fa-star"></i>
-                                                </li>
+                                        <div class="bg-gray-01 rounded-lg pt-2 px-6 pb-4 pl-4">
+
+                                                <h5 class="fs-16 lh-2 text-heading mb-6 ">
+                                                    Avarage User Rating
+                                                </h5>
+                                                <p class="fs-40 text-heading font-weight-bold lh-1">4.6 <span
+                                                        class="fs-18 text-gray-light font-weight-normal">/5</span>
+                                                </p>
+                                                <div class="list-inline ">
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-warning text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li
+                                                        class="list-inline-item bg-gray-04 text-white star d-inline-flex align-items-center justify-content-center mb-1">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
                                             </div>
                                         </div>
 
@@ -918,7 +919,7 @@
                                     </div>
                                     {{-- เอา btn-t-white ออก btn-block--}}
 
-                                        <button type="submit" class="ud-btn btn-white px-10  btn-t-white btn-block-sb "  >Submit</button>
+                                        <button type="submit" class="ud-btn btn-yd   btn-t-white btn-block-sb "  >Submit</button>
 
 
                                 </form>
@@ -1047,7 +1048,7 @@
                                                 <textarea class="form-control-ga border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
                                             </div>
                                             {{-- เอา btn-t-white ออก--}}
-                                            <button type="submit" class="ud-btn btn-white btn-lg btn-block rounded btn-t-white">Request Info</button>
+                                            <button type="submit" class="ud-btn btn-yd btn-lg btn-block rounded btn-t-white">Request Info</button>
                                             <div class="form-group form-check mt-2 mb-0">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck2">
                                                 <label class="form-check-label fs-13" for="exampleCheck2">Egestas

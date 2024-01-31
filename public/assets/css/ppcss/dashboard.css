@@ -175,8 +175,8 @@ iframe {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
     margin-right: auto;
     margin-left: auto
 }
@@ -1250,7 +1250,7 @@ textarea:focus {
     font-size: 15px;
     font-style: normal;
     letter-spacing: 0em;
-    padding: 13px 30px;
+    padding: 13px 45px;
     position: relative;
     overflow: hidden;
     text-align: center;

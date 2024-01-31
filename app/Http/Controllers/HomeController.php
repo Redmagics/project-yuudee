@@ -28,7 +28,7 @@ class HomeController extends Controller
     public function gallery(){
         return view(".gallery");
     }
-    public function tests(){
-        return view(".tests");
+    public function trialrun(){
+        return view(".trialrun");
     }
 }
