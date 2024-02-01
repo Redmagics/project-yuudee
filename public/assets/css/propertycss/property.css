@@ -186,8 +186,20 @@
   textarea {
     overflow: auto;
     resize: vertical;
-
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    width: 100%;
+    padding: 25px 20px
   }
+
+  textarea:focus {
+    border: 1px solid transparent;
+    outline: 2px solid #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
 
   progress {
     vertical-align: baseline;
@@ -872,6 +884,9 @@
   } */
 
   .nav {
+    --bs-nav-link-ap-padding-x: 1rem;
+    --bs-nav-link-ap-padding-y: .5rem;
+    --bs-nav-link-ap-font-weight: ;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -1399,17 +1414,6 @@
     border: 0!important
   }
 
-  .border-primary {
-    border-color: #0071bc!important
-  }
-
-  .border-dark {
-    border-color: #252525!important
-  }
-
-  .border-accent {
-    border-color: #eff6f7!important
-  }
 
   .rounded {
     border-radius: 3px!important
@@ -1528,9 +1532,6 @@
     box-shadow: none!important
   }
 
-  .w-100 {
-    width: 100%!important
-  }
 
   .mr-0 {
     margin-right: 0!important
@@ -2522,7 +2523,7 @@
   .border-hover-accent:hover {
     border-color: #eff6f7!important
   }
-
+/* แก้ด้วย ส่วนใหญ่เป็น0*/
   .w-40px {
     width: 40px!important
   }
@@ -2553,6 +2554,10 @@
 
   .h-60 {
     height: 60px!important
+  }
+  /* แก้ด้วย */
+  .w-100 {
+    width: 100%!important
   }
 
   .w-110px {
@@ -2864,7 +2869,7 @@
     }
 }
 
-.list-head{
+/* .list-head{
     margin-top: 65px;
 }
 
@@ -2872,13 +2877,13 @@
     .list-head{
         margin-top: 100px!important;
     }
-}
+} */
 
 .del {
     text-decoration: line-through;
 }
 .m-top{
-    margin-top: -52px;
+    margin-top: -85px;
 }
 @media (max-width: 769px) {
     .m-top{
@@ -3040,4 +3045,13 @@
   section {
     padding: 50px 0;
     position: relative;
+}
+
+.breadcrumb {
+flex-wrap: wrap;
+padding: 0.75rem 0rem;
+margin-bottom: 1rem;
+list-style: none;
+background-color: #e9ecef;
+border-radius: .25rem;
 }

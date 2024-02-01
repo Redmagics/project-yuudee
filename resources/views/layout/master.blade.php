@@ -43,11 +43,11 @@
         <!-- Include Select2 from CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
         <script type="module" crossorigin="" src="{{ asset('/assets/js/ppjs/script.js') }}"></script>
-        <script type="module" crossorigin="" src="{{ asset('/assets/js/propertyjs/theme.js') }}"></script>
+        <script type="module" crossorigin="" src="{{ asset('/assets/js/propertyjs/property.js') }}"></script>
         {{-- Image popup --}}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="{{ asset('/assets/js/mjs/indextest.js') }}"></script>
+        {{-- <script src="{{ asset('/assets/js/mjs/indextest.js') }}"></script> --}}
 
     </body>
 </html>

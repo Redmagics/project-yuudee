@@ -1,6 +1,6 @@
-<div class="dashboard__main pl0-md">
+<div class="dashboard__main pl-d-0-md">
     <div class="dashboard__content property-page bgc-f7">
-        <div class="row align-items-center pb40">
+        <div class="row align-items-center pb-d-40">
             <div class="col-lg-12">
                 <div class="dashboard_title_area">
                     <h2>Add New Property</h2>
@@ -11,7 +11,7 @@
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <div class="ps-widget bgc-white bdrs12 default-box-shadow2 pt30 mb-6 overflow-hidden position-relative">
+                <div class="ps-widget bgc-white bdrs12 default-box-shadow2 pt-d-30 mb-6 overflow-hidden position-relative">
 
                     <div class="navtab-style1">
                         <nav>
@@ -43,29 +43,29 @@
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-item1" role="tabpanel"
                                 aria-labelledby="nav-item1-tab">
-                                <div class="ps-widget bgc-white bdrs12 p30 overflow-hidden position-relative">
+                                <div class="ps-widget bgc-white bdrs12 p-d-30 overflow-hidden position-relative">
                                     <h4 class="title fs-17 mb-6">Property Description</h4>
                                     <form class="form-style1">
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <div class="mb20">
+                                                <div class="mb-d-20">
                                                     <label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Title</label>
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Title</label>
                                                     <input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="mb20">
+                                                <div class="mb-d-20">
                                                     <label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Description</label>
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Description</label>
                                                     <textarea cols="30" rows="5" placeholder="There are many variations of passages."></textarea>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20">
-                                                    <label class="heading-color ff-heading font-weight-600 mb10">Select
+                                                <div class="mb-d-20">
+                                                    <label class="heading-color ff-heading font-weight-600 mb-d-10">Select
                                                         Category</label>
                                                     <div class="location-area">
                                                         <div id="result-container "></div>
@@ -140,8 +140,8 @@
                                             </div>
 
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20">
-                                                    <label class="heading-color ff-heading font-weight-600 mb10">Listed
+                                                <div class="mb-d-20">
+                                                    <label class="heading-color ff-heading font-weight-600 mb-d-10">Listed
                                                         in</label>
                                                     <div class="location-area">
 
@@ -215,9 +215,9 @@
                                             </div>
 
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20">
+                                                <div class="mb-d-20">
                                                     <label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Property
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Property
                                                         Status</label>
                                                     <div class="location-area">
 
@@ -291,7 +291,7 @@
 
                                             <div class="col-sm-6 col-xl-4">
                                                 <div class="mb-6">
-                                                    <label class="heading-color ff-heading font-weight-600 mb10">Price
+                                                    <label class="heading-color ff-heading font-weight-600 mb-d-10">Price
                                                         in $</label>
                                                     <input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
@@ -300,7 +300,7 @@
 
                                             <div class="col-sm-6 col-xl-4">
                                                 <div class="mb-6">
-                                                    <label class="heading-color ff-heading font-weight-600 mb10">Yearly
+                                                    <label class="heading-color ff-heading font-weight-600 mb-d-10">Yearly
                                                         Tax Rate</label>
                                                     <input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
@@ -309,7 +309,7 @@
 
                                             <div class="col-sm-6 col-xl-4">
                                                 <div class="mb-6">
-                                                    <label class="heading-color ff-heading font-weight-600 mb10">After
+                                                    <label class="heading-color ff-heading font-weight-600 mb-d-10">After
                                                         Price Label</label>
                                                     <input type="text"class="form-control-ap"
                                                         placeholder="Your Name">
@@ -322,7 +322,7 @@
 
                             <div class="tab-pane fade" id="nav-item2" role="tabpanel"
                                 aria-labelledby="nav-item2-tab">
-                                <div class="ps-widget bgc-white bdrs12 p30 overflow-hidden position-relative">
+                                <div class="ps-widget bgc-white bdrs12 p-d-30 overflow-hidden position-relative">
                                     <h4 class="title fs-17 mb-6">Upload photos of your property</h4>
                                     <form class="form-style1">
                                         <div class="row">
@@ -332,9 +332,9 @@
                                                     <div class="icon mb-6">
                                                         <i class="fa-solid fa-file-arrow-up"></i>
                                                     </div>
-                                                    <h4 class="title fs-17 mb10">Upload/Drag photos of your property
+                                                    <h4 class="title fs-17 mb-d-10">Upload/Drag photos of your property
                                                     </h4>
-                                                    <p class="text mb25">Photos must be JPEG or PNG formatand at least
+                                                    <p class="text mb-d-25">Photos must be JPEG or PNG formatand at least
                                                         2048x768</p>
                                                     {{-- เอาbtn-t-white ออก --}}
                                                     <label class="ud-btn btn-white btn-t-white">Browse Files
@@ -351,7 +351,7 @@
                                         <div class="row">
                                             <div class="col-sm-6 col-xl-4">
                                                 <div class="mb-6">
-                                                    <label class="heading-color ff-heading font-weight-600 mb10">Video
+                                                    <label class="heading-color ff-heading font-weight-600 mb-d-10">Video
                                                         from</label>
                                                     <div class="location-area">
                                                         <select id="select4" name="select4" class="form-select  "
@@ -423,7 +423,7 @@
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
                                                 <div class="mb-6">
-                                                    <label class="heading-color ff-heading font-weight-600 mb10">Embed
+                                                    <label class="heading-color ff-heading font-weight-600 mb-d-10">Embed
                                                         Video id</label><input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
                                                 </div>
@@ -434,7 +434,7 @@
                                             <div class="col-sm-6 col-xl-12">
                                                 <div class="mb-6">
                                                     <label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Virtual
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Virtual
                                                         Tour</label>
                                                     <input type="text" class="form-control-ap"
                                                         placeholder="Virtual Tour">
@@ -447,20 +447,20 @@
 
                             <div class="tab-pane fade" id="nav-item3" role="tabpanel"
                                 aria-labelledby="nav-item3-tab">
-                                <div class="ps-widget bgc-white bdrs12 p30 overflow-hidden position-relative">
+                                <div class="ps-widget bgc-white bdrs12 p-d-30 overflow-hidden position-relative">
                                     <h4 class="title fs-17 mb-6">Listing Location</h4>
                                     <form class="form-style1">
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Address</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Address</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Your Name"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20">
+                                                <div class="mb-d-20">
                                                     <label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Country /
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Country /
                                                         State</label>
                                                     <div class="location-area">
 
@@ -532,8 +532,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">City</label>
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">City</label>
                                                     <div class="location-area">
 
                                                         <select id="select6" name="select6" class="form-select  "
@@ -604,8 +604,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Country</label>
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Country</label>
                                                     <div class="location-area ">
 
                                                         <select id="select7" name="select7" class="form-select  "
@@ -676,18 +676,18 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Zip</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Zip</label><input
                                                         type="text" class="form-control-ap"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Neighborhood</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Neighborhood</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Neighborhood"></div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="mb20 mt30">
+                                                <div class="mb-d-20 mt30">
                                                     <label class="heading-color ff-heading font-weight-600 mb-6">Place
                                                         the listing pin on the map</label>
                                                     <iframe
@@ -702,12 +702,12 @@
                                         <div class="row">
                                             <div class="col-sm-6 col-xl-4">
                                                 <div class="mb-6"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Latitude</label><input
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Latitude</label><input
                                                         type="text" class="form-control-ap"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
                                                 <div class="mb-6"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Longitude</label><input
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Longitude</label><input
                                                         type="text" class="form-control-ap"></div>
                                             </div>
                                         </div>
@@ -717,102 +717,102 @@
 
                             <div class="tab-pane fade" id="nav-item4" role="tabpanel"
                                 aria-labelledby="nav-item4-tab">
-                                <div class="ps-widget bgc-white bdrs12 p30 overflow-hidden position-relative">
+                                <div class="ps-widget bgc-white bdrs12 p-d-30 overflow-hidden position-relative">
                                     <h4 class="title fs-17 mb-6">Listing Details</h4>
                                     <form class="form-style1">
                                         <div class="row">
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Size in
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Size in
                                                         ft
                                                         (only numbers)</label><input type="text"
                                                         class="form-control-ap" placeholder="Your Name">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Lot
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Lot
                                                         size in ft
                                                         (only numbers)</label><input type="text"
                                                         class="form-control-ap" placeholder="Your Name">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Rooms</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Rooms</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Your Name"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Bedrooms</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Bedrooms</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Your Name"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Bathrooms</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Bathrooms</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Your Name"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Custom
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Custom
                                                         ID
                                                         (text)</label><input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Garages</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Garages</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Your Name"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Garage
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Garage
                                                         size</label><input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Year
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Year
                                                         built
                                                         (numeric)</label><input type="text"
                                                         class="form-control-ap"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Available
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Available
                                                         from
                                                         (date)</label><input type="text" class="form-control-ap"
                                                         placeholder="99.aa.yyyy">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Basement</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Basement</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Your Name"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Extra
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Extra
                                                         details</label><input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Roofing</label><input
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Roofing</label><input
                                                         type="text" class="form-control-ap"
                                                         placeholder="Your Name"></div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Exterior
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Exterior
                                                         Material</label><input type="text" class="form-control-ap"
                                                         placeholder="Your Name">
                                                 </div>
@@ -821,8 +821,8 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Floors
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Floors
                                                         no</label>
                                                     <div class="location-area">
 
@@ -951,8 +951,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Structure
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Structure
                                                         type</label>
                                                     <div class="location-area">
                                                         <select id="select8" name="select8" class="form-select  "
@@ -1023,8 +1023,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Energy
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Energy
                                                         Class</label>
                                                     <div class="location-area">
 
@@ -1153,8 +1153,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xl-4">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Energy
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Energy
                                                         index in
                                                         kWh/m2a</label>
                                                     <div class="location-area">
@@ -1226,8 +1226,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="mb20"><label
-                                                        class="heading-color ff-heading font-weight-600 mb10">Owner/
+                                                <div class="mb-d-20"><label
+                                                        class="heading-color ff-heading font-weight-600 mb-d-10">Owner/
                                                         Agent
                                                         nots (not visible on front end)</label>
                                                     <textarea cols="30" rows="5" placeholder="There are many variations of passages."></textarea>
@@ -1240,7 +1240,7 @@
 
                             <div class="tab-pane fade" id="nav-item5" role="tabpanel"
                                 aria-labelledby="nav-item5-tab">
-                                <div class="ps-widget bgc-white bdrs12 p30 overflow-hidden position-relative">
+                                <div class="ps-widget bgc-white bdrs12 p-d-30 overflow-hidden position-relative">
                                     <h4 class="title fs-17 mb-6">Select Amenities</h4>
                                     <div class="row">
                                         <div class="row-ad">
@@ -1320,7 +1320,7 @@
             </div>
         </div>
     </div>
-    <footer class="dashboard_footer pt30 pb10">
+    <footer class="dashboard_footer pt-d-30 pb10">
         <div class="container">
             <div class="row items-center justify-content-center justify-content-md-between">
                 <div class="col-auto">

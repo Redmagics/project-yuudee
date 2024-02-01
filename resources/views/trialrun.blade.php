@@ -2,19 +2,6 @@
 @section('content')
     <main>
         <section>
-            <div class="container list-head">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb pt-lg-0">
-                        <li class="breadcrumb-item fs-12 letter-spacing-087">
-                            <a href=".">Home</a>
-                        </li>
-                        <li class="breadcrumb-item fs-12 letter-spacing-087">
-                            <a href="listing-grid-with-left-filter.html">Listing</a>
-                        </li>
-                        <li class="breadcrumb-item fs-12 font-weight-600 letter-spacing-087 active">Villa on Hollywood Boulevard</li>
-                    </ol>
-                </nav>
-            </div>
             <div class="container-fluid">
                 <div class="position-relative zoomIn ">
 
@@ -145,7 +132,19 @@
                     </div>
                 </div>
             </div>
-
+            <div class="container list-head">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb pb-0 bg-white">
+                        <li class="breadcrumb-item fs-12 letter-spacing-087">
+                            <a href=".">Home</a>
+                        </li>
+                        <li class="breadcrumb-item fs-12 letter-spacing-087">
+                            <a href="listing-grid-with-left-filter.html">Listing</a>
+                        </li>
+                        <li class="breadcrumb-item fs-12 font-weight-600 letter-spacing-087 active">Villa on Hollywood Boulevard</li>
+                    </ol>
+                </nav>
+            </div>
         </section>
 
         <div class="container-md-ga ">
@@ -377,8 +376,9 @@
                                 <dd>Bestseller</dd>
                             </dl>
 
-
                         </div>
+                        <div class="container list-head">
+            </div>
                     </section>
 
                     <section class="pt-6 border-bottom-ga">
@@ -635,7 +635,7 @@
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
-                                            <div class="col-sm-6 mb-2 mb-sm-0">
+                                            <div class="col-sm-6 mb-2 mb-sm-0 pl-0 ">
                                                 <h4 class="mb-0 text-heading fs-14">Danny Fox</h4>
                                             </div>
 
@@ -682,7 +682,7 @@
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
-                                            <div class="col-sm-6 mb-2 mb-sm-0">
+                                            <div class="col-sm-6 mb-2 mb-sm-0 pl-0">
                                                 <h4 class="mb-0 text-heading fs-14">Viola Austin</h4>
                                             </div>
 
@@ -729,7 +729,7 @@
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
-                                            <div class="col-sm-6 mb-2 mb-sm-0">
+                                            <div class="col-sm-6 mb-2 mb-sm-0 pl-0">
                                                 <h4 class="mb-0 text-heading fs-14">Nettie Singleton</h4>
                                             </div>
 
@@ -776,7 +776,7 @@
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
-                                            <div class="col-sm-6 mb-2 mb-sm-0">
+                                            <div class="col-sm-6 mb-2 mb-sm-0 pl-0">
                                                 <h4 class="mb-0 text-heading fs-14">Vernon Fisher</h4>
                                             </div>
 
@@ -823,7 +823,7 @@
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
-                                            <div class="col-sm-6 mb-2 mb-sm-0">
+                                            <div class="col-sm-6 mb-2 mb-sm-0 pl-0">
                                                 <h4 class="mb-0 text-heading fs-14">Harry Iglesias</h4>
                                             </div>
 
@@ -919,7 +919,7 @@
                                     </div>
                                     {{-- เอา btn-t-white ออก btn-block--}}
 
-                                        <button type="submit" class="ud-btn btn-yd   btn-t-white btn-block-sb "  >Submit</button>
+                                        <button type="submit" class="ud-btn btn-yd btn-t-white btn-block-sb "  >Submit</button>
 
 
                                 </form>
@@ -1048,7 +1048,7 @@
                                                 <textarea class="form-control-ga border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
                                             </div>
                                             {{-- เอา btn-t-white ออก--}}
-                                            <button type="submit" class="ud-btn btn-yd btn-lg btn-block rounded btn-t-white">Request Info</button>
+                                            <button type="submit" class="ud-btn btn-yd btn-t-white btn-block  ">Request Info</button>
                                             <div class="form-group form-check mt-2 mb-0">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck2">
                                                 <label class="form-check-label fs-13" for="exampleCheck2">Egestas

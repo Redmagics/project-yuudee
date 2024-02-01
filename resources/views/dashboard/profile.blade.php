@@ -1,4 +1,4 @@
-    <div class="dashboard__main pl0-md">
+    <div class="dashboard__main pl-d-0-md">
         <div class="dashboard__content property-page bgc-f7">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
@@ -175,12 +175,12 @@
 
                         <div class="d-flex justify-content-end flex-wrap">
                             {{-- เอา btn-t-white ออก --}}
-                            <div class="position-relative  pt30 pb20 mr-2 " ><a href="#"
+                            <div class="position-relative  pt-d-30 pb20 mr-2 " ><a href="#"
                                 class="ud-btn btn-white  btn-t-white">Delete Profile
                                 <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                             {{-- เอา btn-t-white ออก --}}
-                            <div class="position-relative  pt30 pb20 mr-2 "><a href="#"
+                            <div class="position-relative  pt-d-30 pb20 mr-2 "><a href="#"
                                 class="ud-btn btn-white btn-t-white">Update Profile
                                 <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
@@ -193,7 +193,7 @@
                 </div>
             </div>
         </div>
-        <footer class="dashboard_footer pt30 pb10">
+        <footer class="dashboard_footer pt-d-30 pb10">
             <div class="container">
                 <div class="row items-center justify-content-center justify-content-md-between">
                     <div class="col-auto">

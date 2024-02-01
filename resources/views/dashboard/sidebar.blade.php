@@ -2,65 +2,65 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
 
-    <div class="row pb40 d-nav-none m-5">
+    <div class="row pb-d-40 d-nav-none m-5">
         <div class="col-lg-12">
             <div class="dashboard-navigation d-block d-lg-none">
                 <div>
                     <div id="v-tabs1-tab" role="tablist" >
                         <button class="dropbtn dashboard-navigation-header">
-                            <i class="fa-solid fa-bars pr5"> </i>
+                            <i class="fa-solid fa-bars pr-d-5"> </i>
                             <a href="#" class="dashboard-navigation-header"> Dashboard Navigation</a>
                         </button>
                         <ul class="dropdown-content show">
                             <div>
-                                <p class="fs-15 font-weight-normal ff-heading mt30 pl30 mt-0">MAIN</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt-d-30 pl-d-30 mt-0">MAIN</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"><i
-                                            class="fa-solid fa-chart-line mr15"></i>Dashboard</a>
+                                            class="fa-solid fa-chart-line mr-d-15"></i>Dashboard</a>
                                 </div>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"><i
-                                            class="fa-solid fa-comment-dots mr15"></i>Message</a>
+                                            class="fa-solid fa-comment-dots mr-d-15"></i>Message</a>
                                 </div>
                             </div>
                             <div>
-                                <p class="fs-15 font-weight-normal ff-heading mt30 pl30 mt30">MANAGE LISTINGS</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt-d-30 pl-d-30 mt-d-30">MANAGE LISTINGS</p>
                                 <div class="sidebar_list_item">
                                     <a class="items-center    " id="v-add-property-tab" data-toggle="tab"
                                     data-target="#v-add-property" role="tab" aria-controls="v-add-property"
                                     aria-selected="false" href="#v-add-property">
-                                    <i class="fa-solid fa-file-circle-plus mr15"></i>Add New Property</a>
+                                    <i class="fa-solid fa-file-circle-plus mr-d-15"></i>Add New Property</a>
                                 </div>
 
                                 <div class="sidebar_list_item">
                                     <a class="items-center    " href="#">
-                                    <i class="fa-solid fa-house mr15"></i></i>My Properties</a>
+                                    <i class="fa-solid fa-house mr-d-15"></i></i>My Properties</a>
                                 </div>
 
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"><i
-                                            class="fa-solid fa-heart mr15"></i>My Favorites</a>
+                                            class="fa-solid fa-heart mr-d-15"></i>My Favorites</a>
                                 </div>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"><i
-                                            class="fa-solid fa-magnifying-glass mr15"></i>Saved Search</a>
+                                            class="fa-solid fa-magnifying-glass mr-d-15"></i>Saved Search</a>
                                 </div>
                                 <div class="sidebar_list_item"><a class="items-center    " id="v-review-tab"
                                     data-toggle="tab" data-target="#v-review" role="tab" aria-controls="v-review"
                                     aria-selected="false" href="#v-review">
-                                    <i class="fa-solid fa-message mr15"></i>Reviews</a>
+                                    <i class="fa-solid fa-message mr-d-15"></i>Reviews</a>
                                 </div>
                             </div>
                             <div>
-                                <p class="fs-15 font-weight-normal ff-heading mt30 pl30 mt30">MANAGE ACCOUNT</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt-d-30 pl-d-30 mt-d-30">MANAGE ACCOUNT</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"><i
-                                            class="fa-solid fa-file-contract mr15"></i>My Package</a>
+                                            class="fa-solid fa-file-contract mr-d-15"></i>My Package</a>
                                 </div>
 
                                 <div class="sidebar_list_item">
                                     <a class="items-center    " id="v-profile-tab" data-toggle="tab"
                                         data-target="#v-profile" role="tab" aria-controls="v-profile"
                                         aria-selected="false" href="#v-profile">
-                                        <i class="fa-solid fa-circle-user mr15"></i>My Profile</a>
+                                        <i class="fa-solid fa-circle-user mr-d-15"></i>My Profile</a>
                                 </div>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#"> <i
-                                            class="fa-solid fa-right-from-bracket mr15"></i>Logout</a>
+                                            class="fa-solid fa-right-from-bracket mr-d-15"></i>Logout</a>
                                 </div>
 
                             </div>
@@ -80,7 +80,7 @@
 
     <aside>
         <div class="dashboard_content_wrapper">
-            <div class="dashboard dashboard_wrapper pr30 pr0-md">
+            <div class="dashboard dashboard_wrapper pr-d-30 pr-d-0-md">
                 <div class="dashboard__sidebar  d-side-block ">
                     <div class="dashboard_sidebar_list" role="tablist">
 
@@ -89,54 +89,54 @@
                             <div>
                                 <p class="fs-15 font-weight-normal ff-heading mt-0">MAIN</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="/">
-                                        <i class="fa-solid fa-chart-line mr15"></i>Dashboard</a>
+                                        <i class="fa-solid fa-chart-line mr-d-15"></i>Dashboard</a>
                                 </div>
 
                                 <div class="sidebar_list_item"><a class="items-center    " href="#">
-                                        <i class="fa-solid fa-comment-dots mr15"></i>Message</a>
+                                        <i class="fa-solid fa-comment-dots mr-d-15"></i>Message</a>
                                 </div>
 
                             </div>
                             <div>
-                                <p class="fs-15 font-weight-normal ff-heading mt30">MANAGE LISTINGS</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt-d-30">MANAGE LISTINGS</p>
 
                                 <div class="sidebar_list_item ">
                                     <a class="items-center " id="v-add-property-tab" data-toggle="tab"
                                         data-target="#v-add-property" role="tab" aria-controls="v-add-property"
                                         aria-selected="false" href="#v-add-property">
-                                        <i class="fa-solid fa-file-circle-plus mr15"></i>Add New Property
+                                        <i class="fa-solid fa-file-circle-plus mr-d-15"></i>Add New Property
                                     </a>
                                 </div>
 
                                 <div class="sidebar_list_item">
                                     <a class="items-center    " href="#">
-                                        <i class="fa-solid fa-house mr15"></i>My Properties</a>
+                                        <i class="fa-solid fa-house mr-d-15"></i>My Properties</a>
                                 </div>
 
                                 <div class="sidebar_list_item"><a class="items-center    " href="#">
-                                        <i class="fa-solid fa-heart mr15"></i>My Favorites</a>
+                                        <i class="fa-solid fa-heart mr-d-15"></i>My Favorites</a>
                                 </div>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#">
-                                        <i class="fa-solid fa-magnifying-glass mr15"></i>Saved Search</a>
+                                        <i class="fa-solid fa-magnifying-glass mr-d-15"></i>Saved Search</a>
                                 </div>
                                 <div class="sidebar_list_item"><a class="items-center    " id="v-review-tab"
                                     data-toggle="tab" data-target="#v-review" role="tab" aria-controls="v-review"
                                     aria-selected="false" href="#v-review">
-                                        <i class="fa-solid fa-message mr15"></i>Reviews</a></div>
+                                        <i class="fa-solid fa-message mr-d-15"></i>Reviews</a></div>
                             </div>
                             <div>
-                                <p class="fs-15 font-weight-normal ff-heading mt30">MANAGE ACCOUNT</p>
+                                <p class="fs-15 font-weight-normal ff-heading mt-d-30">MANAGE ACCOUNT</p>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#">
-                                        <i class="fa-solid fa-file-contract mr15"></i>My Package</a>
+                                        <i class="fa-solid fa-file-contract mr-d-15"></i>My Package</a>
                                 </div>
                                 <div class="sidebar_list_item">
                                     <a class="items-center    " id="v-profile-tab" data-toggle="tab"
                                         data-target="#v-profile" role="tab" aria-controls="v-profile"
                                         aria-selected="false" href="#v-profile">
-                                        <i class="fa-solid fa-circle-user mr15"> </i>My Profile</a>
+                                        <i class="fa-solid fa-circle-user mr-d-15"> </i>My Profile</a>
                                 </div>
                                 <div class="sidebar_list_item"><a class="items-center    " href="#">
-                                        <i class="fa-solid fa-right-from-bracket mr15"></i>Logout</a>
+                                        <i class="fa-solid fa-right-from-bracket mr-d-15"></i>Logout</a>
                                 </div>
                             </div>
 
