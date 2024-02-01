@@ -72,8 +72,8 @@
                     <div class="col-lg-6 p-1 ">
                         <div class="item item-size-4-3">
                             <div class="card p-0 hover-zoom-in">
-                                <a href="{{ asset('/assets/imagesXd/property-1.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                    <img src="{{ asset('/assets/imagesXd/property-1.jpg') }}"  >
+                                <a href="{{ asset('/assets/imagesPropetry/property-1.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                    <img src="{{ asset('/assets/imagesPropetry/property-1.jpg') }}"  >
                                 </a>
                             </div>
                         </div>
@@ -83,8 +83,8 @@
                             <div class="col-md-6 p-1 ">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-2.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-2.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-2.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-2.jpg') }}"  >
                                         </a>
                                     </div>
                                 </div>
@@ -92,8 +92,8 @@
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-3.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-3.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-3.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-3.jpg') }}"  >
                                         </a>
                                     </div>
                                 </div>
@@ -101,8 +101,8 @@
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-4.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-4.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-4.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-4.jpg') }}"  >
                                         </a>
                                     </div>
                                 </div>
@@ -110,23 +110,23 @@
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-5.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-5.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-5.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-5.jpg') }}"  >
                                         </a>
                                         <div class=" hidden">
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
 
@@ -628,9 +628,9 @@
                             <div class="card-body p-0">
                                 <h3 class="fs-16 lh-2 text-heading mb-0 d-inline-block pr-4 border-bottom-ga border-primary">
                                     5 Reviews</h3>
-                                    "{{ asset('/assets/imagesXd/property-5.jpg') }}"
+
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm ">
-                                    <img src="{{ URL('https://templates.g5plus.net/homeid/images/review-07.jpg') }}"
+                                    <img src="{{ asset('/assets/imagesPropetry/review-1.jpg') }}"
                                         alt="Danny Fox" class="rounded-circle mr-sm-8 mb-4 mb-sm-0 fs-14 img-fluid"
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">

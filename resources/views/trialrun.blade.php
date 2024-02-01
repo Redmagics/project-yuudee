@@ -59,8 +59,8 @@
                     <div class="col-lg-6 p-1 ">
                         <div class="item item-size-4-3">
                             <div class="card p-0 hover-zoom-in">
-                                <a href="{{ asset('/assets/imagesXd/property-1.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                    <img src="{{ asset('/assets/imagesXd/property-1.jpg') }}"  >
+                                <a href="{{ asset('/assets/imagesPropetry/property-1.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                    <img src="{{ asset('/assets/imagesPropetry/property-1.jpg') }}"  >
                                 </a>
                             </div>
                         </div>
@@ -70,8 +70,8 @@
                             <div class="col-md-6 p-1 ">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-2.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-2.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-2.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-2.jpg') }}"  >
                                         </a>
                                     </div>
                                 </div>
@@ -79,8 +79,8 @@
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-3.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-3.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-3.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-3.jpg') }}"  >
                                         </a>
                                     </div>
                                 </div>
@@ -88,8 +88,8 @@
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-4.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-4.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-4.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-4.jpg') }}"  >
                                         </a>
                                     </div>
                                 </div>
@@ -97,23 +97,23 @@
                             <div class="col-md-6 p-1">
                                 <div class="item item-size-4-3">
                                     <div class="card p-0 hover-zoom-in">
-                                        <a href="{{ asset('/assets/imagesXd/property-5.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
-                                            <img src="{{ asset('/assets/imagesXd/property-5.jpg') }}"  >
+                                        <a href="{{ asset('/assets/imagesPropetry/property-5.jpg') }}"  class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
+                                            <img src="{{ asset('/assets/imagesPropetry/property-5.jpg') }}"  >
                                         </a>
                                         <div class=" hidden">
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
-                                            <a href="{{ asset('/assets/imagesXd/noimg.jpg') }}"
+                                            <a href="{{ asset('/assets/imagesPropetry/noimg.jpg') }}"
                                             class="card-img-ga" data-gtf-mfp="true" data-gallery-id="01">
                                             </a>
 
@@ -630,8 +630,8 @@
                                     5 Reviews</h3>
 
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm ">
-                                    <img src="{{ URL('https://templates.g5plus.net/homeid/images/review-07.jpg') }}"
-                                        alt="Danny Fox" class="rounded-circle mr-sm-8 mb-4 mb-sm-0 fs-14 img-fluid"
+                                    <img src="{{ asset('/assets/imagesPropetry/review-1.jpg') }}"
+                                        alt="Danny Fox" class=" review-icon mr-sm-8 mb-sm-0 img-fluid"
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
@@ -677,8 +677,8 @@
                                 </div>
 
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm ">
-                                    <img src="{{ URL('https://templates.g5plus.net/homeid/images/review-08.jpg') }}"
-                                        alt="Viola Austin" class="rounded-circle mr-sm-8 mb-4 mb-sm-0 fs-14 img-fluid"
+                                    <img src="{{ asset('/assets/imagesPropetry/review-2.jpg') }}"
+                                        alt="Viola Austin" class=" review-icon mr-sm-8 mb-sm-0 img-fluid"
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
@@ -724,8 +724,8 @@
                                 </div>
 
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm">
-                                    <img src="{{ URL('https://templates.g5plus.net/homeid/images/review-09.jpg') }}"
-                                        alt="Nettie Singleton" class="rounded-circle mr-sm-8 mb-4 mb-sm-0 fs-14 img-fluid"
+                                    <img src="{{ asset('/assets/imagesPropetry/review-3.jpg') }}"
+                                        alt="Nettie Singleton" class=" review-icon mr-sm-8 mb-sm-0 img-fluid"
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
@@ -771,8 +771,8 @@
                                 </div>
 
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm">
-                                    <img src="{{ URL('https://templates.g5plus.net/homeid/images/review-07.jpg') }}"
-                                        alt="Vernon Fisher" class="rounded-circle mr-sm-8 mb-4 mb-sm-0 fs-14 img-fluid"
+                                    <img src="{{ asset('/assets/imagesPropetry/review-1.jpg') }}"
+                                        alt="Vernon Fisher" class=" review-icon mr-sm-8 mb-sm-0 img-fluid"
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
@@ -818,8 +818,8 @@
                                 </div>
 
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm">
-                                    <img src="{{ URL('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2i5SncdIRQskLGrrby3HxDzdvQ35H6S6wpQZ_X4mKkEUF8_r') }}"
-                                        alt="Harry Iglesias" class=" rounded-circle mr-sm-8 mb-4 mb-sm-0 fs-14 img-fluid"
+                                    <img src="{{ asset('/assets/imagesPropetry/review-4.png') }}"
+                                        alt="Harry Iglesias" class=" review-icon mr-sm-8 mb-sm-0 img-fluid"
                                         style="width: 84px; height: 84px; object-fit: cover;">
                                     <div class="media-body">
                                         <div class="row mb-1 align-item-center">
@@ -946,8 +946,8 @@
                                                         value="option1">
                                                     <div class="form-check-label ml-2">
                                                         <div class="d-flex align-items-center mt-3">
-                                                            <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                                                <img src="https://templates.g5plus.net/homeid/images/agent-2.jpg"
+                                                            <a href="agent-details-1.html" class="d-block agent-icon mr-3">
+                                                                <img src="{{ asset('/assets/imagesPropetry/agent-1.jpg') }}"
                                                                     class="rounded-circle" alt="agent-2">
                                                             </a>
                                                             <div>
@@ -988,8 +988,8 @@
                                                         id="inlineRadio2" value="option2">
                                                     <div class="form-check-label ml-2">
                                                         <div class="d-flex align-items-center">
-                                                            <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                                                <img src="https://templates.g5plus.net/homeid/images/agent-1.jpg"
+                                                            <a href="agent-details-1.html" class="d-block agent-icon mr-3">
+                                                                <img src="{{ asset('/assets/imagesPropetry/agent-2.jpg') }}"
                                                                     class="rounded-circle" alt="agent-1">
                                                             </a>
                                                             <div>
@@ -1082,7 +1082,7 @@
                                     style="width: 400px;" tabindex="0" data-slick-index="2" aria-hidden="false">
                                     <div class="card  shadow-hover-2 mr-2">
                                         <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
-                                            <img src="https://templates.g5plus.net/homeid/images/properties-grid-38.jpg"
+                                            <img src="{{ asset('/assets/imagesPropetry/properties-1.jpg') }}"
                                                 alt="Affordable Urban House">
                                             <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
@@ -1162,7 +1162,7 @@
                                     style="width: 400px;" tabindex="0" data-slick-index="1" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
                                         <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
-                                            <img src="https://templates.g5plus.net/homeid/images/properties-grid-01.jpg"
+                                            <img src="{{ asset('/assets/imagesPropetry/properties-2.jpg') }}"
                                                 alt="Garden Gingerbread House">
                                             <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
@@ -1245,7 +1245,7 @@
                                     style="width: 400px;" tabindex="0" data-slick-index="2" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
                                         <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
-                                            <img src="https://templates.g5plus.net/homeid/images/properties-grid-02.jpg"
+                                            <img src="{{ asset('/assets/imagesPropetry/properties-3.jpg') }}"
                                                 alt="Affordable Urban House">
                                             <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
@@ -1326,7 +1326,7 @@
                                     style="width: 400px;" tabindex="0" data-slick-index="3" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
                                         <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
-                                            <img src="https://templates.g5plus.net/homeid/images/properties-grid-07.jpg"
+                                            <img src="{{ asset('/assets/imagesPropetry/properties-4.jpg') }}"
                                                 alt="Affordable Urban House">
                                             <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
@@ -1407,7 +1407,7 @@
                                     style="width: 400px;" tabindex="0" data-slick-index="4" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
                                         <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
-                                            <img src="https://templates.g5plus.net/homeid/images/properties-grid-05.jpg"
+                                            <img src="{{ asset('/assets/imagesPropetry/properties-5.jpg') }}"
                                                 alt="Affordable Urban House">
                                             <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
@@ -1488,7 +1488,7 @@
                                     style="width: 400px;" tabindex="0" data-slick-index="5" aria-hidden="false">
                                     <div class="card shadow-hover-2 mr-2">
                                         <div class="hover-change-image bg-hover-overlay rounded-lg card-img-ga-top">
-                                            <img src="https://templates.g5plus.net/homeid/images/properties-grid-06.jpg"
+                                            <img src="{{ asset('/assets/imagesPropetry/properties-6.jpg') }}"
                                                 alt="Affordable Urban House">
                                             <div class="card-img-ga-overlay p-2 d-flex flex-column">
                                                 <div>
@@ -1575,7 +1575,8 @@
             <div class="d-flex bottom-bar-action bottom-bar-action-01 con-t bg-gray-01 align-items-center position-fixed fixed-bottom d-sm-none"
                 style="">
                 <div class="media align-items-center">
-                    <img src="{{ URL('https://templates.g5plus.net/homeid/images/irene-wallace.png') }}"
+                    <img src="{{ asset('/assets/imagesPropetry/agent-3.png') }}"
+
                         alt="Irene Wallace" class="mr-4 rounded-circle">
                     <div class="media-body">
                         <a href="#" class="d-block text-dark fs-15 font-weight-500 lh-15">Irene Wallace</a>
