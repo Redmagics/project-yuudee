@@ -628,7 +628,7 @@
                             <div class="card-body p-0">
                                 <h3 class="fs-16 lh-2 text-heading mb-0 d-inline-block pr-4 border-bottom-ga border-primary">
                                     5 Reviews</h3>
-
+                                    "{{ asset('/assets/imagesXd/property-5.jpg') }}"
                                 <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center-sm ">
                                     <img src="{{ URL('https://templates.g5plus.net/homeid/images/review-07.jpg') }}"
                                         alt="Danny Fox" class="rounded-circle mr-sm-8 mb-4 mb-sm-0 fs-14 img-fluid"
