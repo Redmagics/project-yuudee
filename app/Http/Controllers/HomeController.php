@@ -14,9 +14,6 @@ class HomeController extends Controller
     public function test(){
         return view("home.test");
     }
-    public function non(){
-        return view("home.non");
-    }
     // public function slider(){
     //     return view("home.slider");
     // }
