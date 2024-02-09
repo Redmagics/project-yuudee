@@ -47,19 +47,19 @@
                                                             href="#">Lost your
                                                             password?</a>
                                                     </div>
-                                                    <div class="d-grid mb20"><button class="ud-btn btn-thm"
+                                                    <div class="d-grid mb20"><button class="user-btn btn-thm"
                                                             type="submit">Sign in <i
                                                                 class="fal fa-arrow-right-long"></i></button></div>
                                                     <div class="hr_content mb20">
                                                         <hr><span class="hr_top_text">OR</span>
                                                     </div>
-                                                    <div class="d-grid mb10"><button class="ud-btn btn-white"
+                                                    <div class="d-grid mb10"><button class="user-btn btn-yuudee"
                                                             type="button"><i class="fab fa-google"></i> Continue
                                                             Google</button></div>
-                                                    <div class="d-grid mb10"><button class="ud-btn btn-fb" type="button"><i
+                                                    <div class="d-grid mb10"><button class="user-btn btn-fb" type="button"><i
                                                                 class="fab fa-facebook-f"></i> Continue
                                                             Facebook</button></div>
-                                                    <div class="d-grid mb20"><button class="ud-btn btn-apple"
+                                                    <div class="d-grid mb20"><button class="user-btn btn-apple"
                                                             type="button"><i class="fab fa-apple"></i> Continue
                                                             Apple</button></div>
                                                     <p class="dark-color text-center mb0 mt10">Not signed up? <a
@@ -78,19 +78,19 @@
                                                             class="form-label fw600 dark-color">Password</label><input
                                                             type="text" class="form-control"
                                                             placeholder="Enter Password" required=""></div>
-                                                    <div class="d-grid mb20"><button class="ud-btn btn-thm"
+                                                    <div class="d-grid mb20"><button class="user-btn btn-thm"
                                                             type="submit">Create account <i
                                                                 class="fal fa-arrow-right-long"></i></button></div>
                                                     <div class="hr_content mb20">
                                                         <hr><span class="hr_top_text">OR</span>
                                                     </div>
-                                                    <div class="d-grid mb10"><button class="ud-btn btn-white"
+                                                    <div class="d-grid mb10"><button class="user-btn btn-yuudee"
                                                             type="button"><i class="fab fa-google"></i> Continue
                                                             Google</button></div>
-                                                    <div class="d-grid mb10"><button class="ud-btn btn-fb"
+                                                    <div class="d-grid mb10"><button class="user-btn btn-fb"
                                                             type="button"><i class="fab fa-facebook-f"></i> Continue
                                                             Facebook</button></div>
-                                                    <div class="d-grid mb20"><button class="ud-btn btn-apple"
+                                                    <div class="d-grid mb20"><button class="user-btn btn-apple"
                                                             type="button"><i class="fab fa-apple"></i> Continue
                                                             Apple</button></div>
                                                     <p class="dark-color text-center mb0 mt10">Already Have an Account?
@@ -166,593 +166,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobilie_header_nav stylehome1">
-                <div class="mobile-menu">
-                    <div class="header innerpage-style">
-                        <div class="menu_and_widgets">
-                            <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-                                <a class="menubar" href="#" id="menubarButton" data-bs-toggle="offcanvas"
-                                    data-bs-target="#mobileMenu" aria-controls="mobileMenu">
-                                    <img src="https://img2.pic.in.th/pic/dark-nav-icon.png" alt="mobile icon"
-                                        width="30px"></a><a class="mobile_logo" href="/">
-                                    <img src="{{ URL('image/YuuDee2.png') }}" alt="logo" width="120px"></a>
-                                <a href="/login"><span class="icon fz18 far fa-user-circle "></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="offcanvas offcanvas-start mobile_menu-canvas" tabindex="-1" id="mobileMenu"
-                    aria-labelledby="mobileMenuLabel" data-bs-scroll="true">
-                    <div class="rightside-hidden-bar">
-                        <div class="hsidebar-header">
-                            <div class="sidebar-close-icon" data-bs-dismiss="offcanvas" aria-label="Close"><span
-                                    class="far fa-times"></span></div>
-                            <h4 class="title">Welcome to Homez</h4>
-                        </div>
-                        <div class="hsidebar-content ">
-                            <div class="hiddenbar_navbar_content">
-                                <aside data-testid="ps-sidebar-root-test-id" width="100%"
-                                    class="ps-sidebar-root my-custom-class css-np5i73">
-                                    <div data-testid="ps-sidebar-container-test-id"
-                                        class="ps-sidebar-container css-1mb249p">
-                                        <nav class="ps-menu-root css-vj11vy">
-                                            <ul class="css-ewdv3l">
-                                                <li class="ps-menuitem-root ps-submenu-root active css-16jesut"><a
-                                                        class="ps-menu-button" data-testid="ps-menu-button-test-id"
-                                                        tabindex="0"><span
-                                                            class="ps-menu-label css-12w9als">Home</span><span
-                                                            class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                class="css-honxw6"></span></span></a>
-                                                    <div data-testid="ps-submenu-content-test-id"
-                                                        class="ps-submenu-content css-z5rm24">
-                                                        <ul class="css-ewdv3l">
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v1"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v1</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v2"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v2</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v3"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v3</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button active"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v4"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v4</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v5"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v5</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v6"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v6</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v7"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v7</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v8"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v8</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v9"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v9</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/home-v10"><span
-                                                                        class="ps-menu-label css-12w9als">Home
-                                                                        v10</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="ps-menuitem-root ps-submenu-root css-16jesut"><a
-                                                        class="ps-menu-button" data-testid="ps-menu-button-test-id"
-                                                        tabindex="0"><span
-                                                            class="ps-menu-label css-12w9als">Listings</span><span
-                                                            class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                class="css-honxw6"></span></span></a>
-                                                    <div data-testid="ps-submenu-content-test-id"
-                                                        class="ps-submenu-content css-z5rm24">
-                                                        <ul class="css-ewdv3l">
-                                                            <li class="ps-menuitem-root ps-submenu-root css-1ffbfs"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id"
-                                                                    tabindex="0"><span
-                                                                        class="ps-menu-label css-12w9als">Grid
-                                                                        View</span><span
-                                                                        class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                            class="css-honxw6"></span></span></a>
-                                                                <div data-testid="ps-submenu-content-test-id"
-                                                                    class="ps-submenu-content css-z5rm24">
-                                                                    <ul class="css-ewdv3l">
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/grid-default"><span
-                                                                                    class="ps-menu-label css-12w9als">Grid
-                                                                                    Default</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/grid-full-3-col"><span
-                                                                                    class="ps-menu-label css-12w9als">Grid
-                                                                                    Full Width 3 Cols</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/grid-full-4-col"><span
-                                                                                    class="ps-menu-label css-12w9als">Grid
-                                                                                    Full Width 4 Cols</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/grid-full-2-col"><span
-                                                                                    class="ps-menu-label css-12w9als">Grid
-                                                                                    Full Width 2 Cols</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/grid-full-1-col-v1"><span
-                                                                                    class="ps-menu-label css-12w9als">Grid
-                                                                                    Full Width 1 Cols v1</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/grid-full-1-col-v2"><span
-                                                                                    class="ps-menu-label css-12w9als">Grid
-                                                                                    Full Width 1 Cols v2</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/banner-search-v1"><span
-                                                                                    class="ps-menu-label css-12w9als">Banner
-                                                                                    Search v1</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/banner-search-v2"><span
-                                                                                    class="ps-menu-label css-12w9als"></span></a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <li class="ps-menuitem-root ps-submenu-root css-1ffbfs"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id"
-                                                                    tabindex="0"><span
-                                                                        class="ps-menu-label css-12w9als">Map
-                                                                        Style</span><span
-                                                                        class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                            class="css-honxw6"></span></span></a>
-                                                                <div data-testid="ps-submenu-content-test-id"
-                                                                    class="ps-submenu-content css-z5rm24">
-                                                                    <ul class="css-ewdv3l">
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/header-map-style"><span
-                                                                                    class="ps-menu-label css-12w9als">Header
-                                                                                    Map Style</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/map-v1"><span
-                                                                                    class="ps-menu-label css-12w9als">Map
-                                                                                    V1</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/map-v2"><span
-                                                                                    class="ps-menu-label css-12w9als">Map
-                                                                                    V2</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/map-v3"><span
-                                                                                    class="ps-menu-label css-12w9als">Map
-                                                                                    V3</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/map-v4"><span
-                                                                                    class="ps-menu-label css-12w9als">Map
-                                                                                    V4</span></a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <li class="ps-menuitem-root ps-submenu-root css-1ffbfs"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id"
-                                                                    tabindex="0"><span
-                                                                        class="ps-menu-label css-12w9als">Listing
-                                                                        View</span><span
-                                                                        class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                            class="css-honxw6"></span></span></a>
-                                                                <div data-testid="ps-submenu-content-test-id"
-                                                                    class="ps-submenu-content css-z5rm24">
-                                                                    <ul class="css-ewdv3l">
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/list-v1"><span
-                                                                                    class="ps-menu-label css-12w9als">List
-                                                                                    v1</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/list-all-style"><span
-                                                                                    class="ps-menu-label css-12w9als">List
-                                                                                    All Style</span></a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="ps-menuitem-root ps-submenu-root css-16jesut"><a
-                                                        class="ps-menu-button" data-testid="ps-menu-button-test-id"
-                                                        tabindex="0"><span
-                                                            class="ps-menu-label css-12w9als">Property</span><span
-                                                            class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                class="css-honxw6"></span></span></a>
-                                                    <div data-testid="ps-submenu-content-test-id"
-                                                        class="ps-submenu-content css-z5rm24">
-                                                        <ul class="css-ewdv3l">
-                                                            <li class="ps-menuitem-root ps-submenu-root css-1ffbfs"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id"
-                                                                    tabindex="0"><span
-                                                                        class="ps-menu-label css-12w9als">Agents</span><span
-                                                                        class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                            class="css-honxw6"></span></span></a>
-                                                                <div data-testid="ps-submenu-content-test-id"
-                                                                    class="ps-submenu-content css-z5rm24">
-                                                                    <ul class="css-ewdv3l">
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/agents"><span
-                                                                                    class="ps-menu-label css-12w9als">Agents</span></a>
-                                                                        </li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/agent-single/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Agent
-                                                                                    Single</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/agency"><span
-                                                                                    class="ps-menu-label css-12w9als">Agency</span></a>
-                                                                        </li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0"
-                                                                                href="/agency-single/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Agency
-                                                                                    Single</span></a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <li class="ps-menuitem-root ps-submenu-root css-1ffbfs"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id"
-                                                                    tabindex="0"><span
-                                                                        class="ps-menu-label css-12w9als">Single
-                                                                        Style</span><span
-                                                                        class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                            class="css-honxw6"></span></span></a>
-                                                                <div data-testid="ps-submenu-content-test-id"
-                                                                    class="ps-submenu-content css-z5rm24">
-                                                                    <ul class="css-ewdv3l">
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v1/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V1</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v2/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V2</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v3/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V3</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v4/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V4</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v5/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V5</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v6/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V6</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v7/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V7</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v8/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V8</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v9/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V9</span></a></li>
-                                                                        <li class="ps-menuitem-root css-x3jz15"><a
-                                                                                class="ps-menu-button"
-                                                                                data-testid="ps-menu-button-test-id"
-                                                                                tabindex="0" href="/single-v10/1"><span
-                                                                                    class="ps-menu-label css-12w9als">Single
-                                                                                    V10</span></a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="ps-menuitem-root ps-submenu-root css-16jesut"><a
-                                                        class="ps-menu-button" data-testid="ps-menu-button-test-id"
-                                                        tabindex="0"><span
-                                                            class="ps-menu-label css-12w9als">Dashboard</span><span
-                                                            class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                class="css-honxw6"></span></span></a>
-                                                    <div data-testid="ps-submenu-content-test-id"
-                                                        class="ps-submenu-content css-z5rm24">
-                                                        <ul class="css-ewdv3l">
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-home"><span
-                                                                        class="ps-menu-label css-12w9als">Dashboard
-                                                                        Home</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-message"><span
-                                                                        class="ps-menu-label css-12w9als">Message</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-add-property"><span
-                                                                        class="ps-menu-label css-12w9als">New
-                                                                        Property</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-my-properties"><span
-                                                                        class="ps-menu-label css-12w9als">My
-                                                                        Properties</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-my-favourites"><span
-                                                                        class="ps-menu-label css-12w9als">My
-                                                                        Favorites</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-saved-search"><span
-                                                                        class="ps-menu-label css-12w9als">Saved
-                                                                        Search</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-reviews"><span
-                                                                        class="ps-menu-label css-12w9als">Reviews</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-my-package"><span
-                                                                        class="ps-menu-label css-12w9als">My
-                                                                        Package</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/dashboard-my-profile"><span
-                                                                        class="ps-menu-label css-12w9als">My
-                                                                        Profile</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="ps-menuitem-root ps-submenu-root css-16jesut"><a
-                                                        class="ps-menu-button" data-testid="ps-menu-button-test-id"
-                                                        tabindex="0"><span
-                                                            class="ps-menu-label css-12w9als">Blog</span><span
-                                                            class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                class="css-honxw6"></span></span></a>
-                                                    <div data-testid="ps-submenu-content-test-id"
-                                                        class="ps-submenu-content css-z5rm24">
-                                                        <ul class="css-ewdv3l">
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/blog-list-v1"><span
-                                                                        class="ps-menu-label css-12w9als">Blog List
-                                                                        V1</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/blog-list-v2"><span
-                                                                        class="ps-menu-label css-12w9als">Blog List
-                                                                        V2</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/blog-list-v3"><span
-                                                                        class="ps-menu-label css-12w9als">Blog List
-                                                                        V3</span></a></li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/blogs/2"><span
-                                                                        class="ps-menu-label css-12w9als">Blog
-                                                                        Single</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="ps-menuitem-root ps-submenu-root css-16jesut"><a
-                                                        class="ps-menu-button" data-testid="ps-menu-button-test-id"
-                                                        tabindex="0"><span
-                                                            class="ps-menu-label css-12w9als">Pages</span><span
-                                                            class="ps-submenu-expand-icon css-1cuxlhl"><span
-                                                                class="css-honxw6"></span></span></a>
-                                                    <div data-testid="ps-submenu-content-test-id"
-                                                        class="ps-submenu-content css-z5rm24">
-                                                        <ul class="css-ewdv3l">
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/about"><span
-                                                                        class="ps-menu-label css-12w9als">About</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/contact"><span
-                                                                        class="ps-menu-label css-12w9als">Contact</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/compare"><span
-                                                                        class="ps-menu-label css-12w9als">Compate</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/pricing"><span
-                                                                        class="ps-menu-label css-12w9als">Pricing</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/faq"><span
-                                                                        class="ps-menu-label css-12w9als">Faq</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/login"><span
-                                                                        class="ps-menu-label css-12w9als">Login</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/register"><span
-                                                                        class="ps-menu-label css-12w9als">Register</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/404"><span
-                                                                        class="ps-menu-label css-12w9als">404</span></a>
-                                                            </li>
-                                                            <li class="ps-menuitem-root css-1tqrhto"><a
-                                                                    class="ps-menu-button"
-                                                                    data-testid="ps-menu-button-test-id" tabindex="0"
-                                                                    href="/invoice"><span
-                                                                        class="ps-menu-label css-12w9als">Invoice</span></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </aside>
-                                <div class="hiddenbar_footer position-relative bdrt1">
-                                    <div class="row pt45 pb30 pl30">
-                                        <div class="col-auto">
-                                            <div class="contact-info">
-                                                <p class="info-title dark-color">Total Free Customer Care</p>
-                                                <h6 class="info-phone dark-color"><a href="tel:+012305094502">+(0) 123
-                                                        050 945 02</a></h6>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <div class="contact-info">
-                                                <p class="info-title dark-color">Need Live Support?</p>
-                                                <h6 class="info-mail dark-color"><a
-                                                        href="mailto:hi@homez.com">hi@homez.com</a></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row pt30 pb30 bdrt1">
-                                        <div class="col-auto">
-                                            <div class="social-style-sidebar d-flex align-items-center pl30">
-                                                <h6 class="me-4 mb-0">Follow us</h6><a class="me-3" href="#"><i
-                                                        class="fab fa-facebook-f"></i></a><a class="me-3"
-                                                    href="#"><i class="fab fa-twitter"></i></a><a class="me-3"
-                                                    href="#"><i class="fab fa-instagram"></i></a><a class="me-3"
-                                                    href="#"><i class="fab fa-linkedin-in"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
             <section class="home-banner-style4 p0 bgc-white">
                 <div class="home-style4 maxw1600 bdrs24 position-relative mx-auto mx20-lg">
@@ -789,7 +203,7 @@
                                             </div>
                                         </div>
 
-                                        <button class="popup-iframe popup-youtube bounce-y d-flex align-items-center justify-content-start justify-content-xl-center fz14 fw600 ff-heading"
+                                        {{-- <button class="popup-iframe popup-youtube bounce-y d-flex align-items-center justify-content-start justify-content-xl-center fz14 fw600 ff-heading"
                                             style="border: none; background: transparent;"fdprocessedid="bectc">Watch Video
                                             <i class="video-icon fa-solid fa-play fz1 ml20"></i>
                                         </button> --}}
@@ -845,7 +259,7 @@
                                                                     fdprocessedid="13esg"><i
                                                                         class="fa-solid fa-list-ul"></i>
                                                                     Advanced</button><button
-                                                                    class="advance-search-icon ud-btn btn-dark ms-4"
+                                                                    class="advance-search-icon user-btn btn-dark ms-4"
                                                                     type="button" fdprocessedid="5isoj8"><i
                                                                         class="fa-solid fa-magnifying-glass"></i></button>
                                                             </div>
@@ -877,7 +291,7 @@
                                                                     data-bs-target="#advanceSeachModal"><span
                                                                         class="flaticon-settings"></span>
                                                                     Advanced</button><button
-                                                                    class="advance-search-icon ud-btn btn-dark ms-4"
+                                                                    class="advance-search-icon user-btn btn-dark ms-4"
                                                                     type="button"><span
                                                                         class="flaticon-search"></span></button>
                                                             </div>
@@ -909,7 +323,7 @@
                                                                     data-bs-target="#advanceSeachModal"><span
                                                                         class="flaticon-settings"></span>
                                                                     Advanced</button><button
-                                                                    class="advance-search-icon ud-btn btn-dark ms-4"
+                                                                    class="advance-search-icon user-btn btn-dark ms-4"
                                                                     type="button"><span
                                                                         class="flaticon-search"></span></button>
                                                             </div>
@@ -975,7 +389,7 @@
                                                                         </div>
                                                                         <div class="d-flex align-items-center"><span
                                                                                 id="slider-range-value1">$20</span><i
-                                                                                class="fa-sharp fa-solid fa-minus mx-2 dark-color icon"></i><span
+                                                                                class="fa-sharp fa-solid fa-minus mrl-2 dark-color icon"></i><span
                                                                                 id="slider-range-value2">$48837</span>
                                                                         </div>
                                                                     </div>
@@ -1246,7 +660,7 @@
                                                             class="flaticon-turn-back"></span><u>Reset all
                                                             filters</u></button>
                                                     <div class="btn-area"><button data-bs-dismiss="modal"
-                                                            type="submit" class="ud-btn btn-thm"><span
+                                                            type="submit" class="user-btn btn-thm"><span
                                                                 class="flaticon-search align-text-top pr10"></span>Search</button>
                                                     </div>
                                                 </div>
@@ -1285,12 +699,8 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="text-start text-lg-end mb-3">
-                                <a class="ud-btn2" href="/map-v3">See All Cities<i
+                                <a class="user-btn2" href="/map-v3">See All Cities<i
                                         class="fal fa-arrow-right-long"></i></a>
-                                {{-- <a class="ud-btn2" href="/map-v3"><i class="fa-solid fa-house fa-flip-both"></i>Houses</a>
-                                <a class="ud-btn2" href="/map-v3"><i class="fa-regular fa-building"></i>Apartments</a>
-                                <a class="ud-btn2" href="/map-v3"><i class="fa-solid fa-house-laptop"></i>Office</a>
-                                <a class="ud-btn2" href="/map-v3"><i class="fa-solid fa-house-flood-water"></i> Villa</a> --}}
                             </div>
                         </div>
                     </div>
@@ -1499,41 +909,19 @@
                         </div>
                         <div class="col-lg-6 my-3">
                             <div class="home4-icon-style d-none d-sm-flex justify-content-start justify-content-lg-end">
-                                <a class="d-flex align-items-center dark-color ff-heading me-2"
+                                <a class="d-flex align-items-center dark-color ff-heading mr-2"
                                     href="/grid-full-4-col"><i class=" icons fa-solid fa-house"
                                         aria-hidden="true"></i> Houses</a>
-                                <a class="d-flex align-items-center dark-color ff-heading me-2"
+                                <a class="d-flex align-items-center dark-color ff-heading mr-2"
                                     href="/grid-full-4-col"><i class="icons fa-regular fa-building"
                                         aria-hidden="true"></i>Apartments</a>
-                                <a class="d-flex align-items-center dark-color ff-heading me-2"
+                                <a class="d-flex align-items-center dark-color ff-heading mr-2"
                                     href="/grid-full-4-col"><i class="icons fa-solid fa-house-laptop"
                                         aria-hidden="true"></i>Office</a>
-                                <a class="d-flex align-items-center dark-color ff-heading me-2"
+                                <a class="d-flex align-items-center dark-color ff-heading mr-2"
                                     href="/grid-full-4-col"><i class="icons fa-solid fa-house-flood-water"
                                         aria-hidden="true"></i>Villa</a>
                             </div>
-
-                            {{-- <a class="ud-btn2" href="/map-v3">
-                                <i class="fa-solid fa-house fa-flip-both"></i>Houses</a>
-                            <a class="ud-btn2" href="/map-v3"><i class="fa-regular fa-building"></i>Apartments</a>
-                            <a class="ud-btn2" href="/map-v3"><i class="fa-solid fa-house-laptop"></i>Office</a>
-                            <a class="ud-btn2" href="/map-v3"><i
-                                    class="fa-solid fa-house-flood-water"></i>Villa</a> --}}
-
-                            {{-- <div class="dark-light-navtab style2 text-start text-lg-end mt-0 mt-lg-4 mb-4">
-                                <ul class="nav nav-pills justify-content-start justify-content-lg-end">
-                                    <li class="nav-item">
-                                        <button class="nav-link mb10-sm active"fdprocessedid="yvzgu">House</button>
-                                    </li>
-                                    <li class="nav-item">
-                                        <button class="nav-link mb10-sm "fdprocessedid="ew3nq3">Villa</button>
-                                    </li>
-                                    <li class="nav-item"><button class="nav-link mb10-sm "fdprocessedid="simlea">Office</button>
-                                    </li>
-                                    <li class="nav-item"><button class="nav-link mb10-sm "fdprocessedid="4uccc">Apartments</button>
-                                    </li>
-                                </ul>
-                            </div> --}}
                         </div>
                     </div>
 
@@ -1544,17 +932,17 @@
                             <div class="property-city-slider position-relative ">
                                 <div
                                     class="swipers swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                                    <div class="swiper-wrapper">
+                                    <div class="swiper-wrapper pyy">
                                         {{-- style="transform: translate3d(-410.5px, 0px, 0px); transition-duration: 0ms;" --}}
 
-                                        <div class=" col-sm-6 col-lg-6 swiper-slide swiper-slide-active ">
+                                        <div class=" col-sm-6 col-lg-6 swiper-slide swiper-slide-active">
                                             <div class="listing-style1">
                                                 <div class="list-thumb"><img class="w-100  cover"
                                                         src="https://thailandhomeplan.com/wp-content/uploads/2023/06/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A7-S-030-%E0%B8%9B%E0%B8%81%E0%B8%AB%E0%B8%A1%E0%B8%A7%E0%B8%94-jpg.webp"
                                                         alt="listings" style="height: 230px;">
                                                     <div class="sale-sticker-wrap">
                                                         <div class="list-tag fz12">
-                                                            <span class="fa-solid fa-baht-sign me-2"></span>FEATURED
+                                                            <span class="fa-solid fa-baht-sign mr-2"></span>FEATURED
                                                         </div>
                                                     </div>
                                                     <div class="list-price">$14,000 / <span>mo</span></div>
@@ -1847,7 +1235,7 @@
                                                         alt="listings" style="height: 230px;">
                                                     <div class="sale-sticker-wrap">
                                                         <div class="list-tag fz12">
-                                                            <span class="fa-solid fa-baht-sign me-2"></span>FEATURED
+                                                            <span class="fa-solid fa-baht-sign mr-2"></span>FEATURED
                                                         </div>
                                                     </div>
                                                     <div class="list-price">$14,000 / <span>mo</span></div>
@@ -1941,7 +1329,7 @@
                                                 Nullam maximus ultricies auctor.</p>
                                         </div>
                                     </div>
-                                </div><a class="ud-btn btn-dark" href="/home-v4">Learn More<i
+                                </div><a class="user-btn btn-dark" href="/home-v4">Learn More<i
                                         class="fal fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -2144,261 +1532,6 @@
                     </div>
                 </div>
             </section>
-            {{-- <section class="pt0 pb40-md">
-                <div
-                    class="cta-banner bgc-f7 mx-auto maxw1600 pt70 pb140 pb30-md bdrs12 position-relative mx20-lg px20-sm">
-                    <div class="container">
-                        <div class="row align-items-start align-items-xl-center">
-                            <div class="col-md-10 col-lg-7 col-xl-6">
-                                <div class="position-relative mb35 mb0-sm aos-init aos-animate" data-aos="fade-left"
-                                    data-aos-delay="0">
-                                    <div class="exclusive-agent-widget mb30-sm">
-                                        <h4 class="title mb20"><span class="text-thm">4+</span> Exclusive Agents
-                                        </h4>
-                                        <div class="thumb d-flex align-items-center mb20">
-                                            <div class="flex-shrink-0"><img class="wa"
-                                                    src="/images/team/ea-1.png" alt="team"></div>
-                                            <div class="flex-grow-1 ml20">
-                                                <h6 class="title fz14 mb-0">Marvin McKinney</h6>
-                                                <p class="fz13 mb-0">Designer</p>
-                                            </div>
-                                        </div>
-                                        <div class="thumb d-flex align-items-center mb20">
-                                            <div class="flex-shrink-0"><img class="wa"
-                                                    src="/images/team/ea-2.png" alt="team"></div>
-                                            <div class="flex-grow-1 ml20">
-                                                <h6 class="title fz14 mb-0">Ralph Edwards</h6>
-                                                <p class="fz13 mb-0">Designer</p>
-                                            </div>
-                                        </div>
-                                        <div class="thumb d-flex align-items-center mb20">
-                                            <div class="flex-shrink-0"><img class="wa"
-                                                    src="/images/team/ea-3.png" alt="team"></div>
-                                            <div class="flex-grow-1 ml20">
-                                                <h6 class="title fz14 mb-0">Annette Black</h6>
-                                                <p class="fz13 mb-0">Designer</p>
-                                            </div>
-                                        </div>
-                                        <div class="thumb d-flex align-items-center mb20">
-                                            <div class="flex-shrink-0"><img class="wa"
-                                                    src="/images/team/ea-4.png" alt="team"></div>
-                                            <div class="flex-grow-1 ml20">
-                                                <h6 class="title fz14 mb-0">Jane Cooper</h6>
-                                                <p class="fz13 mb-0">Designer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="exclusive-agent-single mb30-sm">
-                                        <div class="agent-img"><img src="/images/team/agent-5.jpg" alt="team">
-                                        </div>
-                                        <div class="agent-content pt20">
-                                            <h6 class="title mb-0">Marvin McKinney</h6>
-                                            <p class="fz15 mb-0">Designer</p>
-                                        </div>
-                                    </div>
-                                    <div class="img-box-10 position-relative d-none d-xl-block"><img
-                                            class="img-1 spin-right" src="/images/about/element-3.png"
-                                            alt="shape"><img class="img-2 bounce-x contain"
-                                            src="/images/about/element-5.png" alt="shape"><img
-                                            class="img-3 bounce-y contain" src="/images/about/element-6.png"
-                                            alt="shape"><img class="img-4 bounce-y"
-                                            src="/images/about/element-7.png" alt="shape"><img
-                                            class="img-5 spin-right" src="/images/about/element-8.png"
-                                            alt="shape"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-8 col-lg-5 col-xl-5 offset-xl-1">
-                                <div class="about-box-1 pe-4 mt100 mt0-lg mb30-lg aos-init aos-animate"
-                                    data-aos="fade-right" data-aos-delay="200">
-                                    <h2 class="title mb20">Let’s find the right selling option for you</h2>
-                                    <p class="text mb55 mb30-md fz14">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed do <br class="d-none d-xl-block"> eiusmod tempor
-                                        incididunt.</p>
-                                    <div class="list-style1 mb60 mb30-md">
-                                        <ul>
-                                            <li><i class="far fa-check text-white bgc-dark fz15"></i>Find excellent
-                                                deals</li>
-                                            <li><i class="far fa-check text-white bgc-dark fz15"></i>Friendly host
-                                                &amp; Fast support</li>
-                                            <li><i class="far fa-check text-white bgc-dark fz15"></i>List your own
-                                                property</li>
-                                        </ul>
-                                    </div><a class="ud-btn btn-dark" href="/home-v4">See More<i
-                                            class="fal fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> --}}
-            {{-- <section class="pt0 pb40-md">
-                <div class="container">
-                    <div class="row  justify-content-between align-items-center">
-                        <div class="col-auto">
-                            <div class="main-title aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                                <h2 class="title">People Love Living with Realton</h2>
-                                <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p>
-                            </div>
-                        </div>
-                        <div class="col-auto mb30">
-                            <div class="row align-items-center justify-content-center">
-                                <div class="col-auto"><button
-                                        class="testimonila_prev__active swiper_button swiper-button-disabled"
-                                        disabled=""><i class="far fa-arrow-left-long"></i></button></div>
-                                <div class="col-auto">
-                                    <div
-                                        class="pagination swiper--pagination testimonila_pagination__active swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                                        <span
-                                            class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
-                                            class="swiper-pagination-bullet"></span>
-                                    </div>
-                                </div>
-                                <div class="col-auto"><button class="testimonila_next__active swiper_button"
-                                        fdprocessedid="cp36nv"><i class="far fa-arrow-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="testimonial-slider aos-init aos-animate" data-aos="fade-up"
-                                data-aos-delay="300">
-                                <div
-                                    class="swiper swiper-initialized swiper-horizontal swiper-pointer-events overflow-visible swiper-backface-hidden">
-                                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
-                                        <div class="swiper-slide swiper-slide-active"
-                                            style="width: 382px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="testimonial-style1 position-relative">
-                                                    <div class="testimonial-content">
-                                                        <h5 class="title">Great Work</h5><span
-                                                            class="icon fas fa-quote-left"></span>
-                                                        <p class="text">Amazing design, easy to customize and a
-                                                            design quality superlative account on its cloud platform for
-                                                            the optimized performance. And we didn’t on our original
-                                                            designs.</p>
-                                                        <div class="testimonial-review"><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a></div>
-                                                    </div>
-                                                    <div class="thumb d-flex align-items-center">
-                                                        <div class="flex-shrink-0"><img class="wa"
-                                                                src="/images/testimonials/testimonial-1.png"
-                                                                alt="avatar"></div>
-                                                        <div class="flex-grow-1 ms-3">
-                                                            <h6 class="mb-0">Leslie Alexander</h6>
-                                                            <p class="mb-0">Nintendo</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide swiper-slide-next"
-                                            style="width: 382px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="testimonial-style1 position-relative">
-                                                    <div class="testimonial-content">
-                                                        <h5 class="title">Great Work</h5><span
-                                                            class="icon fas fa-quote-left"></span>
-                                                        <p class="text">Amazing design, easy to customize and a
-                                                            design quality superlative account on its cloud platform for
-                                                            the optimized performance. And we didn’t on our original
-                                                            designs.</p>
-                                                        <div class="testimonial-review"><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a></div>
-                                                    </div>
-                                                    <div class="thumb d-flex align-items-center">
-                                                        <div class="flex-shrink-0"><img class="wa"
-                                                                src="/images/testimonials/testimonial-2.png"
-                                                                alt="avatar"></div>
-                                                        <div class="flex-grow-1 ms-3">
-                                                            <h6 class="mb-0">Floyd Miles</h6>
-                                                            <p class="mb-0">Bank of America</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide" style="width: 382px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="testimonial-style1 position-relative">
-                                                    <div class="testimonial-content">
-                                                        <h5 class="title">Great Work</h5><span
-                                                            class="icon fas fa-quote-left"></span>
-                                                        <p class="text">Amazing design, easy to customize and a
-                                                            design quality superlative account on its cloud platform for
-                                                            the optimized performance. And we didn’t on our original
-                                                            designs.</p>
-                                                        <div class="testimonial-review"><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a></div>
-                                                    </div>
-                                                    <div class="thumb d-flex align-items-center">
-                                                        <div class="flex-shrink-0"><img class="wa"
-                                                                src="/images/testimonials/testimonial-3.png"
-                                                                alt="avatar"></div>
-                                                        <div class="flex-grow-1 ms-3">
-                                                            <h6 class="mb-0">Leslie Alexander</h6>
-                                                            <p class="mb-0">Nintendo</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide" style="width: 382px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="testimonial-style1 position-relative">
-                                                    <div class="testimonial-content">
-                                                        <h5 class="title">Great Work</h5><span
-                                                            class="icon fas fa-quote-left"></span>
-                                                        <p class="text">Amazing design, easy to customize and a
-                                                            design quality superlative account on its cloud platform for
-                                                            the optimized performance. And we didn’t on our original
-                                                            designs.</p>
-                                                        <div class="testimonial-review"><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a><a
-                                                                class="me-1" href="#"><i
-                                                                    class="fas fa-star"></i></a><a class="me-1"
-                                                                href="#"><i class="fas fa-star"></i></a></div>
-                                                    </div>
-                                                    <div class="thumb d-flex align-items-center">
-                                                        <div class="flex-shrink-0"><img class="wa"
-                                                                src="/images/testimonials/testimonial-4.png"
-                                                                alt="avatar"></div>
-                                                        <div class="flex-grow-1 ms-3">
-                                                            <h6 class="mb-0">Floyd Miles</h6>
-                                                            <p class="mb-0">Bank of America</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> --}}
             <section class="mb0-md pb30-md">
 
                 <div class="container">
@@ -2714,34 +1847,6 @@
                     </div>
                 </div>
             </section>
-
-
-            {{-- <section class="our-cta p-0">
-                <div class="cta-banner bgc-thm-light mx-auto maxw1600 pt90 pt60-md pb90 pb60-md bdrs12 position-relative mx20-lg px20-md aos-init"
-                    data-aos="fade" data-aos-delay="300">
-                    <div class="img-box-5"><img class="img-1 bounce-y contain" src="/images/about/element-4.png"
-                            alt="shape"></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-7 col-xl-6">
-                                <div class="cta-style3">
-                                    <h2 class="cta-title">Get Your Dream House</h2>
-                                    <p class="cta-text mb25">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do <br class="d-none d-md-block"> eiusmod tempor incididunt.</p><a
-                                        class="ud-btn btn-dark" href="/register">Register Now <i
-                                            class="fal fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-xl-4 offset-xl-2 d-none d-lg-block">
-                                <div class="cta-img"><img class="w-100 h-100 cover"
-                                        src="/images/about/cta-building-1.png" alt="shape"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> --}}
-
-
         </div>
     </div>
 @endsection
